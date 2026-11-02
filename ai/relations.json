@@ -15,7 +15,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "edge_count": 627,
+  "edge_count": 631,
   "edges": [
     {
       "from": "living-notes",
@@ -878,6 +878,12 @@
     {
       "from": "wiki-building-history",
       "to": "gpt-wiki-zero-prototype",
+      "type": "related_to",
+      "basis": "manifest.related"
+    },
+    {
+      "from": "wiki-building-history",
+      "to": "pododala-project-structure",
       "type": "related_to",
       "basis": "manifest.related"
     },
@@ -2496,6 +2502,12 @@
       "basis": "manifest.related"
     },
     {
+      "from": "wiki-operations-pipeline",
+      "to": "pododala-project-structure",
+      "type": "related_to",
+      "basis": "manifest.related"
+    },
+    {
       "from": "replay-ladder-human-performance",
       "to": "silent-film-musician-labor",
       "type": "related_to",
@@ -3530,6 +3542,18 @@
     {
       "from": "stump-and-dream-fragment",
       "to": "local-llm-novel-agent-m1",
+      "type": "related_to",
+      "basis": "manifest.related"
+    },
+    {
+      "from": "pododala-project-structure",
+      "to": "wiki-building-history",
+      "type": "related_to",
+      "basis": "manifest.related"
+    },
+    {
+      "from": "pododala-project-structure",
+      "to": "wiki-operations-pipeline",
       "type": "related_to",
       "basis": "manifest.related"
     },

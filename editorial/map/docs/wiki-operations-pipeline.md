@@ -7,7 +7,7 @@
 - 요약: GPT 위키 초기 구상의 접근성 문제를 이어받아 생성물 자동 배포, 전체 지도·문서 카드·지식 표제 역색인을 통한 계층적 읽기, 프로토콜 v2.0 경량화, 일상 증보와 정비의 분리, 편집 해석으로서의 종합, LLM이 링크로 읽을 수 있는 입구 정비.
 - 태그: 위키 운영, GitHub Actions, 편집 지도, 정비, LLM, 색인
 - 수정일: 2026-10-26 · 실제 증보일: 2026-10-26 · 검토: needs_review
-- 관련 문서: `wiki-building-history`, `editing-principles`, `living-notes`, `gpt-wiki-zero-prototype`
+- 관련 문서: `wiki-building-history`, `editing-principles`, `living-notes`, `gpt-wiki-zero-prototype`, `pododala-project-structure`
 
 ## 절 목차
 

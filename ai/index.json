@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 170,
+  "document_count": 171,
   "documents": [
     {
       "id": "living-notes",
@@ -787,7 +787,8 @@
         "editing-principles",
         "open-questions",
         "wiki-operations-pipeline",
-        "gpt-wiki-zero-prototype"
+        "gpt-wiki-zero-prototype",
+        "pododala-project-structure"
       ],
       "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/wiki-building-history.md",
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/wiki-building-history.md",
@@ -3866,7 +3867,8 @@
         "wiki-building-history",
         "editing-principles",
         "living-notes",
-        "gpt-wiki-zero-prototype"
+        "gpt-wiki-zero-prototype",
+        "pododala-project-structure"
       ],
       "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/wiki-operations-pipeline.md",
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/wiki-operations-pipeline.md",
@@ -5872,6 +5874,40 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/stump-and-dream-fragment.md",
       "page_url": "https://pododala.github.io/pododala/notes/stump-and-dream-fragment/",
       "app_url": "https://pododala.github.io/pododala/#stump-and-dream-fragment"
+    },
+    {
+      "id": "pododala-project-structure",
+      "title": "pododala 개인 위키: 프로젝트 구조와 운영 흐름",
+      "aliases": [
+        "pododala 프로젝트 구조",
+        "개인 위키 코드 구조",
+        "pododala 개발 안내"
+      ],
+      "category": "프로젝트",
+      "tags": [
+        "개인 프로젝트",
+        "프로젝트 구조",
+        "Markdown",
+        "JavaScript",
+        "Node.js",
+        "GitHub Pages",
+        "자동 배포"
+      ],
+      "summary": "개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.",
+      "published": true,
+      "review_state": "reviewed",
+      "review_label": "현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내",
+      "last_updated_on": "2026-11-02",
+      "last_enriched_on": "2026-11-02",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [
+        "wiki-building-history",
+        "wiki-operations-pipeline"
+      ],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/pododala-project-structure.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/pododala-project-structure.md",
+      "page_url": "https://pododala.github.io/pododala/notes/pododala-project-structure/",
+      "app_url": "https://pododala.github.io/pododala/#pododala-project-structure"
     }
   ]
 }

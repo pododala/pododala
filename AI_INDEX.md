@@ -572,6 +572,12 @@
   - 영상 객체 탐지와 ROI 침입·체류 판정을 연결하고, 이벤트 로깅·장치 최적화 비교·MQTT 센서 연계·평가와 기술 문서화까지 제안한 현장형 컴퓨터비전 데모 설계.
   - [문서 페이지](https://pododala.github.io/pododala/notes/edge-vision-event-monitor-portfolio/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/edge-vision-event-monitor-portfolio.md)
 
+## 프로젝트
+
+- **[pododala 개인 위키: 프로젝트 구조와 운영 흐름](wiki/pododala-project-structure.md)** · 별칭: pododala 프로젝트 구조, 개인 위키 코드 구조, pododala 개발 안내 · 수정: 2026-11-02 · 검토: 현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내
+  - 개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/pododala-project-structure/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/pododala-project-structure.md)
+
 ## 소설 (창작 작품 · 사실 근거 아님)
 
 > 장별 문서는 각 작품의 목차에서 이어진다.

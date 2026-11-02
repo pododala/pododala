@@ -7,7 +7,7 @@
 - 요약: GPT 위키의 외부 기억 선행 구상에서 출발하여 Markdown 정본화·AI 탐색·교차 편집의 구축 이력과, 누적 증보의 과부하를 줄이는 절 단위 탐색·조건부 범위 확장·두 속도 편집의 후속 설계.
 - 태그: 위키 구축, 아키텍처, Markdown, AI 편집, GitHub Pages, 변경 이력
 - 수정일: 2026-10-26 · 실제 증보일: 2026-10-26 · 검토: needs_review
-- 관련 문서: `living-notes`, `editing-principles`, `open-questions`, `wiki-operations-pipeline`, `gpt-wiki-zero-prototype`
+- 관련 문서: `living-notes`, `editing-principles`, `open-questions`, `wiki-operations-pipeline`, `gpt-wiki-zero-prototype`, `pododala-project-structure`
 
 ## 절 목차
 
