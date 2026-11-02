@@ -4,7 +4,7 @@ pododala 개인 위키는 Markdown으로 글을 작성하고, 같은 원고를 �
 저장소는 [pododala/pododala](https://github.com/pododala/pododala), 웹사이트는 [pododala 열린 노트](https://pododala.github.io/pododala/)다.
 기존 개인 위키의 코드와 원고를 출발점으로 삼되, 운영 저장소와 사이트 주소를 분리하여 개인 프로젝트로 운영한다.
 
-(https://belorin.github.io/#)에 뿌리를 둔다
+기존 공개 개인 위키에 뿌리를 두며, 현재 연결 대상은 위의 본인 저장소와 사이트다.
 
 프로젝트를 이해하는 핵심은 원고, 생성 데이터, 화면, 배포의 역할을 나누어 보는 데 있다. 글을 고치는 곳과 화면을 고치는 곳이 다르며, 자동으로 만들어지는 파일은 원본에서 다시 생성한다. 이 문서는 2026년 11월 2일의 실제 코드와 확인된 배포 상태를 기준으로 현재 구조를 설명한다.
 
@@ -98,7 +98,7 @@ VSCode는 프로젝트 폴더와 원고를 열고 터미널 명령을 실행하�
 1. 터미널에서 `Get-Location`으로 작업 위치를 확인하고 필요하면 `Set-Location D:\AiProject`로 이동한다.
 2. `node --version`과 `git --version`으로 도구를 확인한다. 현재 로컬 Node.js는 22.12.0이며 배포 워크플로도 Node.js 22를 지정한다.
 3. `git branch --show-current`, `git remote -v`, `git status --short`로 브랜치·대상 저장소·기존 수정을 확인한다. 현재 편집 대상은 `main`, 업로드 대상은 `https://github.com/pododala/pododala.git`다.
-4. `AGENTS.md`와 `WIKI_PROTOCOL.md`를 먼저 읽고, `README.md`의 정본·생성물 구분과 실제 스크립트를 대조한다. `AGENTS.md` 첫 소개의 이전 사이트 주소와 실제 운영 주소는 다르므로, 업로드 대상은 현재 Git 원격 설정과 배포 정의로 확인한다.
+4. `AGENTS.md`와 `WIKI_PROTOCOL.md`를 먼저 읽고, `README.md`의 정본·생성물 구분과 실제 스크립트를 대조한다. `AGENTS.md` 첫 소개는 현재 사이트를 가리키며, 업로드 대상도 현재 Git 원격 설정과 배포 정의가 본인 저장소를 가리키는지 확인한다.
 5. 내용 수정은 `wiki/*.md`와 `wiki/manifest.json`에서 시작하고, UI 변경이 필요한 경우에만 `index.html`, `style.css`, `app.js`를 함께 검토한다.
 
 현재 저장소에는 `package.json` 기반의 개발 서버나 `npm run dev` 실행 정의가 없다. README와 생성 스크립트도 별도 npm 패키지 설치를 전제로 하지 않는다. 따라서 다른 프레임워크의 시작 명령을 적용하기보다 실제 `scripts/*.mjs`를 직접 실행하는 흐름을 따른다.
@@ -181,7 +181,9 @@ VSCode에서 Markdown을 읽는 것과 사이트의 자체 렌더러로 읽는 �
 
 댓글은 giscus 연결 코드를 갖고 있지만 `app.js`의 `comments.repoId`와 `comments.categoryId`가 비어 있어 현재 꺼져 있다. 사용할 경우 본인 저장소에 연결된 값을 입력해야 한다. 기존 Google·네이버 사이트 소유권 확인 값은 제거된 상태이며, 다시 등록할 때는 본인 값을 사용한다.
 
-프로젝트 이름·도메인·저장소를 바꿀 때는 `index.html`, `app.js`, `scripts/build-static.mjs`, `scripts/build-ai-index.mjs`, `scripts/search-wiki.mjs`, `robots.txt`와 링크를 검증하는 테스트를 함께 확인한다. `scripts/build-notes.mjs`의 이전 도메인 처리는 기존 원고 링크를 내부 문서 링크로 바꾸는 호환 로직이다.
+프로젝트 이름·도메인·저장소를 바꿀 때는 `index.html`, `app.js`, `scripts/build-static.mjs`, `scripts/build-ai-index.mjs`, `scripts/search-wiki.mjs`, `robots.txt`와 링크를 검증하는 테스트를 함께 확인한다. `scripts/build-notes.mjs`는 현재 운영 도메인의 원고 링크를 내부 문서 링크로 바꾸며, 이전 소유자 도메인에 대한 호환 처리는 제거했다.
+
+로컬 Git 인증, 원격 저장소 주소, ChatGPT/Codex의 GitHub 앱 연결은 별도로 확인한다. Git의 업로드 대상과 인증이 본인 계정이어도 앱 연결 화면은 다른 계정을 사용할 수 있다. 소스 코드의 주소를 바꾸는 것으로 외부 앱 인증이 전환되지는 않으며, 해당 연결 화면에서 본인 계정으로 재인증해야 한다.
 
 `publish: false`는 사이트 목록과 공개 색인에서 글을 제외하는 설정이다. 저장소 자체는 Public이며 배포 구성도 원고와 편집 파일을 포함하므로, 이 값이 파일을 비공개로 보호하지는 않는다. 공개 원고에 비밀 값이나 개인 대화 원문을 넣지 않는 운영 기준이 필요하다.
 

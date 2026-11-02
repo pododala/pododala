@@ -1,0 +1,11 @@
+{
+  "id": "ing-20261102-pododala-connections",
+  "processed_on": "2026-11-02",
+  "coverage": "visible-partial",
+  "limit_note": "pododala/pododala의 main, 현재 AGENTS 지침과 프로토콜 2.02를 적용하여 소스 연결 설정과 실제 Git 대상을 확인. 외부 앱의 인증 계정 전환은 저장소 수정의 범위와 구분.",
+  "withheld_count": 0,
+  "items": [
+    {"id":"k01","kind":"fact","title":"현재 운영 도메인만 내부 링크로 변환하고 이전 소유자 연결 제거","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"개인 프로젝트로 운영할 때의 변경 지점"}]},
+    {"id":"k02","kind":"concept","title":"로컬 Git 인증·원격 주소와 외부 GitHub 앱 계정 연결의 구분","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"개인 프로젝트로 운영할 때의 변경 지점"}]}
+  ]
+}

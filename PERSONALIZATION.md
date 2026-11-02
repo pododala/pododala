@@ -2,7 +2,7 @@
 
 사이트 이름과 저장소 설정을 `pododala` / `pododala/pododala`로 교체했다.
 기본 배포 주소는 `https://pododala.github.io/pododala/`이며 정적 페이지의 CSS·메뉴·문서 경로에도 `/pododala/`를 반영했다.
-현재는 프로젝트 분류 문서 1편만 유지한다. 기존 원고 173개와 관련 편집 기록은 삭제했으며, 삭제 전 자료는 Git 이력에 남는다. 이전 사이트 링크 변환은 호환 목적으로 유지한다.
+현재는 프로젝트 분류 문서 1편만 유지한다. 기존 원고 173개와 관련 편집 기록은 삭제했으며, 삭제 전 자료는 Git 이력에 남는다. 이전 사이트 링크와 도메인 호환 처리는 제거했고, 현재 사이트 주소만 내부 링크로 변환한다.
 친구의 Google·네이버 인증 값은 제거했다. 본인 인증 값과 giscus ID는 아직 없으므로 댓글은 비활성 상태다.
 아래 목록의 기존 원고·이력 경로는 삭제 전 참고 정보다. 현재 문서와 파일의 기준은 manifest와 프로젝트 구조 문서다.
 
@@ -14,7 +14,7 @@
 | `app.js` | 저장소 주소, 문서 페이지 주소, giscus 저장소·카테고리 ID, 댓글 테마 주소, 원문·이력·편집 링크 |
 | `scripts/build-static.mjs` | 사이트 주소·이름, 원문 링크, 아이콘, 헤더·푸터, 구조화 데이터 작성자 |
 | `scripts/build-ai-index.mjs` | 원본 Markdown·GitHub·사이트 주소, llms.txt 제목 |
-| `scripts/build-notes.mjs` | 기존 도메인 링크 변환 정규식. 기존 링크 호환 여부를 확인하고 새 도메인 처리 검토 |
+| `scripts/build-notes.mjs` | 현재 pododala 사이트 주소만 내부 문서 링크로 변환 |
 | `scripts/search-wiki.mjs` | 검색 결과의 원본 Markdown 주소 |
 | `scripts/test-viewer.mjs` | 본인 주소에 맞춘 링크 기대값. 콘텐츠를 교체하면 특정 문서에 의존하는 테스트도 검토 |
 | `robots.txt` | 사이트맵 주소 |
@@ -37,7 +37,7 @@ JSON에는 주석을 넣지 않았고, 원고에 주석을 넣어 생성 데이�
 - `wiki/calendar.json`: 본인 문서에 맞는 연대·절기와 연결 문서·절 검토.
 - `editorial/ingestions/`, `editorial/crosslinks/`, `editorial/maintenance/log.json`, `editorial/maintenance/reports/`: 친구의 증보·교차 연결·정비 기록. 기존 콘텐츠를 비우는 경우 참조 무결성도 함께 정리.
 - `editorial/processed.md`, `sources/conversations/2026-10-22-circus-music-visible.md`: 기존 소유자 언급과 기존 작업 기록의 유지 여부 검토.
-- `AGENTS.md`: 사이트 주소와 AI 편집 지침의 개인화 대상. 이 파일은 현재 환경에서 읽기 전용이므로 직접 주석을 추가하지 않았다.
+- `AGENTS.md`: 현재 pododala 사이트 주소를 반영한 편집 지침을 적용한다.
 
 `publish: false`는 사이트 목록에서 제외하는 설정이다. 저장소와 현재 배포 구성의 파일 접근까지 비공개로 만들지는 않는다.
 
@@ -52,7 +52,8 @@ JSON에는 주석을 넣지 않았고, 원고에 주석을 넣어 생성 데이�
 
 ## 파일 밖에서 설정할 것
 
-- 본인 GitHub 저장소 생성 및 Git 연결. 현재 복사본에는 `.git`이 없다.
+- Git 저장소와 origin은 본인 저장소 `pododala/pododala`에 연결되어 있다. main의 추적 대상과 기본 업로드 대상은 origin으로 설정한다.
+- ChatGPT/Codex의 GitHub 앱 계정은 로컬 Git 인증과 별도다. 앱 계정을 바꾸려면 연결 화면에서 본인 계정으로 재인증한다. 저장소 수정만으로 앱 인증이 바뀌지는 않는다.
 - 저장소의 Pages 배포 소스와 Actions 권한 설정.
 - 댓글을 사용할 경우 본인 저장소의 Discussions와 giscus 연결.
 - 검색엔진에 등록할 경우 본인 사이트의 소유권 확인 값 발급.

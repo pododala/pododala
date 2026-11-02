@@ -3,6 +3,7 @@
   "description": "신규 지식 증보 배치의 내부 식별자 목록. 대화 원문, 인용, 링크는 저장하지 않는다.",
   "batches": [
     "ing-20261102-pododala-project-structure",
-    "ing-20261102-local-development-enrichment"
+    "ing-20261102-local-development-enrichment",
+    "ing-20261102-pododala-connections"
   ]
 }

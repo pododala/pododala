@@ -5,7 +5,7 @@ https://pododala.github.io/pododala/
 
 저장소: https://github.com/pododala/pododala
 
-프로젝트 사이트 경로 `/pododala/`에 맞춰 배포한다. GitHub 저장소의 Settings → Pages → Source를 **GitHub Actions**로 설정하고 `main`에 코드를 올리면 배포 워크플로가 실행된다. 현재는 프로젝트 분류의 구조 문서 1편만 남기고 이전 원고를 삭제했다. 댓글은 본인 giscus ID를 설정할 때까지 꺼져 있으며, 검색엔진 인증 값은 본인 값으로 새로 등록해야 한다. 원본 프로젝트: https://github.com/belorin/belorin.github.io
+프로젝트 사이트 경로 `/pododala/`에 맞춰 배포한다. GitHub 저장소의 Settings → Pages → Source를 **GitHub Actions**로 설정하고 `main`에 코드를 올리면 배포 워크플로가 실행된다. 현재는 프로젝트 분류의 구조 문서 1편만 남기고 이전 원고를 삭제했다. 댓글은 본인 giscus ID를 설정할 때까지 꺼져 있으며, 검색엔진 인증 값은 본인 값으로 새로 등록해야 한다. 기존 코드의 출처는 초기 Git 이력에서 확인할 수 있다.
 
 대화에서 시작해 계속 고쳐 쓰는 공개 개인 위키. 기존 GitHub Pages 정적 UI를 유지합니다.
 

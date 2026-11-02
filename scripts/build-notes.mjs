@@ -27,7 +27,7 @@ function normalizeBody(text, alias) {
     .replace(/\]\((?:\.\/|\.\.\/wiki\/)([a-z0-9-]+)\.md\)/g,
       (_match, id) => "](#" + (alias[id] ?? id) + ")")
     // 개인화: pododala 저장소와 프로젝트 사이트 주소 반영. 남은 선택 설정은 PERSONALIZATION.md 참고.
-    .replace(/\]\(https:\/\/(?:belorin\.github\.io\/|pododala\.github\.io\/pododala\/)#([a-z0-9-]+)\)/g,
+    .replace(/\]\(https:\/\/pododala\.github\.io\/pododala\/#([a-z0-9-]+)\)/g,
       (_match, id) => "](#" + id + ")");
 }
 function readBody(entry) {
