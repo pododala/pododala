@@ -8,6 +8,22 @@
       "from": "1986",
       "doc": "pododala-project-structure",
       "section": "달력 동작 예시"
+    },
+    {
+      "id": "c002",
+      "label": "레드벨벳 데뷔 (2014년)",
+      "from": "2014-08",
+      "doc": "red-velvet-debut",
+      "section": "2014년 8월 1일 데뷔"
+    },
+    {
+      "id": "c003",
+      "label": "레드벨벳 데뷔 기념일",
+      "every": {
+        "from": "08-01"
+      },
+      "doc": "red-velvet-debut",
+      "section": "2014년 8월 1일 데뷔"
     }
   ]
 }
