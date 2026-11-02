@@ -849,7 +849,8 @@
         "editing-principles",
         "open-questions",
         "wiki-operations-pipeline",
-        "gpt-wiki-zero-prototype"
+        "gpt-wiki-zero-prototype",
+        "pododala-project-structure"
       ],
       "aliases": [
         "위키 구축 이력",
@@ -3684,7 +3685,8 @@
         "wiki-building-history",
         "editing-principles",
         "living-notes",
-        "gpt-wiki-zero-prototype"
+        "gpt-wiki-zero-prototype",
+        "pododala-project-structure"
       ],
       "aliases": [
         "위키 운영 개편",
@@ -5578,6 +5580,38 @@
       "review_state": "needs_review",
       "last_enriched_on": "2026-11-02",
       "updated": "2026-11-02"
+    },
+    {
+      "path": "wiki/pododala-project-structure.md",
+      "publish": true,
+      "order": 171,
+      "id": "pododala-project-structure",
+      "title": "pododala 개인 위키: 프로젝트 구조와 운영 흐름",
+      "category": "프로젝트",
+      "status": "현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내",
+      "updated": "2026-11-02",
+      "summary": "개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.",
+      "tags": [
+        "개인 프로젝트",
+        "프로젝트 구조",
+        "Markdown",
+        "JavaScript",
+        "Node.js",
+        "GitHub Pages",
+        "자동 배포"
+      ],
+      "source": "현재 저장소 코드·README·워크플로·기존 위키와 확인된 배포 결과 기반·외부 신규 조사 없음",
+      "related": [
+        "wiki-building-history",
+        "wiki-operations-pipeline"
+      ],
+      "aliases": [
+        "pododala 프로젝트 구조",
+        "개인 위키 코드 구조",
+        "pododala 개발 안내"
+      ],
+      "review_state": "reviewed",
+      "last_enriched_on": "2026-11-02"
     }
   ]
 }

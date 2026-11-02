@@ -1,0 +1,16 @@
+{
+  "id": "ing-20261102-pododala-project-structure",
+  "processed_on": "2026-11-02",
+  "coverage": "visible-partial",
+  "limit_note": "pododala/pododala의 main, 편집 프로토콜 2.02, 현재 코드와 확인된 배포 상태를 대상으로 개인 프로젝트 구조 문서의 요청 범위만 반영. 과거 전체 대화와 기존 원고 전체의 재편집은 대상에서 제외.",
+  "withheld_count": 0,
+  "items": [
+    {"id":"k01","kind":"fact","title":"정적 개인 위키의 브라우저 실행과 Node.js 생성 역할","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"프로젝트의 실행 방식"}]},
+    {"id":"k02","kind":"curation","title":"화면·원고·편집 기록·생성 도구의 파일별 역할","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"폴더와 파일의 역할"}]},
+    {"id":"k03","kind":"concept","title":"Markdown 원본과 manifest 메타데이터 및 주제 등록","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"원고와 메타데이터를 관리하는 구조"}]},
+    {"id":"k04","kind":"concept","title":"사이트 캐시·AI 색인·편집 지도의 생성 경로","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"원본에서 만들어지는 생성물"}]},
+    {"id":"k05","kind":"fact","title":"프로젝트 경로 아래의 탐색 주소와 정적 문서 주소","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"웹 화면과 두 종류의 문서 주소"}]},
+    {"id":"k06","kind":"fact","title":"원고 작성에서 검증·자동 커밋·Pages 게시까지의 흐름","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"작성에서 배포까지의 흐름"}]},
+    {"id":"k07","kind":"fact","title":"개인 저장소 분리와 댓글·검색엔진·공개 범위의 현재 설정","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"개인 프로젝트로 운영할 때의 변경 지점"}]}
+  ]
+}
