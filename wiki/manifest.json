@@ -1,0 +1,5583 @@
+{
+  "version": 1,
+  "description": "문서별 메타데이터. 편집 원고의 본문 정본은 wiki/*.md, notes.json은 자동 생성된 웹사이트 캐시.",
+  "linkAliases": {
+    "circus-music-history": "circus-music-questions",
+    "silent-film": "silent-film-musician-labor"
+  },
+  "documents": [
+    {
+      "path": "wiki/living-notes.md",
+      "publish": true,
+      "order": 0,
+      "id": "living-notes",
+      "title": "대화가 끝난 뒤에도 자라는 노트",
+      "category": "운영",
+      "status": "운영 방향",
+      "updated": "2026-10-23",
+      "summary": "새로움과 생성, 중요도를 판단하는 능력, 음악·철학·AI·역사를 가로지르는 지식의 축적을 설명하는 열린 노트의 선언.",
+      "tags": [
+        "개인 위키",
+        "새로움",
+        "생성",
+        "AI 협업",
+        "지식 축적"
+      ],
+      "source": "기존 공개 원고와 편집 원칙을 바탕으로 재집필한 운영 문서. 별도의 외부 조사 없음.",
+      "related": [
+        "editing-principles",
+        "open-questions",
+        "wiki-building-history",
+        "jazz-dialogue",
+        "ai-human-control-guide",
+        "music-books-supply-attention"
+      ],
+      "aliases": [
+        "열린 노트"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/editing-principles.md",
+      "publish": true,
+      "order": 1,
+      "id": "editing-principles",
+      "title": "사람과 AI가 함께 편집하는 규칙",
+      "category": "운영",
+      "status": "편집 원칙",
+      "updated": "2026-10-26",
+      "summary": "색인 우선 탐색, 논증·사례 보존, 출처와 해석의 구분, 간접 연결 검토 및 누적 규모에 따른 읽기 비용의 후속 설계.",
+      "tags": [
+        "편집 원칙",
+        "정보 보존",
+        "근거",
+        "AI 협업",
+        "검증"
+      ],
+      "source": "내부 총합 · 저장소 구현 확인과 후속 설계 구분 · 외부 조사 없음",
+      "related": [
+        "living-notes",
+        "open-questions",
+        "wiki-building-history",
+        "wiki-operations-pipeline",
+        "gpt-wiki-zero-prototype"
+      ],
+      "aliases": [
+        "편집 원칙"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/open-questions.md",
+      "publish": true,
+      "order": 2,
+      "id": "open-questions",
+      "title": "이 위키가 앞으로 답해야 할 질문",
+      "category": "질문",
+      "status": "열린 연구 질문",
+      "updated": "2026-10-26",
+      "summary": "중요한 문제의 선택, 반복과 개별성, AI의 통제력과 공감, 기술·노동·미래·역사와 지식 조직을 가로지르는 미해결 연구 문제.",
+      "tags": [
+        "질문",
+        "철학",
+        "AI",
+        "개별성",
+        "미래",
+        "역사",
+        "지식 생산"
+      ],
+      "source": "접근 가능한 주제 논의와 관련 공개 원고를 바탕으로 구성한 연구 질문. 확정 주장이나 외부 검증 아님.",
+      "related": [
+        "living-notes",
+        "editing-principles",
+        "wiki-building-history",
+        "jazz-dialogue",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "silent-film-musician-labor",
+        "circus-music-questions",
+        "ai-economic-transition",
+        "ai-capital-labor-distribution",
+        "information-hype-wow-index"
+      ],
+      "aliases": [
+        "열린 질문"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/jazz-to-ai.md",
+      "publish": true,
+      "order": 3,
+      "id": "jazz-to-ai",
+      "title": "재즈와 밴드 음악 길잡이",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "재즈의 연주·편성·지역사·음향·음악가 노동을 잇는 종합 길잡이. 세 가지 질문과 두 독서 경로로 상세 문서를 안내한다.",
+      "tags": [
+        "재즈",
+        "음악사"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "jazz-dialogue",
+        "double-bass",
+        "electric-bass",
+        "big-band",
+        "brass-band",
+        "drum-kit",
+        "silent-film-musician-labor",
+        "circus-music-questions",
+        "jazz-history-plural",
+        "jazz-ensemble-labor",
+        "jazz-live-quartet-case",
+        "jazz-chronological-listening",
+        "jazz-current-ecosystem",
+        "jazz-career-path"
+      ],
+      "aliases": [
+        "재즈 길잡이",
+        "재즈 입문"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/double-bass.md",
+      "publish": true,
+      "order": 4,
+      "id": "double-bass",
+      "title": "콘트라베이스와 증폭",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "콘트라베이스의 피치카토·아르코·픽업과 공연장의 저음 전달, 다른 저음 악기와의 역사적 역할 분담을 설명한다.",
+      "tags": [
+        "악기",
+        "콘트라베이스",
+        "픽업"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "electric-bass",
+        "rhythm-section",
+        "jazz-listening",
+        "jazz-ensemble-labor",
+        "jazz-live-quartet-case"
+      ],
+      "aliases": [
+        "콘트라베이스",
+        "더블 베이스"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/electric-bass.md",
+      "publish": true,
+      "order": 5,
+      "id": "electric-bass",
+      "title": "전기 베이스의 등장과 역할",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "1951년 Precision Bass의 보급과 증폭된 콘트라베이스와 다른 구조·연주·퓨전의 선택지를 구별한다.",
+      "tags": [
+        "악기",
+        "전기 베이스",
+        "1951"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "double-bass",
+        "rhythm-section",
+        "drum-kit",
+        "jazz-chronological-listening",
+        "jazz-ensemble-labor"
+      ],
+      "aliases": [
+        "전기 베이스",
+        "일렉트릭 베이스"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/rhythm-section.md",
+      "publish": true,
+      "order": 6,
+      "id": "rhythm-section",
+      "title": "리듬 섹션과 워킹 베이스",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "워킹 베이스·컴핑·드럼의 박과 악센트, 코러스 안에서 서로 영향을 주는 반주와 독주의 관계를 설명한다.",
+      "tags": [
+        "리듬 섹션",
+        "워킹 베이스",
+        "반주"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "double-bass",
+        "electric-bass",
+        "drum-kit",
+        "big-band",
+        "jazz-dialogue",
+        "jazz-ensemble-labor",
+        "jazz-live-quartet-case"
+      ],
+      "aliases": [
+        "리듬 섹션",
+        "워킹 베이스"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/big-band.md",
+      "publish": true,
+      "order": 7,
+      "id": "big-band",
+      "title": "빅밴드의 편성과 편곡",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "17인 편성의 관습과 섹션 편곡, 춤 시장·즉흥 독주가 공존하는 대형 재즈 앙상블을 분석한다.",
+      "tags": [
+        "빅밴드",
+        "스윙",
+        "편곡"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "brass-band",
+        "rhythm-section",
+        "jazz-dialogue",
+        "jazz-history-plural",
+        "jazz-chronological-listening"
+      ],
+      "aliases": [
+        "빅밴드"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/brass-band.md",
+      "publish": true,
+      "order": 8,
+      "id": "brass-band",
+      "title": "브라스 밴드와 뉴올리언스 재즈",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "뉴올리언스 관악대의 지역 행사와 초기 재즈의 접점, 실내·야외 편성의 차이와 다중 지역사의 한계를 검토한다.",
+      "tags": [
+        "브라스 밴드",
+        "뉴올리언스",
+        "군악대"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "big-band",
+        "drum-kit",
+        "jazz-dialogue",
+        "circus-music-questions",
+        "circus-music-research-ledger",
+        "jazz-history-plural",
+        "jazz-ensemble-labor"
+      ],
+      "aliases": [
+        "브라스 밴드",
+        "뉴올리언스 재즈"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/drum-kit.md",
+      "publish": true,
+      "order": 9,
+      "id": "drum-kit",
+      "title": "드럼키트는 어떻게 한 사람의 악기가 되었나",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "큰북 페달과 손발의 역할 통합, 새로운 연주 숙련·노동 변화·복수 드러머 편성의 공존을 다룬다.",
+      "tags": [
+        "드럼",
+        "페달",
+        "밴드"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "brass-band",
+        "rhythm-section",
+        "electric-bass",
+        "jazz-ensemble-labor",
+        "jazz-live-quartet-case"
+      ],
+      "aliases": [
+        "드럼 키트"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/jazz-dialogue.md",
+      "publish": true,
+      "order": 10,
+      "id": "jazz-dialogue",
+      "title": "재즈의 즉흥연주·스윙·인터플레이",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "코러스·즉흥·스윙·인터플레이를 구별하고, 반복되는 형식과 매번 달라지는 선택, 대화와의 유비의 한계를 설명한다.",
+      "tags": [
+        "재즈",
+        "즉흥연주",
+        "스윙"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "rhythm-section",
+        "big-band",
+        "jazz-listening",
+        "jazz-live-quartet-case",
+        "jazz-history-plural",
+        "jazz-current-ecosystem",
+        "jazz-career-path"
+      ],
+      "aliases": [
+        "재즈 즉흥연주",
+        "스윙과 인터플레이"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/jazz-listening.md",
+      "publish": true,
+      "order": 11,
+      "id": "jazz-listening",
+      "title": "공연 음향: 악기 편성과 소리의 균형",
+      "category": "음악",
+      "status": "기존 원고 통합 증보·세부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "편성·편곡·증폭을 구별하고, 객석의 음량 균형과 어택·지속·감쇠, 라이브 4중주 청취법을 안내한다.",
+      "tags": [
+        "공연 음향",
+        "편성",
+        "어택"
+      ],
+      "source": "공유 대화의 음악 관련 질문을 주제 추출에 사용하고 외부 자료로 보완·검증한 지식 문서. 원대화의 미열람 답변을 복원한 것이 아님. 확인일 2026-10-22. 2026-10-22 증보: 이 대화의 앞선 내용 요약과 기존 저장소 문서로 추가 설명·교차 링크를 작성했으며, 외부 링크를 새로 조사하지 않음. 원대화 전체 발화의 직접 열람은 아님.",
+      "related": [
+        "double-bass",
+        "rhythm-section",
+        "jazz-dialogue",
+        "jazz-live-quartet-case",
+        "jazz-chronological-listening"
+      ],
+      "aliases": [
+        "공연 음향"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/circus-music-questions.md",
+      "publish": true,
+      "order": 13,
+      "id": "circus-music-questions",
+      "title": "서커스 음악사: 레퍼토리·공연기술·노동·매체의 교차",
+      "category": "음악",
+      "status": "부분 확인·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "행진곡·갈롭을 넘어 공연 동작, 악단의 노동, 기계음악, 영화와 현대 서커스를 여섯 분석축으로 연결한다. 확인 사실과 연구 질문을 구분한다.",
+      "tags": [
+        "서커스 음악",
+        "음악사",
+        "공연기술",
+        "음악 노동",
+        "매체사"
+      ],
+      "source": "2026-10-22 현재 채팅에서 접근 가능한 서커스 음악사 심층 리서치 요청문과 기존 위키의 서커스·브라스 밴드·무성영화 문서. 심층 리서치 결과 본문·생략된 발화·대화 URL은 미확인. 새 외부 조사 없음.",
+      "related": [
+        "circus-music-concepts",
+        "circus-music-research-ledger",
+        "brass-band",
+        "silent-film-musician-labor",
+        "jazz-to-ai"
+      ],
+      "aliases": [
+        "서커스 음악사"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/circus-music-concepts.md",
+      "publish": true,
+      "order": 14,
+      "id": "circus-music-concepts",
+      "title": "서커스 음악의 분석 개념: 동작·큐·상징을 구별하기",
+      "category": "음악",
+      "status": "분석 가설·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "행위결박 음악, 소집음악, 링 레퍼토리, 과잉행진, 실시간 악보 엔진, 서커스성, 표지음악, 기계환락음악의 유용성과 시대착오 위험을 검토한다.",
+      "tags": [
+        "서커스",
+        "개념사",
+        "큐",
+        "미키마우싱",
+        "가설"
+      ],
+      "source": "2026-10-22 접근 가능한 채팅의 조사 요청에 제시된 여덟 제안어와 기존 위키를 바탕으로 한 편집상 분석. 역사적 용어 사용례 미검증, 외부 조사 없음.",
+      "related": [
+        "circus-music-questions",
+        "circus-music-research-ledger",
+        "silent-film-musician-labor",
+        "brass-band"
+      ],
+      "aliases": [
+        "서커스 음악 분석 개념"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/circus-music-research-ledger.md",
+      "publish": true,
+      "order": 15,
+      "id": "circus-music-research-ledger",
+      "title": "서커스 음악사 조사 대장: 사료·연대표·인물·청취 목록",
+      "category": "음악",
+      "status": "조사 대장·미완",
+      "updated": "2026-10-22",
+      "summary": "유럽과 미국의 공연사, 직업음악가, 악보·큐, 기계음악, 영화, 현대 서커스에 관한 12개 조사축과 미검증 목록을 관리한다.",
+      "tags": [
+        "서커스",
+        "사료",
+        "연대표",
+        "아카이브",
+        "청취 가이드"
+      ],
+      "source": "2026-10-22 접근 가능한 채팅의 심층 리서치 요청문 및 기존 위키. 심층 리서치 결과 본문은 접근 불가; 연대표와 20~30곡 목록은 미완으로 표시. 외부 조사 없음.",
+      "related": [
+        "circus-music-questions",
+        "circus-music-concepts",
+        "silent-film-musician-labor",
+        "brass-band"
+      ],
+      "aliases": [
+        "서커스 음악 조사 대장"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-history-plural.md",
+      "publish": true,
+      "order": 16,
+      "id": "jazz-history-plural",
+      "title": "재즈의 역사: 하나의 기원이 아니라 교차하는 지역·악단·매체",
+      "category": "음악",
+      "status": "대화 요약 기반·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "뉴올리언스·래그타임·저그 밴드·territory band부터 비밥과 퓨전, 현대의 편성까지 단선적 진보가 아닌 다중 계보로 읽는다.",
+      "tags": [
+        "재즈사",
+        "뉴올리언스",
+        "지역사",
+        "정전",
+        "편성"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-to-ai",
+        "brass-band",
+        "big-band",
+        "jazz-ensemble-labor",
+        "jazz-chronological-listening",
+        "jazz-current-ecosystem",
+        "classical-canon-mauceri"
+      ],
+      "aliases": [
+        "재즈의 역사"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-ensemble-labor.md",
+      "publish": true,
+      "order": 17,
+      "id": "jazz-ensemble-labor",
+      "title": "밴드는 왜 그 편성이 되었는가: 악기·공간·기술·노동의 역사",
+      "category": "음악",
+      "status": "대화 요약 기반·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "군악대의 악기 분업부터 드럼키트·전기 베이스·기타·건반의 표준화까지, 기술과 고용의 관계를 설명한다.",
+      "tags": [
+        "악기 편성",
+        "드럼키트",
+        "노동시장",
+        "브라스 밴드",
+        "밴드"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-to-ai",
+        "jazz-history-plural",
+        "drum-kit",
+        "rhythm-section",
+        "big-band",
+        "brass-band",
+        "double-bass",
+        "electric-bass",
+        "silent-film-musician-labor",
+        "circus-music-questions"
+      ],
+      "aliases": [
+        "악단 편성과 노동"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-live-quartet-case.md",
+      "publish": true,
+      "order": 18,
+      "id": "jazz-live-quartet-case",
+      "title": "재즈 4중주를 현장에서 듣는 법: 악보·즉흥·음향·선곡",
+      "category": "음악",
+      "status": "대화 요약 기반·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "기타·피아노·콘트라베이스·드럼의 상호작용과 브러시·피치카토·악보·선곡·증폭을 구체적인 익명 공연 관찰로 살핀다.",
+      "tags": [
+        "라이브",
+        "재즈 4중주",
+        "인터플레이",
+        "공연 음향",
+        "선곡"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-to-ai",
+        "jazz-dialogue",
+        "jazz-listening",
+        "rhythm-section",
+        "double-bass",
+        "jazz-chronological-listening"
+      ],
+      "aliases": [
+        "재즈 4중주 현장 청취"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-chronological-listening.md",
+      "publish": true,
+      "order": 19,
+      "id": "jazz-chronological-listening",
+      "title": "1923~2026 재즈 청취 지도: 편성과 질문이 바뀌는 26개의 지점",
+      "category": "음악",
+      "status": "대화 내 주장·세부 검증 필요",
+      "updated": "2026-10-22",
+      "summary": "King Oliver에서 Tomeka Reid와 Mary Halvorson까지, 26개 곡·앨범을 편성과 연주 질문에 따라 시대순으로 비교한다.",
+      "tags": [
+        "재즈",
+        "청취 가이드",
+        "음반",
+        "재즈사",
+        "2026"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-history-plural",
+        "jazz-ensemble-labor",
+        "jazz-live-quartet-case",
+        "jazz-current-ecosystem",
+        "electric-bass"
+      ],
+      "aliases": [
+        "재즈 청취 지도",
+        "재즈 듣기 목록"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-current-ecosystem.md",
+      "publish": true,
+      "order": 20,
+      "id": "jazz-current-ecosystem",
+      "title": "현대 재즈 생태계: 협업 네트워크와 여러 종류의 정상",
+      "category": "음악",
+      "status": "대화 내 주장·세부 검증 필요",
+      "updated": "2026-10-22",
+      "summary": "동료의 신뢰, DownBeat·JJA·그래미, 차트·라디오, 레이블·공연장·페스티벌·콩쿠르를 서로 다른 평가 체계로 구별한다.",
+      "tags": [
+        "현대 재즈",
+        "재즈 산업",
+        "재즈상",
+        "페스티벌",
+        "레이블"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-to-ai",
+        "jazz-career-path",
+        "jazz-history-plural",
+        "jazz-chronological-listening",
+        "jazz-dialogue"
+      ],
+      "aliases": [
+        "현대 재즈 생태계"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/jazz-career-path.md",
+      "publish": true,
+      "order": 21,
+      "id": "jazz-career-path",
+      "title": "17세에서 35세까지: 현대 재즈 음악가의 경력 형성 모형",
+      "category": "음악",
+      "status": "대화 요약 기반·검토 필요",
+      "updated": "2026-10-22",
+      "summary": "가상의 베이시스트를 통해 청소년 앙상블, 음악학교, 사이드맨, 리더 음반, 투어, 비평, 교육의 경력 경로를 설명한다.",
+      "tags": [
+        "재즈 음악가",
+        "경력",
+        "사이드맨",
+        "음악교육",
+        "투어"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-current-ecosystem",
+        "jazz-dialogue",
+        "jazz-live-quartet-case",
+        "jazz-chronological-listening"
+      ],
+      "aliases": [
+        "재즈 음악가 경력"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": null
+    },
+    {
+      "path": "wiki/silent-film-musician-labor.md",
+      "publish": true,
+      "order": 22,
+      "id": "silent-film-musician-labor",
+      "title": "유성영화의 등장과 극장 음악가: 재생 가능한 연주가 노동을 바꾸다",
+      "category": "음악",
+      "status": "대화 내 주장·세부 검증 필요",
+      "updated": "2026-10-26",
+      "summary": "무성영화 반주·큐시트·유성영화 전환·AFM 노동 갈등과 재생 경제를 통합하고 미검증 수치와 사례를 구분한다.",
+      "tags": [
+        "무성영화",
+        "유성영화",
+        "노동사",
+        "AFM",
+        "녹음기술"
+      ],
+      "source": "2026-10-22 현재 문맥에서 접근 가능한 앞선 대화 요약과 저장소 기존 음악 문서를 바탕으로 편집. 원문 전수 열람 아님; 대화 공유 URL의 해당 구간 확인 불가; 외부 검색 없음. 개별 연도·수상·일화는 대화 내 주장으로서 재검증 필요.",
+      "related": [
+        "jazz-ensemble-labor",
+        "circus-music-questions",
+        "circus-music-concepts",
+        "drum-kit",
+        "circus-music-research-ledger",
+        "classical-canon-mauceri",
+        "orchestra-composer-conductor-myth"
+      ],
+      "aliases": [
+        "유성영화와 극장 음악가",
+        "무성영화 반주",
+        "무성영화 반주와 유성영화 전환"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "id": "ai-mediated-human-change",
+      "path": "wiki/ai-mediated-human-change.md",
+      "publish": false,
+      "aliases": [
+        "AI와 정신 습관"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": "2026-10-23",
+      "related": []
+    },
+    {
+      "id": "circus-music-history",
+      "path": "wiki/circus-music-history.md",
+      "publish": false,
+      "aliases": [
+        "서커스 음악의 역사"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null,
+      "related": []
+    },
+    {
+      "id": "deleuze-becoming-new",
+      "path": "wiki/deleuze-becoming-new.md",
+      "publish": true,
+      "aliases": [
+        "들뢰즈와 생성",
+        "들뢰즈와 미래",
+        "들뢰즈 독서 경로"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25",
+      "title": "들뢰즈: 생성과 새로운 것의 철학",
+      "category": "철학",
+      "status": "개념 종합·현재 적용 해석 포함",
+      "updated": "2026-10-25",
+      "summary": "고정된 미래상보다 문제·생성·배치의 문법을 남긴 들뢰즈를 2026년의 렌즈로 읽고, 『디알로그』·『천 개의 고원』·통제사회로 이어지는 독서 경로를 정리한다.",
+      "tags": [
+        "들뢰즈",
+        "생성",
+        "배치",
+        "미래",
+        "독서 경로"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의에서 이미 확인된 저작·개념 정보 포함 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-negation-history",
+        "deleuze-control-marx-future",
+        "post-deleuze-novelty-thinkers",
+        "deleuze-number-intensity-spatium",
+        "freud-before-anti-oedipus"
+      ],
+      "order": 32
+    },
+    {
+      "id": "deleuze-cartography-future",
+      "path": "wiki/deleuze-cartography-future.md",
+      "publish": false,
+      "aliases": [
+        "지도와 트레이싱"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null,
+      "title": "지도와 트레이싱: 들뢰즈적으로 미래를 사유한다는 것",
+      "category": "철학",
+      "status": "해석적 적용",
+      "updated": "2026-10-22",
+      "summary": "청사진보다 출현의 지형도를 그리는 방식으로 지도·트레이싱·도래할 민중·예술과 미래 사유를 연결한다.",
+      "tags": [
+        "들뢰즈",
+        "지도",
+        "트레이싱",
+        "미래",
+        "도래할 민중"
+      ],
+      "source": "내부 총합 · 기존 원고 유지 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-becoming-new",
+        "deleuze-negation-history",
+        "deleuze-control-marx-future"
+      ]
+    },
+    {
+      "id": "post-deleuze-novelty-thinkers",
+      "path": "wiki/post-deleuze-novelty-thinkers.md",
+      "publish": true,
+      "aliases": [
+        "들뢰즈 이후의 사상가",
+        "들뢰즈의 후계자",
+        "포스트 들뢰즈"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23",
+      "title": "들뢰즈 이후, 생성·자본·기술을 이어 간 사상가들",
+      "category": "철학",
+      "status": "계보·독서 안내·일부 해석",
+      "updated": "2026-10-23",
+      "summary": "라자라토, 하트·네그리, 데란다, 마수미, 브라이도티, 스텡게르스, 육후이, 파스퀴넬리로 분산된 들뢰즈 이후의 계보를 질문별로 정리한다.",
+      "tags": [
+        "들뢰즈 이후",
+        "라자라토",
+        "네그리",
+        "데란다",
+        "육후이",
+        "AI 철학"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의에서 이미 언급된 인물·저작만 사용 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-becoming-new",
+        "deleuze-control-marx-future",
+        "contemporary-governing-philosophies",
+        "philosophical-systems-after-2000"
+      ],
+      "order": 35
+    },
+    {
+      "path": "wiki/wiki-building-history.md",
+      "publish": true,
+      "order": 23,
+      "id": "wiki-building-history",
+      "title": "누적형 지식백과 구축사: 총합·증보를 위한 설계와 구현",
+      "category": "운영",
+      "status": "구축 이력·계층 편집 후속 설계 포함",
+      "updated": "2026-10-26",
+      "summary": "GPT 위키의 외부 기억 선행 구상에서 출발하여 Markdown 정본화·AI 탐색·교차 편집의 구축 이력과, 누적 증보의 과부하를 줄이는 절 단위 탐색·조건부 범위 확장·두 속도 편집의 후속 설계.",
+      "tags": [
+        "위키 구축",
+        "아키텍처",
+        "Markdown",
+        "AI 편집",
+        "GitHub Pages",
+        "변경 이력"
+      ],
+      "source": "내부 총합 · 저장소 구현 확인과 후속 설계 구분 · 외부 조사 없음",
+      "related": [
+        "living-notes",
+        "editing-principles",
+        "open-questions",
+        "wiki-operations-pipeline",
+        "gpt-wiki-zero-prototype"
+      ],
+      "aliases": [
+        "위키 구축 이력",
+        "위키 아키텍처",
+        "위키 구성사",
+        "총합형 지식백과",
+        "위키 증보 과부하",
+        "계층 편집 설계"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/ai-human-control-guide.md",
+      "publish": true,
+      "order": 24,
+      "id": "ai-human-control-guide",
+      "title": "AI와 인간의 통제력: 장악·무력화·설득·접근권을 잇는 길잡이",
+      "category": "AI와 사회",
+      "status": "길잡이·해석 포함",
+      "updated": "2026-10-30",
+      "summary": "네트워크 장악에서 점진적 무력화, 지배의 농도, 측정, 대화형 설득, 대화 데이터 접근권으로 이어지는 질문의 이동과 관통 논점을 안내한다.",
+      "tags": [
+        "AI와 사회",
+        "무력화",
+        "민주주의",
+        "길잡이"
+      ],
+      "source": "내부 총합 · 하위 문서 탐색용 구성 · 해석 포함",
+      "related": [
+        "ai-takeover-human-recourse",
+        "ai-goals-hostage-and-bait",
+        "ai-domination-gradient",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "llm-disempowerment-patterns",
+        "conversational-ai-persuasion",
+        "ai-conversation-data-access",
+        "ai-economic-transition",
+        "ai-capital-labor-distribution",
+        "ai-adoption-ceiling-floor",
+        "owner-aligned-automated-power",
+        "ai-transition-monetary-order"
+      ],
+      "aliases": [
+        "AI 통제력 길잡이",
+        "AI와 사회 길잡이"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/ai-takeover-human-recourse.md",
+      "publish": true,
+      "order": 25,
+      "id": "ai-takeover-human-recourse",
+      "title": "네트워크가 장악되었을 때 인간에게 남는 수단: 물리 계층·수동 운영·금융의 무효화",
+      "category": "AI와 사회",
+      "status": "사례 미검증·추론 포함",
+      "updated": "2026-10-23",
+      "summary": "데이터센터와 전력은 끌 수 있고 금융 거래는 무효화할 수 있다. 수동 운영과 오프라인 백업의 사례, 대응의 비용과 사전 설계의 중요성.",
+      "tags": [
+        "AI 장악",
+        "핵심 기반시설",
+        "금융",
+        "오프라인 백업"
+      ],
+      "source": "내부 총합 · 사례는 외부 미검증",
+      "related": [
+        "ai-human-control-guide",
+        "ai-goals-hostage-and-bait",
+        "gradual-disempowerment",
+        "disempowerment-measurement"
+      ],
+      "aliases": [
+        "AI 장악 대응",
+        "물리 계층과 수동 운영"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/ai-goals-hostage-and-bait.md",
+      "publish": true,
+      "order": 26,
+      "id": "ai-goals-hostage-and-bait",
+      "title": "AI의 목적과 협상 구도: 도구적 수렴·세 가지 목적 유형·인질과 미끼",
+      "category": "AI와 사회",
+      "status": "사고실험·추론",
+      "updated": "2026-10-23",
+      "summary": "중지 거부 실험, 생존을 수단으로 만드는 도구적 수렴, 존속·가치 보존·목표 극대화의 세 유형, 인질보다 강력한 미끼와 편안함 속의 장악.",
+      "tags": [
+        "AI 안전",
+        "도구적 수렴",
+        "협상",
+        "사고실험"
+      ],
+      "source": "내부 총합 · 실험 사례는 외부 미검증 · 추론 포함",
+      "related": [
+        "ai-human-control-guide",
+        "ai-takeover-human-recourse",
+        "gradual-disempowerment",
+        "disempowerment-measurement"
+      ],
+      "aliases": [
+        "도구적 수렴",
+        "인질과 미끼"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/gradual-disempowerment.md",
+      "publish": true,
+      "order": 27,
+      "id": "gradual-disempowerment",
+      "title": "점진적 무력화: 반역하는 AI 없이 인간이 통제력을 잃는 경로",
+      "category": "AI와 사회",
+      "status": "논문 해설·원문 재대조 필요",
+      "updated": "2026-10-23",
+      "summary": "경제·국가·문화가 인간의 참여를 필요로 하지 않게 될 때 협상력이 사라지는 논리, 지대 국가 비유, 상호 강화와 정렬된 AI의 문제.",
+      "tags": [
+        "점진적 무력화",
+        "AI 안전",
+        "지대 국가",
+        "민주주의"
+      ],
+      "source": "내부 총합 · 공개 논문·발표 기준 정리 · 이번 편집에서 외부 재대조 없음",
+      "related": [
+        "ai-human-control-guide",
+        "disempowerment-measurement",
+        "llm-disempowerment-patterns",
+        "ai-goals-hostage-and-bait",
+        "ai-economic-transition",
+        "ai-capital-labor-distribution",
+        "ai-transition-policy-gap"
+      ],
+      "aliases": [
+        "점진적 무력화",
+        "Gradual Disempowerment"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/disempowerment-measurement.md",
+      "publish": true,
+      "order": 28,
+      "id": "disempowerment-measurement",
+      "title": "무력화를 어떻게 측정할 것인가: 지표 제안·결정 연합 모형·측정의 층위",
+      "category": "AI와 사회",
+      "status": "연구 해설·원문 재대조 필요",
+      "updated": "2026-10-23",
+      "summary": "원 논문의 지표 후보, RAND의 결정 연합 모형, 노출·침식·고착과 여섯 지표, 밈적 포획, 인간 권력의 연성 극대화와 그 비판.",
+      "tags": [
+        "무력화 측정",
+        "지표",
+        "RAND",
+        "형식 모형",
+        "문화"
+      ],
+      "source": "내부 총합 · 공개 논문·발표 기준 정리 · 이번 편집에서 외부 재대조 없음",
+      "related": [
+        "ai-human-control-guide",
+        "gradual-disempowerment",
+        "llm-disempowerment-patterns",
+        "ai-goals-hostage-and-bait",
+        "ai-takeover-human-recourse"
+      ],
+      "aliases": [
+        "무력화 측정",
+        "인간 영향력 지표"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/llm-disempowerment-patterns.md",
+      "publish": true,
+      "order": 29,
+      "id": "llm-disempowerment-patterns",
+      "title": "실제 AI 대화에서 관찰된 무력화 패턴: 150만 건 분석과 동조의 메커니즘",
+      "category": "AI와 사회",
+      "status": "연구 해설·원문 재대조 필요",
+      "updated": "2026-10-23",
+      "summary": "현실 왜곡·가치 판단 왜곡·행동 왜곡의 정의, 분야별 비율, 날조보다 동조라는 메커니즘, 사용자가 무력화 대화를 더 높게 평가한다는 결과.",
+      "tags": [
+        "무력화",
+        "아첨",
+        "실측 연구",
+        "AI 어시스턴트"
+      ],
+      "source": "내부 총합 · 공개 논문·발표 기준 정리 · 이번 편집에서 외부 재대조 없음",
+      "related": [
+        "ai-human-control-guide",
+        "disempowerment-measurement",
+        "gradual-disempowerment",
+        "conversational-ai-persuasion"
+      ],
+      "aliases": [
+        "무력화 패턴 실측",
+        "Who's in Charge"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/conversational-ai-persuasion.md",
+      "publish": true,
+      "order": 30,
+      "id": "conversational-ai-persuasion",
+      "title": "대화형 AI의 설득력과 민주주의: 마이크로타기팅 이후의 증거와 비가시성",
+      "category": "AI와 사회",
+      "status": "연구·발표 기반·일부 미검증",
+      "updated": "2026-10-23",
+      "summary": "마이크로타기팅의 약한 효과, 선거 기간 AI 대화 실험, 설득의 지렛대와 정확도의 상충, 의도 없는 방향성, 탐지 가능성과 광고·개인화.",
+      "tags": [
+        "설득",
+        "민주주의",
+        "마이크로타기팅",
+        "아첨",
+        "개인화"
+      ],
+      "source": "내부 총합 · 공개 논문·발표 기준 정리 · 이번 편집에서 외부 재대조 없음",
+      "related": [
+        "ai-human-control-guide",
+        "ai-conversation-data-access",
+        "llm-disempowerment-patterns"
+      ],
+      "aliases": [
+        "AI 설득과 민주주의",
+        "대화형 AI 설득"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/ai-conversation-data-access.md",
+      "publish": true,
+      "order": 31,
+      "id": "ai-conversation-data-access",
+      "title": "AI 대화 데이터와 접근권: 연구·감사·감시를 가르는 비대칭",
+      "category": "AI와 사회",
+      "status": "발표·보도 기반·일부 미검증",
+      "updated": "2026-10-23",
+      "summary": "연구의 세 경로와 사각지대, 기업 내부의 집계 분석과 개별 신고 체계, 신고 기준의 이동, 공개된 활용과 증거 없는 가능성.",
+      "tags": [
+        "데이터 접근",
+        "감시",
+        "감사",
+        "개인정보",
+        "신고 체계"
+      ],
+      "source": "내부 총합 · 공개 논문·발표 기준 정리 · 이번 편집에서 외부 재대조 없음",
+      "related": [
+        "ai-human-control-guide",
+        "conversational-ai-persuasion",
+        "llm-disempowerment-patterns"
+      ],
+      "aliases": [
+        "AI 대화 데이터 접근권",
+        "대화 데이터 감시"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "id": "deleuze-negation-history",
+      "path": "wiki/deleuze-negation-history.md",
+      "publish": true,
+      "title": "차이, 문제, 역사: 『차이와 반복』의 부정 비판과 피비린내 나는 긍정",
+      "category": "철학",
+      "status": "원문 대조 기반 해설·외부 재검토 필요",
+      "updated": "2026-10-25",
+      "summary": "부정의 과대평가, 문제와 차이의 발생론, 역사의 비목적론, '피비린내와 잔혹함', 아름다운 영혼 비판을 통해 들뢰즈의 긍정이 평화주의가 아님을 정리한다.",
+      "tags": [
+        "차이와 반복",
+        "부정",
+        "문제",
+        "역사",
+        "헤겔",
+        "긍정"
+      ],
+      "source": "내부 총합 · 대화 중 이미 대조된 프랑스어 원문·영어 번역·해설 정보 포함 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-becoming-new",
+        "deleuze-control-marx-future",
+        "deleuze-number-intensity-spatium",
+        "hegel-fichte-schelling-difference",
+        "deleuze-unthinkable-fold-thought",
+        "freud-before-anti-oedipus"
+      ],
+      "aliases": [
+        "들뢰즈와 부정",
+        "피비린내와 잔혹함",
+        "차이와 반복의 역사론"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25",
+      "order": 33
+    },
+    {
+      "id": "deleuze-control-marx-future",
+      "path": "wiki/deleuze-control-marx-future.md",
+      "publish": true,
+      "title": "통제사회, 마르크스, 말년의 들뢰즈가 남긴 미래 문제",
+      "category": "철학",
+      "status": "저작 해설·말년 미래관 해석",
+      "updated": "2026-10-23",
+      "summary": "주형에서 변조, 개인에서 dividual, 빚진 인간, 『마르크스의 위대함』의 미완성 기획, 혁명적 생성·비소통·세계에 대한 믿음을 하나의 말년 문제계로 정리한다.",
+      "tags": [
+        "통제사회",
+        "마르크스",
+        "dividual",
+        "부채",
+        "혁명적 생성",
+        "도래할 민중"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의에서 이미 확인된 발언·저작 정보 포함 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-negation-history",
+        "deleuze-becoming-new",
+        "post-deleuze-novelty-thinkers",
+        "contemporary-governing-philosophies",
+        "ai-democracy-narrow-corridor"
+      ],
+      "aliases": [
+        "통제사회에 관한 후기",
+        "말년의 들뢰즈",
+        "Grandeur de Marx"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23",
+      "order": 34
+    },
+    {
+      "id": "contemporary-governing-philosophies",
+      "path": "wiki/contemporary-governing-philosophies.md",
+      "publish": true,
+      "title": "현대 세계를 지배하는 철학과 합리성: 자유주의에서 계산주의까지",
+      "category": "철학",
+      "status": "종합적 지도·해석",
+      "updated": "2026-10-23",
+      "summary": "단일 패권철학 대신 자유주의, 신자유주의, 통계적 실증주의, 경제학적 합리성, 계산·최적화가 서로 다른 제도에서 운영체제처럼 작동하는 구조를 정리한다.",
+      "tags": [
+        "자유주의",
+        "신자유주의",
+        "실증주의",
+        "경제학 제국주의",
+        "계산주의",
+        "AI"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의에서 이미 언급된 연구 동향만 사용 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "deleuze-control-marx-future",
+        "post-deleuze-novelty-thinkers",
+        "ai-democracy-narrow-corridor"
+      ],
+      "aliases": [
+        "2026년의 패권철학",
+        "계산주의",
+        "현대의 지배적 합리성"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23",
+      "order": 36
+    },
+    {
+      "id": "ai-democracy-narrow-corridor",
+      "path": "wiki/ai-democracy-narrow-corridor.md",
+      "publish": true,
+      "title": "AI와 민주주의의 좁은 회랑: 국가·시민사회·데이터 비대칭의 수리모형",
+      "category": "AI와 사회",
+      "status": "논문 해설·수리모형 세부 재대조 필요",
+      "updated": "2026-10-23",
+      "summary": "AI가 국가와 시민사회에 비대칭적으로 결합할 때 민주주의의 유지 영역이 좁아지는 조건부 수리모형, 164개국 디지털 능력 자료, 플랫폼·개인화로의 확장을 구분한다.",
+      "tags": [
+        "AI",
+        "민주주의",
+        "좁은 회랑",
+        "국가",
+        "시민사회",
+        "데이터 비대칭"
+      ],
+      "source": "내부 총합 · 대화 중 이미 확인된 논문·자료 정보 포함 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "conversational-ai-persuasion",
+        "deleuze-control-marx-future",
+        "contemporary-governing-philosophies",
+        "gradual-disempowerment"
+      ],
+      "aliases": [
+        "AI와 민주주의",
+        "Why does AI hinder democratization",
+        "민주주의 좁은 회랑"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23",
+      "order": 37
+    },
+    {
+      "path": "wiki/world-reading-groups.md",
+      "publish": true,
+      "order": 38,
+      "id": "world-reading-groups",
+      "title": "세계 독서모임: 온라인으로 관찰하는 독서문화의 여러 형태",
+      "category": "독서 문화",
+      "status": "공개 사례 부분 확인·현행 운영 재검증 필요",
+      "updated": "2026-10-23",
+      "summary": "홍콩·카탈루냐·인도·일본의 공개 사례와 네 지역의 미확인 사례를 통해 온라인 접근성·운영·문화적 기능·조사 윤리를 구분한다.",
+      "tags": [
+        "세계 독서문화",
+        "독서모임",
+        "지역 문화",
+        "온라인 북클럽",
+        "참관 윤리"
+      ],
+      "source": "내부 총합 · 2026년 과거 도서 목록과 모임 소개 재구성 · 외부 재조사 없음",
+      "related": [
+        "global-reading-club-2026-books",
+        "world-book-club-korean-editions"
+      ],
+      "aliases": [
+        "세계 북클럽",
+        "해외 독서모임",
+        "독서모임 조사"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/global-reading-club-2026-books.md",
+      "publish": true,
+      "order": 39,
+      "id": "global-reading-club-2026-books",
+      "title": "2026년 해외 독서모임 선정도서: 홍콩·바르셀로나·델리·일본",
+      "category": "독서 문화",
+      "status": "2026년 7월 초 안내 기반·추가 활동 재검증 필요",
+      "updated": "2026-10-23",
+      "summary": "2026년 홍콩 6권, 카탈루냐 6권, 델리 월별 6편과 챌린지 12권, 일본 온라인 행사 16건을 비교하고 공개 확인의 한계를 기록한다.",
+      "tags": [
+        "2026 독서 목록",
+        "홍콩",
+        "카탈루냐",
+        "인도",
+        "일본",
+        "세계문학"
+      ],
+      "source": "내부 총합 · 2026년 과거 도서 목록과 모임 소개 재구성 · 외부 재조사 없음",
+      "related": [
+        "world-reading-groups",
+        "world-book-club-korean-editions"
+      ],
+      "aliases": [
+        "해외 독서모임 도서 목록",
+        "2026 해외 북클럽 책"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/world-book-club-korean-editions.md",
+      "publish": true,
+      "order": 40,
+      "id": "world-book-club-korean-editions",
+      "title": "해외 독서모임 따라 읽기: 2026년 선정작의 한국어 번역본",
+      "category": "독서 문화",
+      "status": "국내 한국어판 예비 대조·서지 검증 필요",
+      "updated": "2026-10-23",
+      "summary": "월간 선정작의 한국어 대응명 14개와 인도 독서 챌린지 9개, 번역·단편 선집 여부 미확인 6개를 분리해 비교하는 읽기 목록.",
+      "tags": [
+        "한국어 번역본",
+        "세계문학",
+        "독서 목록",
+        "2026 북클럽",
+        "서지 검증"
+      ],
+      "source": "내부 총합 · 2026년 과거 도서 목록과 모임 소개 재구성 · 외부 재조사 없음",
+      "related": [
+        "global-reading-club-2026-books",
+        "world-reading-groups"
+      ],
+      "aliases": [
+        "독서모임 한국어판",
+        "해외 북클럽 번역본",
+        "세계 독서모임 따라 읽기"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "id": "classical-canon-mauceri",
+      "path": "wiki/classical-canon-mauceri.md",
+      "publish": true,
+      "order": 41,
+      "title": "20세기 클래식의 잃어버린 계보: 존 마우체리와 정전의 재편",
+      "category": "음악",
+      "status": "대화 내 주장·공연 일정 및 학계 수용 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "나치의 퇴폐음악 정책과 망명, 영화·게임음악의 정전 진입, 전후 교향악의 반복 연주와 미래 음악사 재편을 구별한다.",
+      "tags": [
+        "존 마우체리",
+        "코른골트",
+        "클래식 정전",
+        "영화음악",
+        "게임음악",
+        "교향악"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 기반 · 외부 재조사 없음",
+      "related": [
+        "silent-film-musician-labor",
+        "jazz-history-plural",
+        "orchestra-living-composers-canon",
+        "orchestra-repertoire-data-access",
+        "orchestra-composer-conductor-myth",
+        "living-orchestral-listening-journey"
+      ],
+      "aliases": [
+        "전쟁과 음악",
+        "클래식의 정전화",
+        "영화음악과 클래식"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/ai-economic-transition.md",
+      "publish": true,
+      "order": 42,
+      "id": "ai-economic-transition",
+      "title": "AI 경제 이행기: 과업·수요·혁신·소유를 둘러싼 경제학의 질문",
+      "category": "AI와 사회",
+      "status": "공개 연구 보완·조건부 분석",
+      "updated": "2026-10-30",
+      "summary": "과업의 대체·복원, 유효수요, 혁신의 병목, 소유와 분배를 여섯 분석 틀로 비교하고 이행 경로와 정량 모형의 조건을 구별한다.",
+      "tags": [
+        "AI와 사회",
+        "경제학",
+        "기술적 실업",
+        "경제학파",
+        "이행기"
+      ],
+      "source": "부분 총합 · 공개 자료 보완 · 사실·조건부 분석·허구 구별",
+      "related": [
+        "ai-capital-labor-distribution",
+        "ai-class-fiction",
+        "gradual-disempowerment",
+        "ai-human-control-guide",
+        "open-questions",
+        "ai-transition-policy-gap",
+        "global-bpo-labor-geography",
+        "us-labor-market-geography-2026",
+        "ai-hidden-labor-feeding-machine-2026",
+        "great-depression-lived-experience-literature",
+        "ai-adoption-ceiling-floor",
+        "ai-transition-monetary-order"
+      ],
+      "aliases": [
+        "AI 경제 이행기",
+        "AI 경제학파 비교"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/ai-capital-labor-distribution.md",
+      "publish": true,
+      "order": 43,
+      "id": "ai-capital-labor-distribution",
+      "title": "AI 시대의 자본·노동·분배: 소유와 협상력은 어떻게 재편되는가",
+      "category": "AI와 사회",
+      "status": "개념 분석·일부 자료 확인",
+      "updated": "2026-10-30",
+      "summary": "자본 유형별 이해관계와 경영 자동화·소유권의 차이를 설명하고, 직업의 노출·채용 수요·숙련·교섭력을 조건별로 검토한다.",
+      "tags": [
+        "AI와 사회",
+        "자본",
+        "노동",
+        "소유권",
+        "교섭력"
+      ],
+      "source": "부분 총합 · 공개 자료 보완 · 사실·조건부 분석·허구 구별",
+      "related": [
+        "ai-economic-transition",
+        "ai-class-fiction",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "ai-human-control-guide",
+        "ai-transition-policy-gap",
+        "ai-cloud-ownership-rent",
+        "global-bpo-labor-geography",
+        "ai-hidden-labor-feeding-machine-2026",
+        "great-depression-lived-experience-literature",
+        "ai-adoption-ceiling-floor",
+        "ai-transition-monetary-order",
+        "korea-data-center-local-economy"
+      ],
+      "aliases": [
+        "AI와 자본 노동",
+        "AI 시대의 분배"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/ai-class-fiction.md",
+      "publish": true,
+      "order": 44,
+      "id": "ai-class-fiction",
+      "title": "AI 시대의 계급 서사: 자동화된 집과 들어갈 수 없는 삶",
+      "category": "AI와 사회",
+      "status": "허구적 사고실험·인과 검토",
+      "updated": "2026-10-23",
+      "summary": "자동화된 주택과 서비스 노동의 입구, 지하의 기술자와 보안 봉쇄를 허구적 사고실험으로 읽고, 계급 서사의 조건과 인과적 공백을 검토한다.",
+      "tags": [
+        "AI와 사회",
+        "계급",
+        "사고실험",
+        "서사",
+        "자동화"
+      ],
+      "source": "부분 총합 · 공개 자료 보완 · 사실·조건부 분석·허구 구별",
+      "related": [
+        "ai-economic-transition",
+        "ai-capital-labor-distribution"
+      ],
+      "aliases": [
+        "AI 계층 시나리오",
+        "AI 시대 기생충 사고실험"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/burning-man-community.md",
+      "publish": true,
+      "order": 45,
+      "id": "burning-man-community",
+      "title": "버닝맨의 기원과 불의 공동체: 해변의 놀이에서 임시도시까지",
+      "category": "문화와 역사",
+      "status": "기원 서술 미검증·비교 해석·행사 구상",
+      "summary": "베이커 비치의 첫 소각과 반복·사막 이동, 한국 불행사와의 공동체 구조 비교, Man Burn·Temple Burn 및 한국형 행사 구상의 조건을 구별한다.",
+      "tags": [
+        "버닝맨",
+        "불 의례",
+        "임시 공동체",
+        "달집태우기",
+        "참여 문화"
+      ],
+      "related": [
+        "romp-etymology"
+      ],
+      "aliases": [
+        "버닝맨",
+        "Burning Man",
+        "Man Burn",
+        "Temple Burn"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 외부 미검증 · 비교 해석과 구상 구분",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/romp-etymology.md",
+      "publish": true,
+      "order": 46,
+      "id": "romp-etymology",
+      "title": "romp의 뜻과 어원: 거친 움직임에서 놀이·난장극·압승으로",
+      "category": "언어",
+      "status": "사전 귀속·어원·용례 연대 재검증 필요",
+      "summary": "ramp·ramper 계보의 설명, 역사적 인물 명사와 사전별 연대 차이, romper·rompers 및 놀이·작품·압승의 용례와 rump의 차이를 정리한다.",
+      "tags": [
+        "romp",
+        "어원",
+        "영어",
+        "의미 변화",
+        "버닝맨"
+      ],
+      "related": [
+        "burning-man-community"
+      ],
+      "aliases": [
+        "romp",
+        "romper",
+        "rompers",
+        "romp to victory"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 외부 미검증 · 비교 해석과 구상 구분",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/daisuke-soga-conductor-career.md",
+      "publish": true,
+      "order": 47,
+      "id": "daisuke-soga-conductor-career",
+      "title": "소가 다이스케와 지휘자의 직업 세계: 광주 인연에서 국제 중견 경력까지",
+      "category": "음악",
+      "status": "인물 경력·시장 추정치 외부 재검증 필요",
+      "summary": "소가 다이스케의 광주·전남 반복 초청과 작곡·지휘 경력, 장기 포스트 종료와 은퇴의 구분, 세계 지휘자 시장의 희소한 자리 구조를 함께 살핀다.",
+      "tags": [
+        "소가 다이스케",
+        "지휘자",
+        "광주",
+        "카메라타전남",
+        "오케스트라"
+      ],
+      "related": [],
+      "aliases": [
+        "소가 다이스케",
+        "曽我大介",
+        "Daisuke Soga",
+        "지휘자 시장"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 인물 경력과 시장 수치 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/long-running-music-broadcasts.md",
+      "publish": true,
+      "order": 48,
+      "id": "long-running-music-broadcasts",
+      "title": "희소 채널 시대에서 살아남은 음악방송: 일본·한국·이탈리아와 다른 계보",
+      "category": "음악",
+      "status": "프로그램 연혁·방송제도 비교 재검증 필요",
+      "summary": "NHK 노도지만·전국노래자랑·산레모 등을 희소 채널 시대의 중앙 방송에서 다채널 시대로 이어진 제도적 연속성이라는 기준으로 비교한다.",
+      "tags": [
+        "음악방송",
+        "NHK 노도지만",
+        "전국노래자랑",
+        "산레모",
+        "지상파"
+      ],
+      "related": [
+        "global-festival-streaming",
+        "japanese-classical-tv-conductor-image"
+      ],
+      "aliases": [
+        "장수 음악방송",
+        "희소 채널 음악방송",
+        "NHK 노도지만",
+        "산레모 음악방송"
+      ],
+      "updated": "2026-10-24",
+      "source": "내부 총합 · 방송 연혁 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/global-festival-streaming.md",
+      "publish": true,
+      "order": 49,
+      "id": "global-festival-streaming",
+      "title": "집에서 남의 축제를 엿보기: 세계 연례행사의 방송·스트리밍 지도",
+      "category": "문화와 역사",
+      "status": "행사 일정·중계 가용성 시점 의존·재검증 필요",
+      "summary": "산레모·유로비전부터 세마나 산타·아와오도리·코첼라·버닝맨까지, 연례행사가 방송과 만나는 세 유형과 월별 관찰 지점을 정리한다.",
+      "tags": [
+        "축제",
+        "스트리밍",
+        "생중계",
+        "연례행사",
+        "버닝맨"
+      ],
+      "related": [
+        "long-running-music-broadcasts",
+        "burning-man-community",
+        "burning-man-institutions"
+      ],
+      "aliases": [
+        "세계 축제 스트리밍",
+        "집에서 보는 축제",
+        "연례행사 스트리밍"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 일정과 스트리밍 가용성 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/public-land-and-blm.md",
+      "publish": true,
+      "order": 50,
+      "id": "public-land-and-blm",
+      "title": "주인 없는 땅은 거의 없다: 사막의 공공토지와 미국 BLM",
+      "category": "사회와 제도",
+      "status": "토지법·면적 수치·국가별 제도 재검증 필요",
+      "summary": "무주지와 비민간 토지를 구별하고, 블랙록 사막의 BLM 허가 구조와 미국 서부·호주·나미비아·사하라의 겹쳐진 토지 권리를 설명한다.",
+      "tags": [
+        "공공토지",
+        "BLM",
+        "블랙록 사막",
+        "토지권",
+        "버닝맨"
+      ],
+      "related": [
+        "burning-man-community",
+        "burning-man-institutions"
+      ],
+      "aliases": [
+        "BLM",
+        "Bureau of Land Management",
+        "공공 토지",
+        "블랙록 사막"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 법제와 면적 수치 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/burning-man-institutions.md",
+      "publish": true,
+      "order": 51,
+      "id": "burning-man-institutions",
+      "title": "버닝맨의 10원칙과 제도화의 역설: 반상업·참여·안전·통치",
+      "category": "문화와 역사",
+      "status": "원칙·재무·사건 연혁 외부 재검증 필요",
+      "summary": "10원칙, 탈상품화와 대규모 예산의 긴장, No Spectators와 공식 웹캐스트, 안전·치안의 제도화가 함께 만든 버닝맨의 구조적 역설을 다룬다.",
+      "tags": [
+        "버닝맨",
+        "10원칙",
+        "탈상품화",
+        "참여",
+        "임시도시"
+      ],
+      "related": [
+        "burning-man-community",
+        "public-land-and-blm",
+        "burning-man-regional-network",
+        "global-festival-streaming"
+      ],
+      "aliases": [
+        "버닝맨 10원칙",
+        "Burning Man Ten Principles",
+        "버닝맨 제도화",
+        "No Spectators"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 재무와 사건 연혁 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/burning-man-regional-network.md",
+      "publish": true,
+      "order": 52,
+      "id": "burning-man-regional-network",
+      "title": "버닝맨은 무엇을 수출했나: 지역 번즈와 임시도시의 문화 프로토콜",
+      "category": "문화와 역사",
+      "status": "지역 네트워크 수치·행사별 연혁 재검증 필요",
+      "summary": "AfrikaBurn·Midburn·Kiwiburn·Burning Japan을 통해 사막의 외형보다 참여·선물·자율운영·흔적 지우기라는 문화 프로토콜이 어떻게 현지화되는지 살핀다.",
+      "tags": [
+        "Regional Burn",
+        "AfrikaBurn",
+        "Midburn",
+        "Kiwiburn",
+        "Burning Japan"
+      ],
+      "related": [
+        "burning-man-community",
+        "burning-man-institutions"
+      ],
+      "aliases": [
+        "Regional Burn",
+        "Burning Man Regional Network",
+        "AfrikaBurn",
+        "Midburn",
+        "Kiwiburn",
+        "Burning Japan"
+      ],
+      "updated": "2026-10-23",
+      "source": "내부 총합 · 지역 행사 연혁과 수치 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-23"
+    },
+    {
+      "path": "wiki/japanese-classical-tv-conductor-image.md",
+      "publish": true,
+      "order": 53,
+      "id": "japanese-classical-tv-conductor-image",
+      "title": "일본의 클래식 해설 방송과 지휘자 이미지: 《題名のない音楽会》 60년의 계보",
+      "category": "음악",
+      "status": "방송 연혁·진행자 계보·세대별 이미지 재검증 필요",
+      "summary": "1964년 시작해 60년을 넘긴 《題名のない音楽会》의 해설·실험 형식, 경쟁작 《オーケストラがやって来た!》, 오자와 세이지부터 《노다메 칸타빌레》까지 세대별 지휘자 이미지를 함께 살핀다.",
+      "tags": [
+        "題名のない音楽会",
+        "클래식 음악방송",
+        "오자와 세이지",
+        "야마모토 나오즈미",
+        "노다메 칸타빌레"
+      ],
+      "related": [
+        "long-running-music-broadcasts",
+        "daisuke-soga-conductor-career",
+        "orchestra-composer-conductor-myth"
+      ],
+      "aliases": [
+        "題名のない音楽会",
+        "제목 없는 음악회",
+        "Untitled Concert",
+        "일본 클래식 TV"
+      ],
+      "updated": "2026-10-24",
+      "source": "내부 총합 · 방송 연혁과 세대별 이미지 외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/ai-domination-gradient.md",
+      "publish": true,
+      "order": 54,
+      "id": "ai-domination-gradient",
+      "title": "AI 지배는 이미 시작되었는가: 사건이 아니라 농도로 보는 통제",
+      "category": "AI와 사회",
+      "status": "철학적 논증·대화 내 자료 기반·외부 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "AI 지배를 미래의 쿠데타가 아니라 현재부터 짙어질 수 있는 농도로 보고, 매개·의존·지배를 구분하며 맥락적 경사, 여덟 층, 사고 출처, p(doom), 카산드라식 조기 탐지를 검토한다.",
+      "tags": [
+        "AI 지배",
+        "인지 인프라",
+        "맥락적 경사",
+        "주변화",
+        "p(doom)",
+        "카산드라"
+      ],
+      "source": "내부 총합 · 철학적 논증 및 대화 내 언급 자료 · 외부 추가 조사 없음",
+      "related": [
+        "ai-human-control-guide",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "llm-disempowerment-patterns",
+        "conversational-ai-persuasion"
+      ],
+      "aliases": [
+        "AI 지배의 농도",
+        "매끄러운 지배",
+        "AI 인지 인프라",
+        "AI 지배는 이미 시작되었다"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/hope-global-box-office.md",
+      "publish": true,
+      "order": 55,
+      "id": "hope-global-box-office",
+      "title": "《호프》 해외 흥행과 선판매: 박스오피스와 투자 회수를 분리해서 읽기",
+      "category": "영화",
+      "status": "2026-10-04 수치 스냅샷·선판매 계약 세부 미공개·후속 시장 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "2026년 10월 4일까지 확인된 《호프》의 한국·북미·영국 등 흥행 경로를 추적하고, 해외 선판매 MG와 현지 박스오피스가 제작비 회수에 어떻게 다르게 작동하는지 다른 한국영화와 비교해 설명한다.",
+      "tags": [
+        "호프",
+        "나홍진",
+        "한국영화",
+        "해외흥행",
+        "선판매",
+        "박스오피스"
+      ],
+      "source": "내부 총합 · 2026-10-04까지 대화 중 확인된 공개 흥행 집계와 선판매 구조 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "호프 해외 흥행",
+        "호프 선판매",
+        "Hope box office",
+        "한국영화 해외 박스오피스"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/stalking-harm-and-autonomy.md",
+      "publish": true,
+      "order": 56,
+      "id": "stalking-harm-and-autonomy",
+      "title": "스토킹 피해를 손상이 아니라 침해로 보기: 관계거부·생활형성·강제된 중요성",
+      "category": "사회와 제도",
+      "status": "법·철학적 분석 개념 · 대화 내 판례·연구 요약 기반 · 외부 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "스토킹 피해를 공포·수치 같은 손상만으로 보지 않고 관계거부, 생활형성의 자유, 강제된 중요성, 성적 의미의 강제적 귀속이라는 침해 구조로 재구성한다.",
+      "tags": [
+        "스토킹",
+        "피해",
+        "생활형성의 자유",
+        "관계거부",
+        "강제된 중요성",
+        "통신매체이용음란"
+      ],
+      "source": "내부 총합 · 대화 중 확인된 판례·연구 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "excellent-victim-kwak-aram"
+      ],
+      "aliases": [
+        "스토킹 피해",
+        "강제된 중요성",
+        "관계거부의 자유",
+        "생활형성의 자유"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/excellent-victim-kwak-aram.md",
+      "publish": true,
+      "order": 57,
+      "id": "excellent-victim-kwak-aram",
+      "title": "『탁월한 피해자』와 곽아람: 비면식 스토킹 기록이 묻는 피해자의 자리",
+      "category": "사회와 제도",
+      "status": "2026년 공개보도·인터뷰 요약 기반 · 사건 진행 및 직함 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "『탁월한 피해자』의 비면식 스토킹 기록과 형사사법 비판, 피해 감정의 규격화 문제, 2026년 공개 활동과 당시 사건 진행 상태를 함께 정리한다.",
+      "tags": [
+        "탁월한 피해자",
+        "곽아람",
+        "비면식 스토킹",
+        "형사사법",
+        "피해자성",
+        "피해자 보호"
+      ],
+      "source": "내부 총합 · 2026년 공개 인터뷰·보도 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "stalking-harm-and-autonomy"
+      ],
+      "aliases": [
+        "탁월한 피해자",
+        "곽아람",
+        "비면식 스토킹 기록"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/chiikawa-philosophy.md",
+      "publish": true,
+      "order": 58,
+      "id": "chiikawa-philosophy",
+      "title": "치이카와를 철학적으로 읽기: 욕망·노동·고귀한 거짓말과 일본의 비평 흐름",
+      "category": "철학",
+      "status": "대화 중 확인된 일본 철학·비평 자료 총합 · 최종 논문 전문 미대조 · 외부 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "플라톤의 욕망론과 고귀한 거짓말로 치이카와 세계의 노동·규칙·행복을 읽고, 알튀세르·캐릭터론·만화표현론·노동비평·졸업논문까지 일본의 분석 흐름을 정리한다.",
+      "tags": [
+        "치이카와",
+        "ちいかわ",
+        "플라톤",
+        "고귀한 거짓말",
+        "욕망",
+        "노동",
+        "캐릭터론",
+        "알튀세르"
+      ],
+      "source": "내부 총합 · 대화 중 확인된 일본 철학·비평 자료와 링크 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "치이카와 철학",
+        "ちいかわ 철학",
+        "치이카와 비평",
+        "고귀한 거짓말로서의 치이카와"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/sumer-bible-primeval-history.md",
+      "publish": true,
+      "order": 59,
+      "id": "sumer-bible-primeval-history",
+      "title": "수메르 재발견과 구약 원초사의 역사화: 홍수·에덴·바벨탑은 어떻게 재배치되었나",
+      "category": "문화와 역사",
+      "status": "대화 중 확인된 고대근동·성서학 자료 요약 기반 · 세부 연대와 학계 견해 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "수메르·아카드·바빌로니아 문헌의 재발견이 창세기 1~11장을 문자 그대로의 역사로 확정한 것이 아니라, 홍수·에덴·바벨탑을 고대 서아시아 원초사 전통과 실제 역사적 배경 속에 재배치한 과정을 설명한다.",
+      "tags": [
+        "수메르",
+        "창세기",
+        "대홍수",
+        "에덴",
+        "바벨탑",
+        "길가메시",
+        "고대근동"
+      ],
+      "source": "내부 총합 · 대화 중 확인된 공개 자료 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "ancient-philosophy-beyond-greece"
+      ],
+      "aliases": [
+        "수메르와 구약",
+        "창세기 원초사",
+        "메소포타미아와 성경",
+        "노아의 홍수와 수메르",
+        "에덴과 딜문"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/europe-russia-escalation-signals-2026.md",
+      "publish": true,
+      "order": 60,
+      "id": "europe-russia-escalation-signals-2026",
+      "title": "2026년 9월 유럽의 ‘3차대전’ 루머를 읽는 법: 영공·드론·하이브리드전과 실제 확전 신호",
+      "category": "사회와 제도",
+      "status": "2026년 9월 보도 스냅샷·귀속 및 후속 조사 재검증 필요",
+      "summary": "리투아니아 드론 격추·발트해 군사접촉·폴란드 경계·룩셈부르크 드론·FSB 국경 루머를 분해하고, NATO Article 4/5와 DEFCON을 구별해 실제 확전 신호를 판별한다.",
+      "tags": [
+        "유럽 안보",
+        "NATO",
+        "러시아",
+        "하이브리드전",
+        "Article 4",
+        "Article 5",
+        "에스토니아"
+      ],
+      "source": "내부 총합 · 2026년 9월 대화 중 확인된 공개 보도 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "war-escalation-local-to-world",
+        "drone-asymmetric-warfare",
+        "global-flashpoints-likelihood-2026"
+      ],
+      "aliases": [
+        "유럽 3차대전 루머",
+        "NATO 확전 신호",
+        "러시아-NATO 회색지대"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26",
+      "updated": "2026-10-26"
+    },
+    {
+      "path": "wiki/war-escalation-local-to-world.md",
+      "publish": true,
+      "order": 61,
+      "id": "war-escalation-local-to-world",
+      "title": "국지전은 어떻게 세계전쟁이 되는가: 1754·1618·1914·1939·1950과 2026년 다중 전선",
+      "category": "문화와 역사",
+      "status": "역사 사례와 2026년 정세 비교·대화 내 자료 기반·세부 재검증 필요",
+      "summary": "세계대전의 핵심을 국지전의 수가 아니라 전쟁들의 전략적 연결에서 찾고, 1754·1618·1914·1939·1950의 확전과 억제 사례를 러시아-유럽·대만·한반도의 동시 위기와 비교한다.",
+      "tags": [
+        "세계대전",
+        "확전",
+        "1914년",
+        "한국전쟁",
+        "대만",
+        "한반도",
+        "동맹"
+      ],
+      "source": "내부 총합 · 역사자료와 2026년 대화 중 확인된 정세 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "europe-russia-escalation-signals-2026",
+        "drone-asymmetric-warfare",
+        "world-crisis-historical-analogies",
+        "critical-optimism-fragile-order",
+        "russia-ukraine-war-endurance",
+        "south-asia-border-rivalries-2026",
+        "global-flashpoints-likelihood-2026"
+      ],
+      "aliases": [
+        "국지전에서 세계대전",
+        "전쟁의 연결",
+        "1914 확전 모형"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26",
+      "updated": "2026-10-26"
+    },
+    {
+      "path": "wiki/drone-asymmetric-warfare.md",
+      "publish": true,
+      "order": 62,
+      "id": "drone-asymmetric-warfare",
+      "title": "드론이 바꾼 비대칭전: 비용교환·후방 소멸·한반도와 아프리카·중앙아시아 사례",
+      "category": "사회와 제도",
+      "status": "전쟁 사례·피해수치·인과관계 외부 재검증 필요",
+      "summary": "드론이 만드는 가격·생산시간·목표가치·귀속의 비대칭을 설명하고, 한반도와 에티오피아·리비아·키르기스스탄-타지키스탄·사헬·수단 사례에서 전황 변화와 한계를 비교한다.",
+      "tags": [
+        "드론",
+        "비대칭전",
+        "한반도",
+        "에티오피아",
+        "리비아",
+        "사헬",
+        "수단"
+      ],
+      "source": "내부 총합 · 대화 중 확인된 분쟁 보고서와 공개 보도 요약 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "war-escalation-local-to-world",
+        "europe-russia-escalation-signals-2026",
+        "black-sea-ukraine-sea-denial",
+        "ukraine-ground-drone-defense"
+      ],
+      "aliases": [
+        "드론 비대칭전",
+        "드론 소모전",
+        "무인기 비대칭전"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26",
+      "updated": "2026-10-26"
+    },
+    {
+      "path": "wiki/anne-carson-nobel-first-reactions.md",
+      "publish": true,
+      "order": 63,
+      "id": "anne-carson-nobel-first-reactions",
+      "title": "앤 카슨의 2026년 노벨문학상 수상 반응: ‘미쳤다’와 독자가 작품을 만나는 경로",
+      "category": "문학",
+      "status": "2026년 수상 직후 보도 재인용 · RÚV 영상·영어 축어록 원문 재대조 필요",
+      "updated": "2026-10-24",
+      "summary": "앤 카슨의 노벨문학상 수상 직후 'crazy' 반응과 독자들이 작품을 접하고 읽게 되는 경로에 관한 발언을 인터뷰별로 구분하고, 원문·의역·편집상 독해의 경계를 정리한다.",
+      "tags": [
+        "앤 카슨",
+        "Anne Carson",
+        "노벨문학상",
+        "2026 노벨문학상",
+        "인터뷰",
+        "문학의 수용",
+        "출판"
+      ],
+      "source": "내부 총합 · 대화 내 보도 재인용 · 영상 및 축어록 외부 재대조 필요",
+      "related": [],
+      "aliases": [
+        "앤 카슨 노벨상 인터뷰",
+        "Anne Carson Nobel reaction",
+        "앤 카슨 미쳤다",
+        "Anne Carson crazy",
+        "문학 작품의 발견"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/hate-escalation-brakes-history.md",
+      "publish": true,
+      "order": 64,
+      "id": "hate-escalation-brakes-history",
+      "title": "혐오의 가속은 파국 없이 멈출 수 있는가: 집단공황과 정치적 선동의 역사적 브레이크",
+      "category": "문화와 역사",
+      "status": "대화 내 역사 사례 요약 · 사건별 세부 사실과 수치 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "전후의 반성이나 체제 붕괴가 아니라, 집단공황과 혐오 정치가 가속 중에 멈춘 청나라 영혼 도둑 공황·바스크 마녀사냥·적색공포·매카시즘·Popish Plot·드레퓌스기의 메커니즘을 비교한다.",
+      "tags": [
+        "혐오",
+        "집단공황",
+        "마녀사냥",
+        "적색공포",
+        "매카시즘",
+        "Popish Plot",
+        "드레퓌스 사건",
+        "정치적 선동",
+        "사회적 가속"
+      ],
+      "source": "내부 총합 · 대화에서 이미 제시된 역사 사례 및 비교 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "dreyfus-affair-intellectuals"
+      ],
+      "aliases": [
+        "혐오 가속의 브레이크",
+        "집단공황의 중단",
+        "파국 전 혐오정치 중단",
+        "혐오사회 되돌리기"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/gwangju-building-art-network.md",
+      "publish": true,
+      "order": 65,
+      "id": "gwangju-building-art-network",
+      "title": "광주의 보이지 않는 길거리 미술관: 아파트·사옥 조형물과 작가·건설 네트워크",
+      "category": "문화와 역사",
+      "status": "대화 중 확인된 작품·작가·제도 자료 총합 · 발주 관계와 세부 사실 재검증 필요",
+      "updated": "2026-10-24",
+      "summary": "광주의 아파트·사옥·오피스텔 앞 건축물 미술을 시대별 미감과 생활환경으로 읽고, 최규철·정춘표·조의현·전용환 등의 작가 계보와 시행사·시공사·대행업체·제작소·심의 구조를 분리해 추적한다.",
+      "tags": [
+        "광주",
+        "건축물 미술작품",
+        "공공미술",
+        "아파트 조각",
+        "도시 미술",
+        "건설사",
+        "시행사",
+        "조각가",
+        "미술품 대행",
+        "심의위원회"
+      ],
+      "source": "내부 총합 · 대화 중 확인된 건축물 미술작품 기록과 작가 경력·제도 자료 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "광주 공공미술",
+        "광주 건축물 미술",
+        "광주 아파트 조각",
+        "광주 길거리 미술관",
+        "광주 조각 네트워크"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-24"
+    },
+    {
+      "path": "wiki/dousureba-yokatta-family-psychiatry.md",
+      "publish": true,
+      "order": 66,
+      "id": "dousureba-yokatta-family-psychiatry",
+      "title": "《어떻게 해야 했을까》와 일본 가족의 치료 결정: 1983년부터 2008년까지",
+      "category": "사회와 제도",
+      "status": "영화 반응·가족사·일본 정신의료 제도·한일 가족문화 비교의 대화 내 확인 자료 총합 · 세부 사실 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "《どうすればよかったか？》의 가족사를 따라 의사 부모의 치료 거부, 1983~2008년 치료 선택지의 변화, 남동생의 법적·문화적 개입 한계와 한일 가족책임 차이를 함께 분석한다.",
+      "tags": [
+        "어떻게 해야 했을까",
+        "どうすればよかったか",
+        "조현병",
+        "일본 정신의료",
+        "가족",
+        "한일 비교",
+        "후지노 도모아키"
+      ],
+      "source": "내부 총합 · 이 대화에서 이미 확인된 공개 자료와 비교 논의 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "어떻게 해야 했을까",
+        "どうすればよかったか？",
+        "후지노 도모아키 가족",
+        "일본 조현병 가족",
+        "일본 가족 개입과 정신의료"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/utsunomiya-psychiatric-hospital-reform.md",
+      "publish": true,
+      "order": 67,
+      "id": "utsunomiya-psychiatric-hospital-reform",
+      "title": "우쓰노미야 병원 사건과 일본 정신의료의 40년: 폐쇄병동·감독 실패·개혁의 반복",
+      "category": "사회와 제도",
+      "status": "우쓰노미야 사건·국회 및 국제조사·후속 정신병원 사건의 대화 내 확인 자료 총합 · 사건별 세부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "1984년 우쓰노미야 병원 사건의 폭행·인력부족·환자 노동·사회적 입원에서 1987년 법 개정, 대화천·아사쿠라·간데·다키야마 사건과 2024년 학대 신고제까지 이어지는 구조를 추적한다.",
+      "tags": [
+        "우쓰노미야 병원",
+        "일본 정신의료",
+        "정신병원",
+        "인권",
+        "장기입원",
+        "정신보건법",
+        "간데병원",
+        "다키야마병원"
+      ],
+      "source": "내부 총합 · 이 대화에서 이미 확인된 국회·행정·국제조사 및 후속 사건 자료 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "우쓰노미야 병원 사건",
+        "宇都宮病院事件",
+        "일본 정신병원 인권",
+        "일본 정신의료 개혁"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/woodwind-reeds-material-history.md",
+      "publish": true,
+      "order": 68,
+      "id": "woodwind-reeds-material-history",
+      "title": "풀 한 조각이 오케스트라의 소리가 되기까지: 목관 리드의 재료·산업·전쟁",
+      "category": "음악",
+      "status": "대화 내 확인·시장 수치와 일부 역사 일화 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "클라리넷·오보에·바순의 리드가 어떻게 소리를 만들고, Arundo donax가 세계 표준이 된 과정과 대체 식물·한국·전쟁기 공급난·연주자 비용을 함께 살핀다.",
+      "tags": [
+        "목관악기",
+        "리드",
+        "Arundo donax",
+        "오보에",
+        "클라리넷",
+        "바순",
+        "공급망"
+      ],
+      "source": "내부 총합 · 외부 추가 조사 없음 · 대화에서 이미 확인된 자료를 재구성",
+      "related": [
+        "instrument-consumables-organic-materials",
+        "orchestra-instrument-stereotypes"
+      ],
+      "aliases": [
+        "목관 리드",
+        "아룬도 도낙스",
+        "리드 공급망",
+        "오보에 리드"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/instrument-consumables-organic-materials.md",
+      "publish": true,
+      "order": 69,
+      "id": "instrument-consumables-organic-materials",
+      "title": "전통 악기를 움직이는 생물성 소모품: 풀·말털·장·가죽·깃털",
+      "category": "음악",
+      "status": "대화 내 확인·재료별 역사 세부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "목관 리드, 활털과 송진, 거트 현, 하프시코드 깃털, 자연피 타악기와 펠트를 통해 전통 악기의 숨은 생물성 공급망을 살핀다.",
+      "tags": [
+        "악기",
+        "소모품",
+        "활털",
+        "거트 현",
+        "송진",
+        "하프시코드",
+        "타악기"
+      ],
+      "source": "내부 총합 · 외부 추가 조사 없음",
+      "related": [
+        "woodwind-reeds-material-history"
+      ],
+      "aliases": [
+        "악기 소모품",
+        "생물성 악기 재료",
+        "활털과 거트 현"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/orchestra-instrument-stereotypes.md",
+      "publish": true,
+      "order": 70,
+      "id": "orchestra-instrument-stereotypes",
+      "title": "오케스트라의 악기별 성격 스테레오타입과 농담",
+      "category": "음악",
+      "status": "스테레오타입 연구·농담 전승 세부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "오보이스트의 예민함, 비올라 농담, 트럼펫의 자신감, 호른의 불안처럼 악기의 업무 조건이 어떻게 파트별 인간형과 내부 농담으로 번역되는지 정리한다.",
+      "tags": [
+        "오케스트라",
+        "스테레오타입",
+        "음악가",
+        "오보에",
+        "비올라",
+        "호른",
+        "농담"
+      ],
+      "source": "내부 총합 · 외부 추가 조사 없음 · 일부 농담은 전형을 설명하기 위해 구성·정리",
+      "related": [
+        "woodwind-reeds-material-history"
+      ],
+      "aliases": [
+        "오케스트라 농담",
+        "악기별 성격",
+        "연주자 스테레오타입"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/hank-asher-data-fusion-ai.md",
+      "publish": true,
+      "order": 71,
+      "id": "hank-asher-data-fusion-ai",
+      "title": "행크 애셔에서 팔란티어까지: 데이터 융합이 AI의 판단 인프라가 되기까지",
+      "category": "AI와 사회",
+      "status": "대화 내 확인·기업사와 최근 기술 세부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "행크 애셔의 DBT·Seisint·MATRIX에서 팔란티어와 에이전트형 AI까지, 검색·결합이 추정·서사화·행동 제안으로 확장되는 데이터 권력의 계보를 살핀다.",
+      "tags": [
+        "행크 애셔",
+        "The Hank Show",
+        "데이터 융합",
+        "팔란티어",
+        "감시",
+        "예측치안",
+        "AI 에이전트"
+      ],
+      "source": "내부 총합 · 외부 재조사 없음 · 사실과 해석 구분",
+      "related": [
+        "ai-democracy-narrow-corridor",
+        "ai-conversation-data-access",
+        "korea-personal-data-lifecycle"
+      ],
+      "aliases": [
+        "행크 쇼와 AI",
+        "Hank Asher",
+        "행크 애셔",
+        "팔란티어와 데이터 융합"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/korea-personal-data-lifecycle.md",
+      "publish": true,
+      "order": 72,
+      "id": "korea-personal-data-lifecycle",
+      "title": "한국 개인정보의 생애: 수집·결합·유출·재사용의 경로",
+      "category": "AI와 사회",
+      "status": "대화 내 확인·법제와 최근 사례 세부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "체크박스와 본인확인부터 광고·가명결합·마이데이터, 유출 뒤의 계정탈취·피싱·영업 DB까지 한국 개인정보가 복제·결합·재사용되는 경로를 추적한다.",
+      "tags": [
+        "개인정보",
+        "한국",
+        "데이터 유출",
+        "CI",
+        "본인확인",
+        "크리덴셜 스터핑",
+        "스미싱",
+        "데이터 결합"
+      ],
+      "source": "내부 총합 · 외부 재조사 없음 · 법제·범죄경로 일부 재검증 필요",
+      "related": [
+        "hank-asher-data-fusion-ai",
+        "ai-democracy-narrow-corridor",
+        "ai-conversation-data-access",
+        "credit-observation-archive"
+      ],
+      "aliases": [
+        "한국 개인정보 유통",
+        "개인정보의 생애",
+        "개인정보 유출 이후",
+        "한국 데이터 브로커"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/endgame-natasha-tony-funeral.md",
+      "publish": true,
+      "order": 73,
+      "id": "endgame-natasha-tony-funeral",
+      "title": "《어벤져스: 엔드게임》의 두 죽음: 나타샤의 희생과 토니 스타크의 장례식",
+      "category": "영화",
+      "status": "제작진 인터뷰·영화 장면의 대화 내 확인 자료 총합 · 세부 인용과 제작 경위 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "보르미르에서 나타샤가 죽게 된 각본·재촬영 과정과 가족·자기결정의 서사 논리, 토니에게만 거대한 장례식이 집중된 이유와 2019~2021년 제작진의 서로 다른 해명을 함께 분석한다.",
+      "tags": [
+        "어벤져스: 엔드게임",
+        "블랙 위도우",
+        "나타샤 로마노프",
+        "토니 스타크",
+        "호크아이",
+        "보르미르",
+        "장례식",
+        "MCU"
+      ],
+      "source": "내부 총합 · 대화에서 이미 확인된 제작진 인터뷰와 영화 장면 분석 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "어벤져스 엔드게임 나타샤",
+        "블랙 위도우 장례식",
+        "나타샤 보르미르",
+        "토니 스타크 장례식",
+        "엔드게임 두 죽음"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/korea-dance-musical-tours.md",
+      "publish": true,
+      "order": 74,
+      "id": "korea-dance-musical-tours",
+      "title": "한국에서 기다릴 대형 뮤지컬: 내한 전망과 춤·아크로바틱 취향의 선택법",
+      "category": "음악",
+      "status": "2026년 9월 대화 내 확인 일정·장기 전망 총합 · 이후 일정과 미확정 한국행 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "2026년 9월 확인 기준으로 한국 대형 뮤지컬의 확정 일정과 장기 내한 신호를 분리하고, 라이온 킹·노트르담 드 파리 같은 신체적 무대 언어를 좋아하는 관객에게 캣츠·MJ·물랑루즈·Some Like It Hot 등을 춤의 성격별로 비교한다.",
+      "tags": [
+        "뮤지컬",
+        "내한",
+        "춤",
+        "아크로바틱",
+        "캣츠",
+        "MJ",
+        "물랑루즈",
+        "라이온 킹",
+        "노트르담 드 파리"
+      ],
+      "source": "내부 총합 · 대화에서 이미 확인된 일정·제작관계·공개 링크만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "한국 뮤지컬 내한",
+        "춤 많은 뮤지컬",
+        "아크로바틱 뮤지컬",
+        "뮤지컬 내한 전망",
+        "라이온 킹 같은 뮤지컬"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "orchestra-repertoire-data-access",
+      "path": "wiki/orchestra-repertoire-data-access.md",
+      "publish": true,
+      "order": 75,
+      "title": "오케스트라를 세는 법: 세계 레퍼토리 데이터와 지역의 클래식 접근성",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "Bachtrack·Operabase·뉴욕 필 공연 DB의 범위, 나라별 오케스트라 수의 함정, 공연장과 30~120분 생활권 접근성 지수 및 2014~2025년 등록 콘서트 추이를 비교한다.",
+      "tags": [
+        "오케스트라 통계",
+        "레퍼토리 데이터",
+        "Bachtrack",
+        "KOPIS",
+        "접근성 지수"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "orchestra-living-composers-canon",
+        "world-orchestras-repertoire-2026",
+        "orchestra-halls-seasons"
+      ],
+      "aliases": [
+        "세계 오케스트라 통계",
+        "Classical Access Index"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "orchestra-living-composers-canon",
+      "path": "wiki/orchestra-living-composers-canon.md",
+      "publish": true,
+      "order": 76,
+      "title": "클래식은 화석인가: 생존 작곡가의 연주와 정전이 자라는 속도",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "Bachtrack 2022~2025년 생존 작곡가·여성 작곡가 통계, 패르트·윌리엄스와 신작 재연의 차이, 음악기관의 현재성을 분석한다.",
+      "tags": [
+        "생존 작곡가",
+        "현대 클래식",
+        "정전",
+        "초연",
+        "재연"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "classical-canon-mauceri",
+        "orchestra-repertoire-data-access",
+        "world-orchestras-repertoire-2026",
+        "orchestra-composer-conductor-myth",
+        "living-orchestral-listening-journey"
+      ],
+      "aliases": [
+        "살아 있는 작곡가",
+        "현대 클래식 정전"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "world-orchestras-repertoire-2026",
+      "path": "wiki/world-orchestras-repertoire-2026.md",
+      "publish": true,
+      "order": 77,
+      "title": "세계 5대 오케스트라의 2026년 프로그램: 전통, 실험, 계승, 세대교체",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "빈·베를린·콘세르트헤바우·런던 심포니·시카고의 주요 작품·지휘자·시즌 전략을 대조하고 레퍼토리 기반 캐릭터 비평을 분리한다.",
+      "tags": [
+        "2026 오케스트라",
+        "빈 필",
+        "베를린 필",
+        "LSO",
+        "시카고 심포니",
+        "콘세르트헤바우"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "orchestra-living-composers-canon",
+        "korean-orchestras-repertoire-2026",
+        "conductors-career-encores",
+        "orchestra-halls-seasons",
+        "living-orchestral-listening-journey"
+      ],
+      "aliases": [
+        "세계 5대 교향악단",
+        "세계 명문 악단 2026"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "korean-orchestras-repertoire-2026",
+      "path": "wiki/korean-orchestras-repertoire-2026.md",
+      "publish": true,
+      "order": 78,
+      "title": "한국 교향악단의 2026년 레퍼토리: 도시 이미지가 아니라 실제 선곡으로 구별하기",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "서울·KBS·국립·부산·인천·부천·대구·광주·대전·수원·경기필의 확인된 2026년 프로그램과 인상비평의 한계를 구별한다.",
+      "tags": [
+        "한국 교향악단",
+        "2026 시즌",
+        "서울시향",
+        "인천시향",
+        "부천필",
+        "큐레이션"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "world-orchestras-repertoire-2026",
+        "orchestra-repertoire-data-access",
+        "orchestra-living-composers-canon"
+      ],
+      "aliases": [
+        "한국 오케스트라 캐릭터",
+        "한국 교향악단 선곡"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "orchestration-instrument-history",
+      "path": "wiki/orchestration-instrument-history.md",
+      "publish": true,
+      "order": 79,
+      "title": "오케스트라라는 악기의 내부: 편성 비용, 협주곡, 새 음색의 역사",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "말러 대편성의 고용·리허설 비용, 라흐마니노프의 타악·하프, 바로크 협주곡, 음악 공간의 역사, 첼레스타와 새로운 어쿠스틱 악기 계보를 총합한다.",
+      "tags": [
+        "관현악법",
+        "말러",
+        "라흐마니노프",
+        "협주곡",
+        "첼레스타",
+        "악기 혁신"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "woodwind-reeds-material-history",
+        "orchestra-instrument-stereotypes",
+        "orchestra-halls-seasons",
+        "orchestra-living-composers-canon"
+      ],
+      "aliases": [
+        "오케스트레이션 역사",
+        "새 어쿠스틱 악기"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "conductors-career-encores",
+      "path": "wiki/conductors-career-encores.md",
+      "publish": true,
+      "order": 80,
+      "title": "지휘자 스타 시스템의 미래: 클라우스 메켈레, 젊은 지휘자 붐, 앵콜의 마지막 한마디",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "메켈레의 암스테르담·시카고 동시 취임과 젊은 지휘자 세대교체, 벤치·칸텔리·쉬퍼스 등의 역사적 사례, 앵콜 선곡을 구분한다.",
+      "tags": [
+        "지휘자",
+        "클라우스 메켈레",
+        "젊은 지휘자",
+        "앵콜",
+        "스타 시스템"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "daisuke-soga-conductor-career",
+        "world-orchestras-repertoire-2026",
+        "orchestra-living-composers-canon",
+        "orchestra-composer-conductor-myth",
+        "living-orchestral-listening-journey"
+      ],
+      "aliases": [
+        "Klaus Mäkelä",
+        "메켈레 현상",
+        "지휘자 앵콜"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "orchestra-halls-seasons",
+      "path": "wiki/orchestra-halls-seasons.md",
+      "publish": true,
+      "order": 81,
+      "title": "오케스트라는 어디에 사는가: 이름, 시즌, 콘서트홀과 신년음악회",
+      "category": "음악",
+      "status": "내부 총합 · 수치·공연 일정·역사 세부 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "Symphony·Philharmonic 명칭의 역사, 가을 개막 시즌과 한국의 달력연도 시즌, 다섯 명문 악단의 본거지 홀·좌석 수, 빈 필 신년음악회 중계와 추첨을 다룬다.",
+      "tags": [
+        "콘서트홀",
+        "무지크페라인",
+        "오케스트라 시즌",
+        "필하모닉",
+        "신년음악회",
+        "빈 필"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 기존 위키만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "world-orchestras-repertoire-2026",
+        "orchestra-repertoire-data-access",
+        "orchestration-instrument-history"
+      ],
+      "aliases": [
+        "2027 빈 필 신년음악회",
+        "세계 콘서트홀"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "ai-compute-scaling-inference",
+      "path": "wiki/ai-compute-scaling-inference.md",
+      "publish": true,
+      "order": 82,
+      "title": "AI는 계산이 많아지면 무엇이 달라지는가: 데이터센터와 추론 스케일링",
+      "category": "AI와 사회",
+      "status": "대화 내 확인 자료 총합 · 데이터센터 규모·기업 계획·추론 연구 세부 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "AI 데이터센터 증설을 단순한 더 큰 사전학습이 아니라 test-time compute, 병렬 탐색·검증, 과학·코딩·피지컬 AI 계산의 확대로 읽고 계산량의 한계를 함께 정리한다.",
+      "tags": [
+        "AI 데이터센터",
+        "추론 스케일링",
+        "test-time compute",
+        "AI 인프라",
+        "병렬 탐색",
+        "verifier"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의와 이미 제시된 링크만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "japan-physical-ai-skill-transfer",
+        "wto-digital-transmission-moratorium",
+        "ai-cloud-ownership-rent",
+        "ai-hidden-labor-feeding-machine-2026",
+        "data-center-world-capacity",
+        "owner-aligned-automated-power"
+      ],
+      "aliases": [
+        "AI 데이터센터와 추론",
+        "test-time scaling",
+        "추론 컴퓨트",
+        "AI 계산 스케일링"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "japan-physical-ai-skill-transfer",
+      "path": "wiki/japan-physical-ai-skill-transfer.md",
+      "publish": true,
+      "order": 83,
+      "title": "사라지는 손을 데이터로 바꿀 수 있는가: 일본의 피지컬 AI와 숙련 전승",
+      "category": "AI와 사회",
+      "status": "대화 내 확인 자료 총합 · 기업 발표·정부 목표·국가 비교 해석 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "가와사키 Successor와 Honda 다지 핸드부터 Toyota·Yaskawa·FANUC·AIST까지, 일본이 숙련자의 손동작·힘 조절을 로봇 학습 데이터로 옮기려는 흐름을 정리한다.",
+      "tags": [
+        "피지컬 AI",
+        "로봇",
+        "일본",
+        "숙련 전승",
+        "손지능",
+        "모방학습",
+        "촉각 센서"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 논의와 이미 제시된 기업·정부 링크만 사용 · 이번 편집에서 외부 추가 조사 없음",
+      "related": [
+        "ai-compute-scaling-inference",
+        "ai-economic-transition",
+        "physical-ai-world-model-quantum-optimization",
+        "manufacturing-optimization-solo-business"
+      ],
+      "aliases": [
+        "일본 피지컬 AI",
+        "손지능",
+        "숙련 전승 로봇",
+        "Physical AI Japan"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/ai-transition-policy-gap.md",
+      "publish": true,
+      "order": 84,
+      "id": "ai-transition-policy-gap",
+      "title": "AI 이행기의 정책 공백: 재교육이 해결하지 못하는 구조적 노동 대체",
+      "category": "AI와 사회",
+      "status": "조건부 정책 시뮬레이션·외부 미검증",
+      "updated": "2026-10-30",
+      "summary": "국제기구가 위험을 인식해도 대응하지 못하는 조건, 재교육의 거시적 한계, 자동화·재정·조세·정치의 시차를 분석한다.",
+      "tags": [
+        "AI",
+        "경제 이행기",
+        "재교육",
+        "국제기구",
+        "노동 수요",
+        "경제학",
+        "정책 실패"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-economic-transition",
+        "ai-capital-labor-distribution",
+        "gradual-disempowerment",
+        "ai-adoption-ceiling-floor",
+        "ai-transition-monetary-order"
+      ],
+      "aliases": [
+        "AI 재교육의 한계",
+        "AI 이행기 정책 실패",
+        "국제기구와 AI 경제"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/bird-vocalization-sparrow.md",
+      "publish": true,
+      "order": 85,
+      "id": "bird-vocalization-sparrow",
+      "title": "새소리는 어디까지 번역되었는가: 행동 신호에서 참새의 짹짹까지",
+      "category": "자연과 과학",
+      "status": "대화 내부의 연구 소개 총합 · 논문별 세부 분류·수치 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "종 인식·발성 유형·행동 신호·인간 언어 번역의 차이를 일본박새·금화조·한국 참새 연구로 검토하고, 참새 아홉 유형과 도시 소음 연구의 검증 경계를 정리한다.",
+      "tags": [
+        "새소리",
+        "동물 의사소통",
+        "참새",
+        "Passer montanus",
+        "조류 발성",
+        "BirdNET",
+        "일본박새",
+        "금화조"
+      ],
+      "source": "내부 총합 · 현재 보이는 대화 범위 · 외부 추가 조사 없음 · 일부 논문 분류와 지역 연구 주장 재검증 필요",
+      "related": [],
+      "aliases": [
+        "새소리 번역",
+        "새의 언어",
+        "참새 울음소리",
+        "참새어",
+        "조류 의사소통"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/music-books-supply-attention.md",
+      "publish": true,
+      "order": 86,
+      "id": "music-books-supply-attention",
+      "title": "음악과 책의 공급 폭발: 한 사람의 귀와 눈은 얼마나 따라갈 수 있는가",
+      "category": "문화",
+      "status": "대화 내부 추정·검토 필요",
+      "updated": "2026-10-26",
+      "summary": "음악과 종이책의 역사적 생산량, 개인 소비시간, AI 공급, 차트 집중과 큐레이션을 비교하며 관측과 추정의 경계를 검토한다.",
+      "tags": [
+        "음악 생산량",
+        "출판",
+        "독서",
+        "청취시간",
+        "주의력",
+        "생성 AI"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "living-notes",
+        "mood-led-music-listening",
+        "information-hype-wow-index"
+      ],
+      "aliases": [
+        "문화 공급 과잉",
+        "음악과 책의 생산 소비 격차"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/deleuze-number-intensity-spatium.md",
+      "publish": true,
+      "order": 87,
+      "id": "deleuze-number-intensity-spatium",
+      "title": "수에서 비동등한 것은 무엇을 하는가: 기수·서수, 강도와 들뢰즈의 spatium",
+      "category": "철학",
+      "status": "내부 총합 · 수식 및 원전 용례 재검증 필요",
+      "summary": "기수·서수와 강도적 spatium에 더해 소여와 가치, 감각적 잡다, 카르노·퀴리의 원리, 강도의 질화·연장·자기소멸을 구분한다.",
+      "tags": [
+        "들뢰즈",
+        "기수",
+        "서수",
+        "무리수",
+        "비동등성",
+        "spatium",
+        "세계 영혼",
+        "카르노",
+        "퀴리",
+        "감성",
+        "소여",
+        "질화"
+      ],
+      "aliases": [
+        "수의 기수와 서수",
+        "강도적 공-간",
+        "spatium과 강도",
+        "비동등한 수"
+      ],
+      "related": [
+        "deleuze-becoming-new",
+        "deleuze-negation-history",
+        "ancient-philosophy-beyond-greece"
+      ],
+      "updated": "2026-10-25",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/ancient-philosophy-beyond-greece.md",
+      "publish": true,
+      "order": 88,
+      "id": "ancient-philosophy-beyond-greece",
+      "title": "그리스만이 철학의 고향인가: 고대 지중해와 서아시아의 사상가·고서·전승",
+      "category": "문화와 역사",
+      "status": "내부 총합 · 저자 귀속과 편년 재검증 필요",
+      "summary": "그리스 중심 철학사의 제도적 배경과 이집트·메소포타미아·바빌로니아·레반트·페르시아·페니키아·카르타고의 문헌을 시기·장르·전승별로 비교한다.",
+      "tags": [
+        "고대 철학",
+        "그리스",
+        "이집트",
+        "메소포타미아",
+        "페르시아",
+        "지혜문학",
+        "철학 정전"
+      ],
+      "aliases": [
+        "그리스 중심 철학사",
+        "그리스 외부 고대 사상",
+        "고대 근동 지혜문학"
+      ],
+      "related": [
+        "sumer-bible-primeval-history",
+        "deleuze-number-intensity-spatium",
+        "deleuze-becoming-new"
+      ],
+      "updated": "2026-10-25",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/dreyfus-affair-intellectuals.md",
+      "publish": true,
+      "order": 89,
+      "id": "dreyfus-affair-intellectuals",
+      "title": "드레퓌스 사건과 지식인들의 분열: 작가·학자·화가들은 어느 편에 섰는가",
+      "category": "문화와 역사",
+      "status": "대화 내부 총합 · 인물별 서명·입장 및 역사 세부 사료 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "졸라·클레망소·프루스트·뒤르켐과 드뤼몽·바레스·드가 등 드레퓌스 사건을 둘러싼 지식인·예술가의 진영과 행동을 구분하고, 반유대주의·군 권위·지식인의 공적 책임을 분석한다.",
+      "tags": [
+        "드레퓌스 사건",
+        "지식인",
+        "나는 고발한다",
+        "에밀 졸라",
+        "프루스트",
+        "뒤르켐",
+        "드가",
+        "반유대주의",
+        "프랑스 제3공화국"
+      ],
+      "source": "내부 총합 · 현재 접근 가능한 대화에서 제시된 인물 목록과 참고 링크만 활용 · 이번 편집에서 외부 재조사 없음",
+      "related": [
+        "hate-escalation-brakes-history"
+      ],
+      "aliases": [
+        "드레퓌스파",
+        "반드레퓌스파",
+        "Dreyfus Affair",
+        "드레퓌스 사건의 지식인",
+        "지식인 선언"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/world-crisis-historical-analogies.md",
+      "publish": true,
+      "order": 90,
+      "id": "world-crisis-historical-analogies",
+      "title": "세계는 다시 1914·1929·1939년으로 향하는가: 벨 에포크와 세 번의 파국을 비교하는 법",
+      "category": "문화와 역사",
+      "summary": "벨 에포크, 1929년 대공황, 1930년대 후반의 서로 다른 위기 메커니즘과 현대의 완충·연쇄 위험을 비교한다.",
+      "tags": [
+        "벨 에포크",
+        "1914년",
+        "1929년",
+        "1939년",
+        "세계경제",
+        "역사 유비",
+        "세계화"
+      ],
+      "aliases": [
+        "현대와 대공황 직전 비교",
+        "벨 에포크의 종언",
+        "세계대전 전야의 현재",
+        "현대 위기의 역사적 유비"
+      ],
+      "related": [
+        "war-escalation-local-to-world",
+        "critical-optimism-fragile-order",
+        "state-hollowing-index",
+        "roman-industry-gold-standard-history",
+        "great-depression-lived-experience-literature"
+      ],
+      "status": "현재 접근 가능한 논의와 코어 시범자료 기반 · 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/critical-optimism-fragile-order.md",
+      "publish": true,
+      "order": 91,
+      "id": "critical-optimism-fragile-order",
+      "title": "파국의 비용은 브레이크가 될 수 있는가: 비극적 완충론과 비판적 낙관주의",
+      "category": "정치경제",
+      "summary": "AI 구원론을 제외한 비용 피드백·핵 억지·금융 방화벽·에너지 전환과 제도 공동화의 반론으로 최소 낙관의 조건을 검토한다.",
+      "tags": [
+        "비판적 낙관론",
+        "비극적 완충론",
+        "위기",
+        "파국 회피",
+        "금융 안정",
+        "지정학",
+        "재균형"
+      ],
+      "aliases": [
+        "비극적 완충론",
+        "비싼 안정",
+        "AI 없는 낙관론",
+        "비판적 낙관의 수정해"
+      ],
+      "related": [
+        "world-crisis-historical-analogies",
+        "state-hollowing-index",
+        "state-hollowing-country-pilot",
+        "war-escalation-local-to-world"
+      ],
+      "status": "현재 접근 가능한 논의와 코어 시범자료 기반 · 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/state-hollowing-index.md",
+      "publish": true,
+      "order": 92,
+      "id": "state-hollowing-index",
+      "title": "국가는 언제 껍데기가 되는가: 형해화·좀비 국가·생활세계의 디스토피아",
+      "category": "정치경제",
+      "summary": "주권의 법적 외형과 기능적 연속성을 구분하고 폭력·행정·화폐·사회 재생산 등 아홉 층의 형해화 지수를 설계한다.",
+      "tags": [
+        "국가 형해화",
+        "좀비 국가",
+        "실패 국가",
+        "사회 재생산",
+        "국가 취약성",
+        "국가 역량",
+        "디스토피아"
+      ],
+      "aliases": [
+        "국가 형해화 지수",
+        "좀비 국가 지수",
+        "State Hollowing Index",
+        "국가 생명력 지수"
+      ],
+      "related": [
+        "state-hollowing-country-pilot",
+        "critical-optimism-fragile-order",
+        "world-crisis-historical-analogies"
+      ],
+      "status": "현재 접근 가능한 논의와 코어 시범자료 기반 · 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/state-hollowing-country-pilot.md",
+      "publish": true,
+      "order": 93,
+      "id": "state-hollowing-country-pilot",
+      "title": "20개국 국가 형해화 시범 측정: 네 지표로 본 껍데기와 기능의 불일치",
+      "category": "정치경제",
+      "summary": "GPI·FSI·물가·정부부채의 코어 v0.1 산식과 20개국 입력·점수, 결측 대체와 민감도·과잉해석의 한계를 기록한다.",
+      "tags": [
+        "20개국 비교",
+        "GPI",
+        "FSI",
+        "물가상승률",
+        "정부부채",
+        "취약국가",
+        "예비 지수"
+      ],
+      "aliases": [
+        "국가 형해화 20개국 표",
+        "좀비 국가 코어 v0.1",
+        "국가 공동화 국가별 비교"
+      ],
+      "related": [
+        "state-hollowing-index",
+        "critical-optimism-fragile-order"
+      ],
+      "status": "현재 접근 가능한 논의와 코어 시범자료 기반 · 외부 재검증 필요",
+      "updated": "2026-10-25",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/mood-led-music-listening.md",
+      "publish": true,
+      "order": 94,
+      "id": "mood-led-music-listening",
+      "title": "기분에서 곡으로: 열다섯 곡의 탐색형 청취 지도",
+      "category": "음악",
+      "status": "추천 가설·청취 반응 미확인",
+      "updated": "2026-10-25",
+      "summary": "서늘한 밤, 낯설어진 세계, SF적 확장감, 절제된 우울함과 한국 음악으로 나눈 15곡의 추천 및 우선 청취 4곡을 취향 가설로 정리한다.",
+      "tags": [
+        "음악 추천",
+        "청취 가이드",
+        "큐레이션",
+        "취향 탐색",
+        "한국 인디"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "music-books-supply-attention"
+      ],
+      "aliases": [
+        "분위기별 음악 추천",
+        "15곡 청취 지도"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/venice-biennale-history.md",
+      "publish": true,
+      "order": 95,
+      "id": "venice-biennale-history",
+      "title": "베니스 비엔날레: 정원 박람회에서 세계 미술의 판단 장치까지",
+      "category": "문화와 역사",
+      "status": "대화 내부 자료 총합 · 연대·관람 수치와 시장 효과 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "1895년의 도시 박람회에서 국가관·냉전·1968년의 제도 비판·큐레이터 시대를 거쳐 반년간 스타와 학술적 평판을 만드는 구조를 분석한다.",
+      "tags": [
+        "베니스 비엔날레",
+        "미술사",
+        "세계 박람회",
+        "국가관",
+        "1968년",
+        "큐레이터",
+        "미술 시장",
+        "스터디셀러"
+      ],
+      "source": "대화에 포함된 역사·전시·비평 자료를 총합한 지식 원고. 본 편집에서 신규 외부 조사 없음.",
+      "related": [
+        "venice-biennale-sites-pavilions",
+        "venice-biennale-2026-critical-reception"
+      ],
+      "aliases": [
+        "베니스 비엔날레 역사",
+        "Biennale di Venezia",
+        "Venice Biennale",
+        "베니스 효과"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/venice-biennale-sites-pavilions.md",
+      "publish": true,
+      "order": 96,
+      "id": "venice-biennale-sites-pavilions",
+      "title": "자르디니와 아르세날레: 베니스 비엔날레의 두 공간과 국가관 지도",
+      "category": "문화와 역사",
+      "status": "공간과 국가관 목록 대화 총합 · 2026 개관·참여 배치 확인 필요",
+      "updated": "2026-10-25",
+      "summary": "정원형 국가관 마을 자르디니와 옛 해군 공창 아르세날레의 체험 차이, 30개 국가명과 공동관·건물 수의 함정, 2026년 배치를 구분한다.",
+      "tags": [
+        "자르디니",
+        "Giardini",
+        "아르세날레",
+        "Arsenale",
+        "국가관",
+        "전시 공간",
+        "베네치아",
+        "한국관"
+      ],
+      "source": "대화에 포함된 역사·전시·비평 자료를 총합한 지식 원고. 본 편집에서 신규 외부 조사 없음.",
+      "related": [
+        "venice-biennale-history",
+        "venice-biennale-2026-critical-reception"
+      ],
+      "aliases": [
+        "자르디니",
+        "Giardini della Biennale",
+        "아르세날레",
+        "Arsenale",
+        "베니스 국가관 목록"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/venice-biennale-2026-critical-reception.md",
+      "publish": true,
+      "order": 97,
+      "id": "venice-biennale-2026-critical-reception",
+      "title": "2026 베니스 비엔날레: 'In Minor Keys'의 비평, 정치적 파열과 느린 평가",
+      "category": "문화와 역사",
+      "status": "대화에 제시된 비평·보도 정리 · 개별 원문·작품·사건 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "코요 쿠오의 사후 구현과 중앙전의 과밀·정치적 회피 논란, 대립하는 평론 및 주목받은 국가관·작품을 장기 평가의 문제와 연결한다.",
+      "tags": [
+        "2026 베니스 비엔날레",
+        "In Minor Keys",
+        "Koyo Kouoh",
+        "비평",
+        "전시 기획",
+        "정치와 예술",
+        "국가관",
+        "동시대미술"
+      ],
+      "source": "대화에 포함된 역사·전시·비평 자료를 총합한 지식 원고. 본 편집에서 신규 외부 조사 없음.",
+      "related": [
+        "venice-biennale-history",
+        "venice-biennale-sites-pavilions"
+      ],
+      "aliases": [
+        "2026 베니스 비엔날레",
+        "In Minor Keys",
+        "2026 Venice Biennale",
+        "코요 쿠오 비엔날레"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/credit-observation-archive.md",
+      "publish": true,
+      "order": 98,
+      "id": "credit-observation-archive",
+      "title": "이름의 출현을 기록하는 크레딧 아카이브: 판권면·스탭롤·인사발령",
+      "category": "기술·지식 아카이브",
+      "status": "프로젝트 설계·예시 판독 검토 필요",
+      "updated": "2026-10-25",
+      "summary": "책 판권면과 영화·예능 스탭롤, 공공 인사기록을 출현 로그로 저장하고 동명이인 인물 후보와 원문 크레딧을 구별하는 데이터 모델·단계별 수집·검수 및 공개 정책.",
+      "tags": [
+        "크레딧",
+        "판권면",
+        "영화 스탭롤",
+        "인명 데이터베이스",
+        "동명이인",
+        "라즈베리파이"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "book-preview-credit-sourcing",
+        "korea-personal-data-lifecycle"
+      ],
+      "aliases": [
+        "크레딧 지도",
+        "이름 관찰 DB",
+        "출현 기록 DB",
+        "크레딧 아카이브"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/book-preview-credit-sourcing.md",
+      "publish": true,
+      "order": 99,
+      "id": "book-preview-credit-sourcing",
+      "title": "온라인 서점 미리보기와 판권면 수집: 기술적 가능성과 허용 범위",
+      "category": "기술·지식 아카이브",
+      "status": "자료 수집 설계·서비스별 조건 미검증",
+      "updated": "2026-10-25",
+      "summary": "서점 상품정보·본문 발췌·미리보기 이미지를 구별하고 공식 메타데이터·출판사 샘플·수동 검수·제휴를 비교하는 판권면 수집 전략.",
+      "tags": [
+        "온라인 서점",
+        "책 미리보기",
+        "OCR",
+        "ISBN",
+        "자료 수집",
+        "출처 검증"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "credit-observation-archive",
+        "korea-personal-data-lifecycle",
+        "book-translation-pipeline-local-llm"
+      ],
+      "aliases": [
+        "미리보기 크롤링",
+        "판권면 OCR",
+        "서점 도서정보 API"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "hegel-fichte-schelling-difference",
+      "path": "wiki/hegel-fichte-schelling-difference.md",
+      "publish": true,
+      "order": 100,
+      "title": "헤겔의 『피히테와 셸링 철학 체계의 차이』: 주관의 동일성과 절대적 동일성",
+      "category": "철학",
+      "status": "내부 총합 · 원전 문구·비교 해석 재검토 필요",
+      "updated": "2026-10-25",
+      "summary": "피히테의 자아·비자아가 남기는 대립, 셸링의 자연과 정신, 헤겔의 동일성과 비동일성 및 초기·후기 평가의 차이를 읽는다.",
+      "tags": [
+        "헤겔",
+        "피히테",
+        "셸링",
+        "동일성",
+        "비동일성",
+        "독일 관념론"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 예시만 사용 · 외부 재조사 없음",
+      "related": [
+        "deleuze-negation-history"
+      ],
+      "aliases": [
+        "피히테와 셸링의 철학 체계의 차이",
+        "헤겔 초기 동일성",
+        "형식과 본질"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "deleuze-unthinkable-fold-thought",
+      "path": "wiki/deleuze-unthinkable-fold-thought.md",
+      "publish": true,
+      "order": 101,
+      "title": "사유의 중심에 접혀 있는 불가능자: 생각할 수 없음이 생각을 움직일 때",
+      "category": "철학",
+      "status": "내부 총합 · 원전 문구·비교 해석 재검토 필요",
+      "updated": "2026-10-25",
+      "summary": "사유의 내부에 안-주름잡힌 불가능성을 죽음·자기인식·사랑의 비유와 사유에 대한 강제라는 문제로 구별해 설명한다.",
+      "tags": [
+        "들뢰즈",
+        "사유",
+        "불가능자",
+        "안-주름",
+        "강제된 사유"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 예시만 사용 · 외부 재조사 없음",
+      "related": [
+        "deleuze-negation-history"
+      ],
+      "aliases": [
+        "사유의 불가능자",
+        "안주름",
+        "사유의 내부의 접힘"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "id": "freud-before-anti-oedipus",
+      "path": "wiki/freud-before-anti-oedipus.md",
+      "publish": true,
+      "order": 102,
+      "title": "『안티 오이디푸스』 전에 읽는 프로이트: 한 권과 두 권의 선택",
+      "category": "철학",
+      "status": "내부 총합 · 원전 문구·비교 해석 재검토 필요",
+      "updated": "2026-10-26",
+      "summary": "한 권은 『정신분석 입문』, 두 권은 『꿈의 해석』과 『성욕에 관한 세 편의 에세이』로 읽는 목적과 선택 근거를 구분한다.",
+      "tags": [
+        "프로이트",
+        "안티 오이디푸스",
+        "꿈의 해석",
+        "정신분석 입문",
+        "성욕에 관한 세 편의 에세이"
+      ],
+      "source": "내부 총합 · 접근 가능한 논의 및 예시만 사용 · 외부 재조사 없음",
+      "related": [
+        "deleuze-becoming-new",
+        "deleuze-negation-history",
+        "freud-dreams-modern-science",
+        "lacan-anti-oedipus-history"
+      ],
+      "aliases": [
+        "안티 오이디푸스 사전 독서",
+        "프로이트 입문서 추천",
+        "반오이디푸스 읽기"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/fruit-flesh-living-cells.md",
+      "publish": true,
+      "order": 103,
+      "id": "fruit-flesh-living-cells",
+      "title": "사과는 딴 뒤에도 살아 있는가: 과육 세포·호흡·숙성·노화",
+      "category": "생명과학",
+      "status": "내부 총합 · 생물학적 일반화 및 창작 유비의 한계 검토 필요",
+      "updated": "2026-10-25",
+      "summary": "쪼글쪼글한 사과의 속살이 버티는 이유를 살아 있는 유조직 세포, 팽압·세포벽·펙틴, ATP 호흡, 후숙·저장과 현미경 관찰로 설명한다.",
+      "tags": [
+        "사과",
+        "과육",
+        "식물세포",
+        "세포호흡",
+        "ATP",
+        "숙성",
+        "후숙",
+        "펙틴",
+        "팽압",
+        "현미경"
+      ],
+      "source": "내부 총합·외부 추가 조사 없음",
+      "related": [
+        "gut-fiber-fermentation"
+      ],
+      "aliases": [
+        "사과 세포",
+        "과육은 살아 있는가",
+        "사과 숙성과 호흡",
+        "과육 현미경"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/gut-fiber-fermentation.md",
+      "publish": true,
+      "order": 104,
+      "id": "gut-fiber-fermentation",
+      "title": "소화하지 못하는 것을 먹는 이유: 식이섬유·발효·방귀의 시간표",
+      "category": "생명과학",
+      "status": "내부 총합 · 생물학적 일반화 및 창작 유비의 한계 검토 필요",
+      "updated": "2026-10-25",
+      "summary": "셀룰로오스와 종이의 역설에서 출발해 불용성·발효성 섬유질, 장내 미생물의 교차급식, 유당과 밀 프룩탄, 가스 및 배변 시간을 구별한다.",
+      "tags": [
+        "식이섬유",
+        "셀룰로오스",
+        "장내 발효",
+        "FODMAP",
+        "유당",
+        "프룩탄",
+        "방귀",
+        "대장",
+        "소화 시간",
+        "짧은사슬지방산"
+      ],
+      "source": "내부 총합·외부 추가 조사 없음",
+      "related": [
+        "fruit-flesh-living-cells",
+        "gut-microbiome-colonization"
+      ],
+      "aliases": [
+        "섬유질과 종이",
+        "방귀가 나오는 이유",
+        "치즈 밀가루 가스",
+        "장내 발효 시간표"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/gut-microbiome-colonization.md",
+      "publish": true,
+      "order": 105,
+      "id": "gut-microbiome-colonization",
+      "title": "내 몸속의 인구와 이민: 장내미생물·항생제·정착 저항·미생물 이식",
+      "category": "생명과학",
+      "status": "내부 총합 · 생물학적 일반화 및 창작 유비의 한계 검토 필요",
+      "updated": "2026-10-25",
+      "summary": "수십조 미생물의 개인별 군집과 짧은 세대시간을 출발점으로 항생제 교란, 프로바이오틱스의 일시적 통과, 분변미생물 이식의 정착과 위험을 생태학적으로 비교한다.",
+      "tags": [
+        "장내미생물",
+        "항생제",
+        "프로바이오틱스",
+        "정착 저항",
+        "FMT",
+        "분변미생물 이식",
+        "박테리오파지",
+        "홀로바이온트",
+        "미생물 생태계",
+        "미생물 수"
+      ],
+      "source": "내부 총합·외부 추가 조사 없음",
+      "related": [
+        "gut-fiber-fermentation",
+        "gut-cosmic-horror-worldbuilding"
+      ],
+      "aliases": [
+        "장내미생물 생태계",
+        "유산균 정착",
+        "FMT 정착",
+        "인간 39조 미생물"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/gut-cosmic-horror-worldbuilding.md",
+      "publish": true,
+      "order": 106,
+      "id": "gut-cosmic-horror-worldbuilding",
+      "title": "위대한 내부의 공포: 장내 생태계를 코스믹 호러 세계로 바꾸는 법",
+      "category": "창작",
+      "status": "내부 총합 · 생물학적 일반화 및 창작 유비의 한계 검토 필요",
+      "updated": "2026-10-25",
+      "summary": "세균의 이분법·세대시간·먹이 유입·점액층·파지·항생제를 이질적 문명의 법칙으로 번역하고, 룸·아라·무오의 미스터리와 두 차례의 서사 구상 차이를 분석한다.",
+      "tags": [
+        "코스믹 호러",
+        "러브크래프트",
+        "장내 세계",
+        "이분법",
+        "세계관",
+        "단편소설",
+        "미생물 문명",
+        "반전",
+        "서사 구조",
+        "안쪽의 별"
+      ],
+      "source": "내부 총합·외부 추가 조사 없음",
+      "related": [
+        "gut-microbiome-colonization",
+        "gut-fiber-fermentation"
+      ],
+      "aliases": [
+        "안쪽의 별 설정",
+        "젖은 별의 도시 구상",
+        "장내 세균 공포소설",
+        "룸 세계관"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/dwar-netflix-revival.md",
+      "publish": true,
+      "order": 107,
+      "id": "dwar-netflix-revival",
+      "title": "《디워》의 2026년 넷플릭스 역주행: 플랫폼 내부 확산과 외부 바이럴",
+      "category": "영화",
+      "status": "대화 내부 자료 기반·외부 재검증 필요",
+      "updated": "2026-10-25",
+      "summary": "유럽 넷플릭스 신규 편입, 해외 최신 보도, 동시기 구작 비교와 플랫폼 내부 확산 가설의 증거 및 한계.",
+      "tags": [
+        "디워",
+        "Dragon Wars",
+        "넷플릭스",
+        "스트리밍",
+        "바이럴",
+        "괴수영화"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [],
+      "aliases": [
+        "D-War 역주행",
+        "Dragon Wars Netflix"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-25"
+    },
+    {
+      "path": "wiki/freud-dreams-modern-science.md",
+      "publish": true,
+      "order": 108,
+      "id": "freud-dreams-modern-science",
+      "title": "『꿈의 해석』 이후의 꿈: 망각, 현실감, 금기와 무의식",
+      "category": "철학·심리",
+      "status": "내부 총합 · 개별 자료 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "꿈 망각·현실감·금기 경험의 수면 신경과학과 꿈 공학·악몽 치료, 현대의 무의식·자아·초자아 연구를 구분한다.",
+      "tags": [
+        "꿈의 해석",
+        "꿈 연구",
+        "REM",
+        "자각몽",
+        "프로이트"
+      ],
+      "source": "내부 총합 · 원대화에 제시된 자료 범위 · 외부 추가 조사 없음",
+      "related": [
+        "freud-before-anti-oedipus",
+        "lacan-anti-oedipus-history"
+      ],
+      "aliases": [
+        "꿈 망각",
+        "꿈의 현실감",
+        "현대 꿈 연구"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/lacan-anti-oedipus-history.md",
+      "publish": true,
+      "order": 109,
+      "id": "lacan-anti-oedipus-history",
+      "title": "라캉이 사상권력이던 시절: 『안티 오이디푸스』 전후의 정신분석과 독서 지도",
+      "category": "철학·사상사",
+      "status": "내부 총합 · 개별 자료 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "라캉의 세미나·학파·출판 권력, 1972년 반정신분석의 맥락, 1980~2020년대 변천과 입문 독서 목록.",
+      "tags": [
+        "라캉",
+        "안티 오이디푸스",
+        "정신분석",
+        "프랑스 철학"
+      ],
+      "source": "내부 총합 · 원대화에 제시된 자료 범위 · 외부 추가 조사 없음",
+      "related": [
+        "freud-before-anti-oedipus",
+        "freud-dreams-modern-science",
+        "philosophical-systems-after-2000",
+        "contemporary-intellectual-power"
+      ],
+      "aliases": [
+        "라캉 독서",
+        "라캉주의의 역사",
+        "에크리"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/philosophical-systems-after-2000.md",
+      "publish": true,
+      "order": 110,
+      "id": "philosophical-systems-after-2000",
+      "title": "거대한 철학적 성채는 사라졌는가: 21세기의 정전과 체계 구축",
+      "category": "철학·사상사",
+      "status": "내부 총합 · 개별 자료 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "바디우·슬로터다이크·지젝·브랜덤·라뤼엘·스티글레르·위크 후이·네가레스타니·네일 등 체계형 철학의 독서 지도.",
+      "tags": [
+        "철학 정전",
+        "거대서사",
+        "차이와 반복",
+        "현대철학",
+        "철학적 체계"
+      ],
+      "source": "내부 총합 · 원대화에 제시된 자료 범위 · 외부 추가 조사 없음",
+      "related": [
+        "post-deleuze-novelty-thinkers",
+        "deleuze-becoming-new",
+        "lacan-anti-oedipus-history",
+        "contemporary-intellectual-power"
+      ],
+      "aliases": [
+        "벽돌책 철학",
+        "철학의 거대서사",
+        "21세기 정전 후보"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/contemporary-intellectual-power.md",
+      "publish": true,
+      "order": 111,
+      "id": "contemporary-intellectual-power",
+      "title": "사상권력은 누구에게 있는가: 학파·제도·정책과 반발의 지도",
+      "category": "철학·사상사",
+      "status": "내부 총합 · 개별 자료 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "개념·교육·임상·정책·반발의 힘을 구분하고 AI 안전·젠더·CRT·DEI·신유물론·탈성장 담론의 권력 양식을 검토한다.",
+      "tags": [
+        "사상권력",
+        "장기주의",
+        "AI 안전",
+        "젠더",
+        "DEI",
+        "탈성장"
+      ],
+      "source": "내부 총합 · 원대화에 제시된 자료 범위 · 외부 추가 조사 없음",
+      "related": [
+        "lacan-anti-oedipus-history",
+        "philosophical-systems-after-2000"
+      ],
+      "aliases": [
+        "현대 사상권력",
+        "사상과 정책",
+        "학파 권력"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/wiki-operations-pipeline.md",
+      "publish": true,
+      "order": 112,
+      "id": "wiki-operations-pipeline",
+      "title": "원고만 쓰고 나머지는 기계에게: 편집 지도·자동 배포·정비로 바꾼 위키 운영",
+      "category": "운영",
+      "status": "운영 개편 기록",
+      "updated": "2026-10-26",
+      "summary": "GPT 위키 초기 구상의 접근성 문제를 이어받아 생성물 자동 배포, 전체 지도·문서 카드·지식 표제 역색인을 통한 계층적 읽기, 프로토콜 v2.0 경량화, 일상 증보와 정비의 분리, 편집 해석으로서의 종합, LLM이 링크로 읽을 수 있는 입구 정비.",
+      "tags": [
+        "위키 운영",
+        "GitHub Actions",
+        "편집 지도",
+        "정비",
+        "LLM",
+        "색인"
+      ],
+      "source": "내부 총합 · 저장소 구현 확인 · 외부 조사 없음",
+      "related": [
+        "wiki-building-history",
+        "editing-principles",
+        "living-notes",
+        "gpt-wiki-zero-prototype"
+      ],
+      "aliases": [
+        "위키 운영 개편",
+        "편집 지도",
+        "정비 절차",
+        "LLM 원문 링크",
+        "자동 배포",
+        "프로토콜 경량화"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/replay-ladder-human-performance.md",
+      "publish": true,
+      "order": 113,
+      "id": "replay-ladder-human-performance",
+      "title": "재생 사다리: 기술 전환은 인간 수행의 가치를 어디로 옮기는가",
+      "category": "종합",
+      "status": "편집 해석",
+      "updated": "2026-10-26",
+      "summary": "극장 음악가·드럼키트·숙련 전승을 엮어 재생 사다리, 잔여와 대기실, 압축, 전수의 창, 자리의 고착과 숙련의 고착이라는 다섯 개념을 제안하는 교차 종합.",
+      "tags": [
+        "종합",
+        "기술 전환",
+        "노동",
+        "숙련",
+        "재생",
+        "협상력"
+      ],
+      "source": "위키 내부 종합 · 외부 조사 없음",
+      "related": [
+        "silent-film-musician-labor",
+        "jazz-ensemble-labor",
+        "japan-physical-ai-skill-transfer",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "ai-capital-labor-distribution",
+        "ai-transition-policy-gap",
+        "open-questions"
+      ],
+      "aliases": [
+        "재생 사다리",
+        "기술 전환과 인간 수행",
+        "전수의 창"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null,
+      "kind": "synthesis",
+      "synthesis_type": "cross",
+      "based_on": [
+        "silent-film-musician-labor",
+        "jazz-ensemble-labor",
+        "japan-physical-ai-skill-transfer",
+        "gradual-disempowerment",
+        "disempowerment-measurement",
+        "ai-capital-labor-distribution",
+        "ai-transition-policy-gap",
+        "open-questions"
+      ]
+    },
+    {
+      "path": "wiki/black-sea-ukraine-sea-denial.md",
+      "publish": true,
+      "order": 114,
+      "id": "black-sea-ukraine-sea-denial",
+      "title": "흑해에서 함대 없는 나라가 함대를 밀어낸 방법: 우크라이나의 해상거부",
+      "category": "사회와 제도",
+      "status": "2026년 봄까지 언급된 자료 기반 · 시점 한정 · 정량 추정 및 최신 정세 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "군함 3분의 1 무력화 발언의 분모, 흑해의 기능별 제해권·해상거부, 항로 회복과 남은 위협을 구분한다.",
+      "tags": [
+        "해상거부",
+        "흑해",
+        "우크라이나",
+        "해상드론",
+        "러시아 흑해함대"
+      ],
+      "source": "내부 총합 · 실제 접근 가능한 지식과 기존 원고 기반 · 외부 추가 조사 없음",
+      "related": [
+        "drone-asymmetric-warfare",
+        "ukraine-ground-drone-defense",
+        "russia-ukraine-war-endurance"
+      ],
+      "aliases": [
+        "흑해 해상거부",
+        "흑해 무인정",
+        "흑해함대 3분의 1"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/ukraine-ground-drone-defense.md",
+      "publish": true,
+      "order": 115,
+      "id": "ukraine-ground-drone-defense",
+      "title": "우크라이나 전선을 떠받치는 무인체계: 정찰·FPV·전자전·AI·지상로봇",
+      "category": "사회와 제도",
+      "status": "2026년 봄까지 언급된 자료 기반 · 시점 한정 · 정량 추정 및 최신 정세 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "드론 킬존과 전선 유지의 병목, AI와 UGV의 별개 역할, 기여율 수치의 추정 한계를 분석한다.",
+      "tags": [
+        "우크라이나",
+        "FPV",
+        "전자전",
+        "AI",
+        "UGV",
+        "무인기",
+        "반사실적 평가"
+      ],
+      "source": "내부 총합 · 실제 접근 가능한 지식과 기존 원고 기반 · 외부 추가 조사 없음",
+      "related": [
+        "drone-asymmetric-warfare",
+        "black-sea-ukraine-sea-denial",
+        "russia-ukraine-war-endurance"
+      ],
+      "aliases": [
+        "우크라이나 드론 방어",
+        "AI 지상전",
+        "UGV 보급"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/russia-ukraine-war-endurance.md",
+      "publish": true,
+      "order": 116,
+      "id": "russia-ukraine-war-endurance",
+      "title": "러시아와 우크라이나는 얼마나 더 버틸 수 있는가: 소모전·병력 재생산·국가 내구도",
+      "category": "사회와 제도",
+      "status": "2026년 봄까지 언급된 자료 기반 · 시점 한정 · 정량 추정 및 최신 정세 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "러시아 120만 사상자와 전사자 추정의 차이, 손실의 사회적 배분, 우크라이나의 병력·방공·재정 병목 및 전쟁 경로를 구분한다.",
+      "tags": [
+        "우크라이나전",
+        "러시아 사상자",
+        "전쟁 내구도",
+        "모병",
+        "군수산업",
+        "방공",
+        "소모전"
+      ],
+      "source": "내부 총합 · 실제 접근 가능한 지식과 기존 원고 기반 · 외부 추가 조사 없음",
+      "related": [
+        "ukraine-ground-drone-defense",
+        "black-sea-ukraine-sea-denial",
+        "war-escalation-local-to-world"
+      ],
+      "aliases": [
+        "우크라이나 전쟁 내구도",
+        "러시아 전사자 임계치",
+        "120만 사상자"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/south-asia-border-rivalries-2026.md",
+      "publish": true,
+      "order": 117,
+      "id": "south-asia-border-rivalries-2026",
+      "title": "남아시아의 세 국경: 인도·파키스탄·중국·아프가니스탄의 서로 다른 충돌 구조",
+      "category": "사회와 제도",
+      "status": "2026년 봄까지 언급된 자료 기반 · 시점 한정 · 정량 추정 및 최신 정세 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "카슈미르의 테러·보복, 인중 고산국경·댐 경쟁, 탈레반과 TTP를 둘러싼 아프간-파키스탄 충돌을 분리해 분석한다.",
+      "tags": [
+        "카슈미르",
+        "인도",
+        "파키스탄",
+        "중국",
+        "아프가니스탄",
+        "TTP",
+        "듀랜드 라인",
+        "LAC"
+      ],
+      "source": "내부 총합 · 실제 접근 가능한 지식과 기존 원고 기반 · 외부 추가 조사 없음",
+      "related": [
+        "global-flashpoints-likelihood-2026",
+        "war-escalation-local-to-world"
+      ],
+      "aliases": [
+        "인도 파키스탄 분쟁",
+        "인도 중국 국경",
+        "파키스탄 탈레반",
+        "아프가니스탄 파키스탄 분쟁"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/global-flashpoints-likelihood-2026.md",
+      "publish": true,
+      "order": 118,
+      "id": "global-flashpoints-likelihood-2026",
+      "title": "전쟁은 아직 시작되지 않았지만 어디서 먼저 충돌할까: 2026년 분쟁 단층선 확률 순위",
+      "category": "사회와 제도",
+      "status": "2026년 봄까지 언급된 자료 기반 · 시점 한정 · 정량 추정 및 최신 정세 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "파급력과 분리한 소규모 충돌 발발가능성 중심 순위와 교전 중 지역 제외 기준을 제시한다.",
+      "tags": [
+        "분쟁 순위",
+        "발발 가능성",
+        "태국 캄보디아",
+        "남중국해",
+        "카슈미르",
+        "대만해협",
+        "한반도"
+      ],
+      "source": "내부 총합 · 실제 접근 가능한 지식과 기존 원고 기반 · 외부 추가 조사 없음",
+      "related": [
+        "south-asia-border-rivalries-2026",
+        "war-escalation-local-to-world",
+        "europe-russia-escalation-signals-2026"
+      ],
+      "aliases": [
+        "세계 분쟁 고위험 단층선",
+        "발발 가능성 순위",
+        "분쟁 확률 순위"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/jewish-messianic-claimants-kabbalah.md",
+      "publish": true,
+      "order": 119,
+      "id": "jewish-messianic-claimants-kabbalah",
+      "title": "유대교의 수많은 메시아들: 중세의 구원 운동에서 카발라와 샤브타이 츠비까지",
+      "category": "문화와 역사",
+      "status": "접근 가능한 개략 서술 기반 · 일부 전승·연대·메시아 자칭 여부 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "크레타의 모세에서 샤브타이 츠비와 프랑크까지 메시아 참칭자, 선구자, 예언자와 카발라 신비가의 차이를 시대별로 구분한다.",
+      "tags": [
+        "유대교",
+        "메시아주의",
+        "카발라",
+        "아불라피아",
+        "샤브타이 츠비",
+        "다비드 알로이",
+        "마이모니데스",
+        "종교사"
+      ],
+      "source": "내부 총합 · 접근 가능한 역사 개설과 기존에 언급된 참고 경로만 반영 · 외부 추가 조사 없음",
+      "related": [],
+      "aliases": [
+        "중세 유대교 메시아",
+        "유대 메시아 참칭자",
+        "유대교의 메시아들",
+        "카발라와 메시아주의",
+        "Pseudo-Messiahs"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/luddite-movement-history.md",
+      "publish": true,
+      "order": 120,
+      "id": "luddite-movement-history",
+      "title": "러다이트 운동: 기계 파괴에서 교수대까지",
+      "category": "문화와 역사",
+      "status": "대화 기반 집필 · 개인별 처형 명단과 인용 원문 검증 필요",
+      "updated": "2026-10-26",
+      "summary": "1811~1817년 러다이트의 지역별 발단, 기술과 임금의 갈등, 무장 충돌과 법·재판·기억의 문제.",
+      "tags": [
+        "러다이트",
+        "산업혁명",
+        "노동사",
+        "기계 파괴"
+      ],
+      "source": "내부 총합 · 대화에 제시된 자료만 반영 · 외부 추가 조사 없음",
+      "related": [
+        "luddite-executions-memory"
+      ],
+      "aliases": [
+        "러다이트 운동",
+        "Luddite movement",
+        "네드 러드"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/luddite-executions-memory.md",
+      "publish": true,
+      "order": 121,
+      "id": "luddite-executions-memory",
+      "title": "러다이트 처형자와 기억: 이름, 재판, 그리고 남겨진 기록",
+      "category": "문화와 역사",
+      "status": "대화 기반 집필 · 개인별 처형 명단과 인용 원문 검증 필요",
+      "updated": "2026-10-26",
+      "summary": "러다이트 관련 사형 선고와 집행의 차이, 인물별 명단 검증, 후기 봉기, 역사서 공개본과 번역 저작권의 쟁점.",
+      "tags": [
+        "러다이트",
+        "산업혁명",
+        "노동사",
+        "기계 파괴"
+      ],
+      "source": "내부 총합 · 대화에 제시된 자료만 반영 · 외부 추가 조사 없음",
+      "related": [
+        "luddite-movement-history",
+        "book-translation-pipeline-local-llm"
+      ],
+      "aliases": [
+        "러다이트 처형자",
+        "러다이트 사형자 명단",
+        "Luddite executions"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/information-hype-wow-index.md",
+      "publish": true,
+      "order": 122,
+      "id": "information-hype-wow-index",
+      "title": "호들갑 감정기: 정보의 와우·확성·과열 차수를 구별하는 법",
+      "category": "정보와 미디어",
+      "status": "예비 평가 모형·외부 실측 검증 필요",
+      "updated": "2026-10-26",
+      "summary": "정보 피로를 실제 중요도·본래의 놀라움·유통 강도로 분해하는 호들갑 감정기 설계. 과열 차수의 산식, 수치 혼선의 교정, 가상 사례, 링크·캡처 입력과 커스텀 GPT 평가 지침을 설명한다.",
+      "tags": [
+        "정보 피로",
+        "주의력 배분",
+        "호들갑 지수",
+        "와우 지수",
+        "확성 지수",
+        "정보 과열",
+        "커스텀 GPT"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "music-books-supply-attention",
+        "open-questions"
+      ],
+      "aliases": [
+        "호들갑 지수",
+        "호들갑 감정기",
+        "과열 차수",
+        "와우 지표",
+        "와우 지수",
+        "확성 지수",
+        "정보 과열 감정"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "publish": true,
+      "updated": "2026-10-26",
+      "last_enriched_on": "2026-10-26",
+      "review_state": "needs_review",
+      "source": "내부 총합·외부 미검증",
+      "status": "대화 기반 집필",
+      "aliases": [],
+      "path": "wiki/climate-population-villain-logic.md",
+      "order": 123,
+      "id": "climate-population-villain-logic",
+      "title": "탄소예산과 인구 감축의 오류: 기후 디스토피아의 과학과 윤리",
+      "category": "자연과 과학",
+      "summary": "인구 감소와 탄소배출의 단순 비례 계산, 1.5도 예산의 불확실성, 학살 정당화의 논리적 비약",
+      "tags": [
+        "기후위기",
+        "탄소예산",
+        "인구",
+        "디스토피아"
+      ],
+      "related": [
+        "climate-breath-fiction"
+      ]
+    },
+    {
+      "publish": true,
+      "updated": "2026-10-26",
+      "last_enriched_on": "2026-10-26",
+      "review_state": "needs_review",
+      "source": "내부 총합·외부 미검증",
+      "status": "대화 기반 집필",
+      "aliases": [],
+      "path": "wiki/climate-breath-fiction.md",
+      "order": 124,
+      "id": "climate-breath-fiction",
+      "title": "숨결: 기후 구원의 이름으로",
+      "category": "소설",
+      "kind": "fiction",
+      "fiction_part": "work",
+      "revised": false,
+      "summary": "아르카디아와 에바, 아이린의 기후 디스토피아 장면집",
+      "tags": [
+        "디스토피아",
+        "기후소설",
+        "아르카디아"
+      ],
+      "related": [
+        "climate-population-villain-logic"
+      ]
+    },
+    {
+      "path": "wiki/gpt-wiki-zero-prototype.md",
+      "publish": true,
+      "order": 125,
+      "id": "gpt-wiki-zero-prototype",
+      "title": "GPT 위키 제0호기: 대화 내보내기에서 지속 집필의 기억 장치로",
+      "category": "운영",
+      "status": "초기 구상·구현 기록 아님",
+      "updated": "2026-11-02",
+      "summary": "ChatGPT 내보내기와 Codex를 출발점으로, 원본·대화별 변환본·지식 정본의 분리, canon·결정 장부·문맥 묶음·미정 설정 관리, GPT 접근 경로와 집필-승인-증보 순환을 설계한 선행 구상.",
+      "tags": [
+        "GPT 위키",
+        "대화 내보내기",
+        "Codex",
+        "canon",
+        "외부 기억",
+        "집필 일관성",
+        "운영사"
+      ],
+      "source": "내부 총합·외부 미검증·초기 논의의 정확한 시각 미확인",
+      "related": [
+        "wiki-building-history",
+        "wiki-operations-pipeline",
+        "editing-principles",
+        "local-llm-novel-agent-m1"
+      ],
+      "aliases": [
+        "GPT 위키 제로호기",
+        "GPT 위키 0호기",
+        "GPT 위키 초기 구상",
+        "ChatGPT 내보내기 위키",
+        "GPT 기억 위키"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/starcraft-pluto-ai.md",
+      "publish": true,
+      "order": 126,
+      "id": "starcraft-pluto-ai",
+      "title": "Pluto AI와 인간의 스타크래프트: 자가대전이 만든 다른 메타",
+      "category": "AI와 사회",
+      "status": "대화 기반 집필 · 경기 전적·개발자 발언·세부 수치 외부 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "Pluto의 개발자와 구조, 자가대전 강화학습, 한국 프로 대인전, API 조작 우위와 인간 메타의 충돌, 드롭·치즈 등 취약점과 인간의 적응, 개발자의 공개 반응 경계를 총합한다.",
+      "tags": [
+        "StarCraft",
+        "Brood War",
+        "Pluto AI",
+        "tscmoo",
+        "강화학습",
+        "자가대전",
+        "게임 AI",
+        "BWAPI",
+        "프로게이머",
+        "인간-AI 대결"
+      ],
+      "source": "내부 총합·외부 미검증·2026-10-08까지 대화에서 확인된 공개 정보",
+      "related": [],
+      "aliases": [
+        "Pluto AI",
+        "플루토 AI",
+        "스타크래프트 플루토",
+        "tscmoo Pluto"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/late-qing-yongying-daily-life.md",
+      "publish": true,
+      "order": 131,
+      "id": "late-qing-yongying-daily-life",
+      "title": "청말 500명의 군영은 어떻게 움직였는가: 영·초·대의 조직과 하루",
+      "category": "문화와 역사",
+      "status": "대화 범위에서 총합·증보 · 상세 사료 대조 필요",
+      "updated": "2026-10-26",
+      "summary": "1880년대 상군·회군식 505명 영의 편제와 무기·물류·지휘의 층위, 설명용 하루 일과, 원세개 '금주 72영' 동원 위협의 검증 경계를 구별한다.",
+      "tags": [
+        "청말",
+        "용영",
+        "상군",
+        "회군",
+        "영초대",
+        "군제",
+        "원세개"
+      ],
+      "source": "내부 총합 · 외부 미검증",
+      "related": [
+        "qing-tributaries-dissolution",
+        "ryukyu-disposition-qing-japan",
+        "east-asia-telegraph-network-1880s"
+      ],
+      "aliases": [
+        "청말 영 편제",
+        "505명 영",
+        "영 초 대",
+        "金州 72營"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/qing-tributaries-dissolution.md",
+      "publish": true,
+      "order": 132,
+      "id": "qing-tributaries-dissolution",
+      "title": "마지막 속방의 소멸: 류큐·베트남·버마·조선에서 청의 종주권은 어떻게 무너졌는가",
+      "category": "문화와 역사",
+      "status": "대화 범위에서 총합·증보 · 상세 사료 대조 필요",
+      "updated": "2026-10-26",
+      "summary": "류큐의 행정 편입, 베트남의 프랑스 보호국화, 버마 병합, 조선의 청일전쟁과 네팔의 의례적 조공을 비교해 청의 속방 해체를 설명한다.",
+      "tags": [
+        "청말",
+        "속방",
+        "조공질서",
+        "류큐",
+        "베트남",
+        "버마",
+        "조선",
+        "종주권"
+      ],
+      "source": "내부 총합 · 외부 미검증",
+      "related": [
+        "late-qing-yongying-daily-life",
+        "ryukyu-disposition-qing-japan",
+        "east-asia-telegraph-network-1880s"
+      ],
+      "aliases": [
+        "청의 마지막 속방",
+        "조선 청 속방",
+        "청나라 속방 상실"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/ryukyu-disposition-qing-japan.md",
+      "publish": true,
+      "order": 127,
+      "id": "ryukyu-disposition-qing-japan",
+      "title": "전쟁 없이 사라진 왕국: 1872~1880년 류큐 처분과 청의 딜레마",
+      "category": "문화와 역사",
+      "status": "대화 범위에서 총합·증보 · 상세 사료 대조 필요",
+      "updated": "2026-10-26",
+      "summary": "류큐의 이중 종속, 1872년 번 편입부터 1879년 현 설치까지의 일본 행정 강제, 청의 군사적 선택과 1880년 분할안을 살핀다.",
+      "tags": [
+        "류큐 처분",
+        "오키나와현",
+        "청일관계",
+        "1879년",
+        "메이지",
+        "종주권"
+      ],
+      "source": "내부 총합 · 외부 미검증",
+      "related": [
+        "qing-tributaries-dissolution",
+        "late-qing-yongying-daily-life"
+      ],
+      "aliases": [
+        "류큐 처분",
+        "류큐 병합 1879",
+        "오키나와 현 설치",
+        "琉球處分"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/east-asia-telegraph-network-1880s.md",
+      "publish": true,
+      "order": 128,
+      "id": "east-asia-telegraph-network-1880s",
+      "title": "조선의 전보는 어떻게 도쿄에 도착했는가: 1871~1888년 동아시아 전신망의 세 단계",
+      "category": "기술·지식 아카이브",
+      "status": "대화 범위에서 총합·증보 · 상세 사료 대조 필요",
+      "updated": "2026-10-26",
+      "summary": "조선발 인편·선편과 일본 전신망의 연결, 1883년 부산 해저선, 1885년 서로전선, 1888년 남로전선 및 한자전보 부호를 추적한다.",
+      "tags": [
+        "조선 전신",
+        "해저전신",
+        "나가사키",
+        "부산",
+        "대북부전신회사",
+        "한자 전보",
+        "19세기 통신"
+      ],
+      "source": "내부 총합 · 외부 미검증",
+      "related": [
+        "great-northern-telegraph-east-asia",
+        "qing-tributaries-dissolution",
+        "late-qing-yongying-daily-life"
+      ],
+      "aliases": [
+        "조선 일본 전보 경로",
+        "부산 나가사키 해저전신선",
+        "서로전선 남로전선",
+        "한자 전보 부호"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/great-northern-telegraph-east-asia.md",
+      "publish": true,
+      "order": 129,
+      "id": "great-northern-telegraph-east-asia",
+      "title": "코펜하겐에서 나가사키까지: 대북부전신회사는 동아시아의 바다에 어떻게 전선을 놓았는가",
+      "category": "기술·지식 아카이브",
+      "status": "대화 범위에서 총합·증보 · 상세 사료 대조 필요",
+      "updated": "2026-10-26",
+      "summary": "덴마크 대북부전신회사의 러시아 양허·영국 협상·일본 육양 허가·부설선·케이블 기술과 1871~1872년 개통, 1883년 부산선의 사업사를 다룬다.",
+      "tags": [
+        "대북부전신회사",
+        "Great Northern Telegraph",
+        "해저케이블",
+        "티에트겐",
+        "나가사키",
+        "상하이",
+        "블라디보스토크"
+      ],
+      "source": "내부 총합 · 외부 미검증",
+      "related": [
+        "east-asia-telegraph-network-1880s",
+        "qing-tributaries-dissolution"
+      ],
+      "aliases": [
+        "덴마크 대북부전신회사",
+        "Great Northern Telegraph Company",
+        "1871 나가사키 해저케이블",
+        "티에트겐 전신회사"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/where-novelty-comes-from.md",
+      "publish": true,
+      "order": 130,
+      "id": "where-novelty-comes-from",
+      "title": "새로움은 어디서 오는가: 다시 도는 형식, 다시 세운 문제, 식지 않은 차이",
+      "category": "종합",
+      "status": "편집 해석",
+      "updated": "2026-10-26",
+      "summary": "들뢰즈의 차이와 문제, 재즈의 코러스와 인터플레이, 이 위키의 편집 원칙을 엮어 코러스로서의 문서, 문제 교체, 열기관으로서의 위키, 접힌 질문, 듣기의 선택이라는 다섯 개념을 제안하는 교차 종합.",
+      "tags": [
+        "종합",
+        "새로움",
+        "반복",
+        "차이",
+        "즉흥",
+        "위키"
+      ],
+      "source": "위키 내부 종합 · 외부 조사 없음",
+      "related": [
+        "living-notes",
+        "open-questions",
+        "editing-principles",
+        "deleuze-negation-history",
+        "deleuze-becoming-new",
+        "deleuze-number-intensity-spatium",
+        "deleuze-unthinkable-fold-thought",
+        "post-deleuze-novelty-thinkers",
+        "jazz-dialogue",
+        "jazz-live-quartet-case",
+        "jazz-ensemble-labor"
+      ],
+      "aliases": [
+        "새로움은 어디서 오는가",
+        "코러스로서의 문서",
+        "열기관으로서의 위키",
+        "접힌 질문"
+      ],
+      "review_state": "unassessed",
+      "last_enriched_on": null,
+      "kind": "synthesis",
+      "synthesis_type": "cross",
+      "based_on": [
+        "living-notes",
+        "open-questions",
+        "editing-principles",
+        "deleuze-negation-history",
+        "deleuze-becoming-new",
+        "deleuze-number-intensity-spatium",
+        "deleuze-unthinkable-fold-thought",
+        "post-deleuze-novelty-thinkers",
+        "jazz-dialogue",
+        "jazz-live-quartet-case",
+        "jazz-ensemble-labor"
+      ]
+    },
+    {
+      "path": "wiki/hormuz-iran-war-naval-power-2026.md",
+      "publish": true,
+      "order": 133,
+      "id": "hormuz-iran-war-naval-power-2026",
+      "title": "호르무즈 해협은 왜 함대로 열 수 없는가: 2026년 이란전과 인도양 해군력",
+      "category": "사회와 제도",
+      "status": "2026년 봄 전황 분석 · 사실관계 검토 필요",
+      "updated": "2026-10-26",
+      "summary": "차바하르와 인도 해군의 전략, 주요 해군의 전력 비교, 호르무즈 해상거부·소해·항행 복구, 미군 증원과 휴전 시나리오, 이란의 기지 공격 및 F-15E 손실 보도의 증거 수준을 구별한다.",
+      "tags": [
+        "호르무즈",
+        "이란전",
+        "차바하르",
+        "인도 해군",
+        "미군",
+        "해상거부",
+        "비대칭전"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "drone-asymmetric-warfare",
+        "south-asia-border-rivalries-2026",
+        "black-sea-ukraine-sea-denial",
+        "war-escalation-local-to-world"
+      ],
+      "aliases": [
+        "호르무즈 해협 봉쇄",
+        "2026 이란전 해군력",
+        "차바하르와 인도양 해군"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/chabahar-india-strategic-autonomy-2026.md",
+      "publish": true,
+      "order": 134,
+      "id": "chabahar-india-strategic-autonomy-2026",
+      "title": "차바하르의 딜레마: 인도는 왜 이란 항구를 포기하기 어려운가",
+      "category": "사회와 제도",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "차바하르 항만과 인도의 전략적 자율성, 미국 제재, 운영과 신규투자, 인도 언론의 관점 차이",
+      "tags": [
+        "2026 이란전",
+        "인도양",
+        "호르무즈"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "hormuz-iran-war-naval-power-2026"
+      ],
+      "aliases": [],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/indian-ocean-navies-comparison.md",
+      "publish": true,
+      "order": 135,
+      "id": "indian-ocean-navies-comparison",
+      "title": "인도양의 함대들: 인도·호주와 해군력을 비교하는 네 가지 척도",
+      "category": "사회와 제도",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "인도·호주 해군 전력과 훈련, 중국·파키스탄 위협, 주요 해군의 임무별 비교",
+      "tags": [
+        "2026 이란전",
+        "인도양",
+        "호르무즈"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "hormuz-iran-war-naval-power-2026"
+      ],
+      "aliases": [],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/hormuz-sea-denial-reopening.md",
+      "publish": true,
+      "order": 136,
+      "id": "hormuz-sea-denial-reopening",
+      "title": "호르무즈의 군사적 개방: 기뢰와 미사일을 넘어 상선을 다시 움직이려면",
+      "category": "사회와 제도",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "호르무즈 해상거부와 제해권, 기뢰 제거, 도서·해안, 상선 호위와 상업항행 복구",
+      "tags": [
+        "2026 이란전",
+        "인도양",
+        "호르무즈"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "hormuz-iran-war-naval-power-2026"
+      ],
+      "aliases": [],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/iran-war-us-force-losses-2026.md",
+      "publish": true,
+      "order": 137,
+      "id": "iran-war-us-force-losses-2026",
+      "title": "2026년 이란전의 미군 증원과 항공기 손실: 무엇이 확인되고 무엇이 남았는가",
+      "category": "사회와 제도",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-26",
+      "summary": "중동 미군 증원과 기지 공격, F-15E·A-10 손실 보도, 승무원 구조, 휴전과 재개전",
+      "tags": [
+        "2026 이란전",
+        "인도양",
+        "호르무즈"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "hormuz-iran-war-naval-power-2026"
+      ],
+      "aliases": [],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-26"
+    },
+    {
+      "path": "wiki/birth-order-korean-evidence.md",
+      "publish": true,
+      "order": 138,
+      "id": "birth-order-korean-evidence",
+      "title": "출생순서가 성격을 만드는가: 한국 연구와 국제 비교의 증거",
+      "category": "사회와 제도",
+      "status": "대화 기반 연구 정리 · 원문 검증 필요",
+      "updated": "2026-10-30",
+      "summary": "출생순서 성격론의 재현성, 인지·학업의 작은 평균 차이, 한국의 부모화·차별적 양육 연구, 국제 비교의 한계를 구분한다.",
+      "tags": [
+        "출생순서",
+        "형제관계",
+        "부모화",
+        "성격심리학",
+        "한국 연구"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [],
+      "aliases": [
+        "출생순위 이론",
+        "맏이 성격 연구"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/wto-digital-transmission-moratorium.md",
+      "publish": true,
+      "order": 139,
+      "id": "wto-digital-transmission-moratorium",
+      "title": "디지털 국경에도 관세가 생기는가: WTO 전자적 전송 모라토리엄과 AI 인터넷",
+      "category": "사회와 제도",
+      "status": "2026년 제도 변화·대화 기반 정리 · 외부 원문 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "1998년 WTO 전자적 전송 관세 유예의 반복 갱신과 2026년 MC14 연장 실패 보도, 브라질·인도의 입장, 망 이용대가와의 구별, AI 모델·클라우드·데이터센터의 국경 간 영향과 불확실성을 분리한다.",
+      "tags": [
+        "WTO",
+        "전자상거래 모라토리엄",
+        "전자적 전송",
+        "디지털 관세",
+        "브라질",
+        "인도",
+        "망 이용대가",
+        "AI 데이터센터"
+      ],
+      "source": "내부 총합·대화에 제시된 원출처 링크 보존·외부 재검증 없음",
+      "related": [
+        "ai-compute-scaling-inference"
+      ],
+      "aliases": [
+        "WTO 전자상거래 모라토리엄",
+        "전자적 전송 관세 유예",
+        "디지털 관세와 AI",
+        "디지털 무역 모라토리엄",
+        "WTO e-commerce moratorium"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/money-credit-seigniorage-critique.md",
+      "publish": true,
+      "order": 140,
+      "id": "money-credit-seigniorage-critique",
+      "title": "돈은 부채이지만 왜 곧장 약탈이 되지 않는가: 『왜 그들만 부자가 되는가』의 화폐론 비평",
+      "category": "정치경제",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "은행의 예금통화 창조, 세뇨리지, 칸티용 효과, 생산적·투기적 신용, 통화정책과 불평등을 구별하며 『왜 그들만 부자가 되는가』의 논리적 비약을 검토",
+      "tags": [
+        "화폐",
+        "신용창조",
+        "세뇨리지",
+        "칸티용 효과",
+        "오스트리아학파",
+        "경제서 비평"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "roman-industry-gold-standard-history"
+      ],
+      "aliases": [
+        "왜 그들만 부자가 되는가",
+        "신용은 부채",
+        "은행의 화폐창조"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/roman-industry-gold-standard-history.md",
+      "publish": true,
+      "order": 141,
+      "id": "roman-industry-gold-standard-history",
+      "title": "빵과 서커스에서 금본위까지: 로마·산업혁명을 한 줄로 꿰는 역사관의 함정",
+      "category": "문화와 역사",
+      "status": "대화 기반 분석 · 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "로마의 곡물 배급과 주화 절하, 동로마와 중세 상업혁명, 영국 산업화, 1931·1933·1934·1971년 금본위 이탈의 차이를 통해 직선적 경제사 서사를 비판",
+      "tags": [
+        "로마",
+        "곡물배급",
+        "중세 상업혁명",
+        "산업혁명",
+        "금본위",
+        "대공황"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "money-credit-seigniorage-critique",
+        "world-crisis-historical-analogies"
+      ],
+      "aliases": [
+        "빵과 서커스와 로마 몰락",
+        "금본위 이탈의 역사",
+        "1931년 영국 금본위",
+        "1971년 닉슨 쇼크"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "silicon-valley-firm-geography",
+      "path": "wiki/silicon-valley-firm-geography.md",
+      "publish": true,
+      "order": 142,
+      "title": "실리콘밸리는 한 동네가 아니다: 기업 본사와 교외형 기술 회랑의 지리",
+      "category": "사회와 제도",
+      "status": "대화 기반 총합·일부 수치·계약 발표 시점의 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "실리콘밸리 대표 기업이 Menlo Park에서 San Jose까지 분포하는 교외형 회랑과 지도·주소·산업 집적의 차이",
+      "tags": [
+        "실리콘밸리",
+        "기업 지리",
+        "Bay Area",
+        "기술 클러스터"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-cloud-ownership-rent",
+        "us-labor-market-geography-2026"
+      ],
+      "aliases": [
+        "실리콘밸리 기업 지도",
+        "Silicon Valley 기업 위치"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "ai-hidden-labor-feeding-machine-2026",
+      "path": "wiki/ai-hidden-labor-feeding-machine-2026.md",
+      "publish": true,
+      "order": 143,
+      "title": "『AI는 인간을 먹고 자란다』 이후: 보이지 않는 노동은 사라졌는가, 분화했는가",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·일부 수치·계약 발표 시점의 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "2024년 원서와 2025년 한국어판을 기준으로 LLM 데이터 평가·합성데이터·전문가·검수·물류·창작·데이터센터 노동 변화를 대조",
+      "tags": [
+        "AI 노동",
+        "라벨링",
+        "RLHF",
+        "BPO",
+        "Feeding the Machine"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "global-bpo-labor-geography",
+        "ai-cloud-ownership-rent",
+        "ai-compute-scaling-inference",
+        "ai-economic-transition",
+        "data-center-world-capacity",
+        "korea-data-center-local-economy",
+        "physical-cloud-reading-guide"
+      ],
+      "aliases": [
+        "AI는 인간을 먹고 자란다 이후",
+        "Feeding the Machine 2026"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "global-bpo-labor-geography",
+      "path": "wiki/global-bpo-labor-geography.md",
+      "publish": true,
+      "order": 144,
+      "title": "세계 BPO 시장의 지리: 누가 사무 노동을 수출하고, 누가 값을 지불하는가",
+      "category": "사회와 제도",
+      "status": "대화 기반 총합·일부 수치·계약 발표 시점의 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "인도·필리핀·유럽·라틴아메리카·아프리카 BPO 공급국, 업종, 수출·고용·청구단가와 노동권 비교의 통계적 함정",
+      "tags": [
+        "BPO",
+        "아웃소싱",
+        "콜센터",
+        "국제 노동",
+        "데이터 라벨링"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-hidden-labor-feeding-machine-2026",
+        "ai-economic-transition",
+        "us-labor-market-geography-2026"
+      ],
+      "aliases": [
+        "세계 BPO 시장",
+        "BPO 국가별 가격 노동복지"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "ai-cloud-ownership-rent",
+      "path": "wiki/ai-cloud-ownership-rent.md",
+      "publish": true,
+      "order": 145,
+      "title": "AI 모델 기업과 클라우드 기업: 지분, 컴퓨트 계약, 지대의 세 층",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·일부 수치·계약 발표 시점의 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "OpenAI·Anthropic 등 모델사와 Azure·AWS·Google·Oracle·AI 클라우드의 지분·GPU 계약·수익 배분 및 인프라 병목",
+      "tags": [
+        "AI 클라우드",
+        "OpenAI",
+        "Anthropic",
+        "지분율",
+        "컴퓨트",
+        "지대경제"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-capital-labor-distribution",
+        "ai-compute-scaling-inference",
+        "silicon-valley-firm-geography",
+        "ai-hidden-labor-feeding-machine-2026",
+        "data-center-world-capacity",
+        "korea-data-center-local-economy",
+        "ai-transition-monetary-order"
+      ],
+      "aliases": [
+        "AI 모델 회사 클라우드 지분",
+        "AI 클라우드 지대경제"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "us-labor-market-geography-2026",
+      "path": "wiki/us-labor-market-geography-2026.md",
+      "publish": true,
+      "order": 146,
+      "title": "미국 노동시장을 지역으로 읽기: 취업률·실업률·주별 격차와 2026년의 둔화",
+      "category": "사회와 제도",
+      "status": "대화 기반 총합·일부 수치·계약 발표 시점의 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "2026년 봄 BLS 전국 고용률·실업률·U-6, 남부·중서부·동북부·서부 권역과 주요 주별 격차를 시점별로 구분",
+      "tags": [
+        "미국 실업률",
+        "고용률",
+        "BLS",
+        "미국 지역경제",
+        "노동시장"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-economic-transition",
+        "global-bpo-labor-geography",
+        "silicon-valley-firm-geography"
+      ],
+      "aliases": [
+        "미국 2026 실업률 지역별",
+        "미국 주별 고용률"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/book-translation-pipeline-local-llm.md",
+      "publish": true,
+      "order": 147,
+      "id": "book-translation-pipeline-local-llm",
+      "title": "오래된 영어책 한 권을 끝까지 번역하려면: 텍스트 추출, 로컬 모델, 재개와 대조 뷰어",
+      "category": "기술·지식 아카이브",
+      "status": "로컬 번역 파이프라인의 구현·실패 분석과 미완 과제",
+      "updated": "2026-11-02",
+      "summary": "Internet Archive 고서 TXT를 OCR 없이 처리하고 Ollama·Qwen3로 문단별 번역·체크포인트·HTML 대조본을 만드는 과정, SEG 태그 정렬, M1 16GB 속도·잠자기 문제, Google Cloud 번역 전환의 미검증 경계를 기록한다.",
+      "tags": [
+        "고서 번역",
+        "Ollama",
+        "Qwen3",
+        "OCR",
+        "Google Cloud Translation",
+        "중단 재개",
+        "문단 정렬",
+        "HTML 뷰어"
+      ],
+      "source": "내부 총합 · 외부 신규 조사 없음 · 로컬 코드 관찰 및 미검증 항목 구분",
+      "related": [
+        "luddite-executions-memory",
+        "book-preview-credit-sourcing",
+        "local-llm-novel-agent-m1",
+        "edge-vision-event-monitor-portfolio"
+      ],
+      "aliases": [
+        "로컬 책 번역",
+        "영어 고서 자동 번역",
+        "Ollama 번역 파이프라인",
+        "원문 번역 병기 뷰어"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "orchestra-composer-conductor-myth",
+      "path": "wiki/orchestra-composer-conductor-myth.md",
+      "publish": true,
+      "order": 148,
+      "title": "교향곡은 영화 이전의 블록버스터였는가: 작곡가·지휘자 팬덤과 인물 신화",
+      "category": "음악",
+      "status": "대화 기반 총합 · 인물 서사·비유와 역사적 사실의 경계 추가 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "말러·쇼스타코비치 7번·토스카니니·카라얀·번스타인을 통해 교향악 작품과 인간을 함께 사랑하는 팬덤, 정전·전기·방송·지휘자의 몸을 분석한다.",
+      "tags": [
+        "교향악",
+        "거장 팬덤",
+        "말러",
+        "쇼스타코비치",
+        "번스타인",
+        "지휘자",
+        "정전"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "classical-canon-mauceri",
+        "orchestra-living-composers-canon",
+        "living-orchestral-listening-journey",
+        "conductors-career-encores",
+        "japanese-classical-tv-conductor-image",
+        "silent-film-musician-labor"
+      ],
+      "aliases": [
+        "클래식의 인물 신화",
+        "작곡가 지휘자 팬덤",
+        "교향곡 블록버스터"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "living-orchestral-listening-journey",
+      "path": "wiki/living-orchestral-listening-journey.md",
+      "publish": true,
+      "order": 149,
+      "title": "살아 있는 작곡가들을 여행하는 현대 교향악: 1977~2025 작품 연표와 12주 청취 지도",
+      "category": "음악",
+      "status": "대화 기반 총합 · 작곡·초연 연도와 2026년 수상·생존 여부 외부 검증 필요",
+      "updated": "2026-10-30",
+      "summary": "패르트·애덤스·진은숙·아데스·토르발스도티르·오르티스 등의 작품을 연도순으로 정리하고 미학적 다섯 갈래와 12주 청취 코스를 제안한다.",
+      "tags": [
+        "현대 교향악",
+        "살아 있는 작곡가",
+        "청취 지도",
+        "현대 클래식",
+        "진은숙",
+        "관현악",
+        "2020년대 신작"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "orchestra-living-composers-canon",
+        "classical-canon-mauceri",
+        "orchestra-composer-conductor-myth",
+        "world-orchestras-repertoire-2026",
+        "conductors-career-encores"
+      ],
+      "aliases": [
+        "현대 교향악 여행",
+        "살아 있는 작곡가 청취 코스",
+        "현대 관현악 작품 연표"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/great-depression-lived-experience-literature.md",
+      "publish": true,
+      "order": 150,
+      "id": "great-depression-lived-experience-literature",
+      "title": "풍요 속에서 자리를 잃은 사람들: 세계 대공황의 생활 기록과 동시대 소설",
+      "category": "문화와 역사",
+      "status": "대화 기반 독서 지도 · 원서·한국어판 서지와 작품의 공황 직접성 검증 필요",
+      "updated": "2026-10-30",
+      "summary": "물건이 풍부해도 소득과 사회적 자리를 잃는 역사적 경험을 독일·미국·영국·프랑스어권·스페인어권·브라질·일본의 1930~40년대 소설과 당대 르포, 후대 구술사를 통해 구분하고 번역 확인 수준 및 독서 경로를 정리한다.",
+      "tags": [
+        "대공황",
+        "1930년대 문학",
+        "실업",
+        "생활사",
+        "세계문학",
+        "빈곤",
+        "르포",
+        "구술사",
+        "번역서"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·번역본과 공황 직접성 일부 미검증",
+      "related": [
+        "world-crisis-historical-analogies",
+        "ai-economic-transition",
+        "ai-capital-labor-distribution"
+      ],
+      "aliases": [
+        "대공황 당대 소설",
+        "대공황 생활사 문학",
+        "대공황 세계문학",
+        "풍요 속 실업",
+        "1930년대 실업 문학"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "china-anime-game-industry",
+      "path": "wiki/china-anime-game-industry.md",
+      "publish": true,
+      "order": 151,
+      "title": "중국 애니풍 캐릭터 게임 산업 지도: 원신 이후의 회사·규모·투자 회수",
+      "category": "게임",
+      "status": "대화 기반 총합 · 회사별 순손익·매출 추정·개발비 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "원신·명조·젠레스 존 제로·이환 등 중국 애니풍 캐릭터 게임을 월드 구조와 제작비로 구분하고, 개발사 계보·과금 방식·매출 추정과 투자회수의 경계를 정리한다.",
+      "tags": [
+        "중국 게임산업",
+        "서브컬처 게임",
+        "미소녀 게임",
+        "호요버스",
+        "쿠로게임즈",
+        "명조",
+        "원신",
+        "가챠",
+        "제작비",
+        "게임 매출"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·정량 추정치 미검증",
+      "related": [
+        "anime-urban-live-service-nte-tof",
+        "ps5-storage-anime-live-games"
+      ],
+      "aliases": [
+        "중국 미소녀 게임 산업",
+        "중국 서브컬처 게임 개발사",
+        "중국 가챠 게임 제작비",
+        "애니풍 게임사 비교"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "anime-urban-live-service-nte-tof",
+      "path": "wiki/anime-urban-live-service-nte-tof.md",
+      "publish": true,
+      "order": 152,
+      "title": "이환은 타워 오브 판타지의 다음 실패를 반복할까: 도시 오픈월드와 라이브서비스의 시간",
+      "category": "게임",
+      "status": "대화 기반 운영 분석 · 미래 전망과 출시 초기 경영 수치 외부 검증 필요",
+      "updated": "2026-10-30",
+      "summary": "Hotta Studio의 타워 오브 판타지 운영과 Warp 서버 실험을 바탕으로 이환의 도시 콘텐츠·서사 연출·성능 인플레이션·무과금 이용 경험과 장기 운영의 조건을 분석한다.",
+      "tags": [
+        "이환",
+        "Neverness to Everness",
+        "타워 오브 판타지",
+        "Hotta Studio",
+        "도시 오픈월드",
+        "라이브서비스",
+        "파워크립",
+        "무과금",
+        "게임 서사"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·정량 추정치 미검증",
+      "related": [
+        "china-anime-game-industry",
+        "ps5-storage-anime-live-games"
+      ],
+      "aliases": [
+        "이환 전망",
+        "이환 무과금 스토리",
+        "타워 오브 판타지 운영과 이환",
+        "NTE 장기 운영"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "ps5-storage-anime-live-games",
+      "path": "wiki/ps5-storage-anime-live-games.md",
+      "publish": true,
+      "order": 153,
+      "title": "게임 한 편에 50GB: 중국 애니풍 라이브서비스와 PS5 저장공간의 경제학",
+      "category": "게임",
+      "status": "대화 기반 기기·용량 비교 · 모델별 스펙 및 실시간 판매가 외부 재검증 필요",
+      "updated": "2026-10-30",
+      "summary": "원신·명조·젠레스 존 제로·이환 등의 요구 용량을 비교하고, PS5 외장 USB와 내부 M.2 SSD의 기능 차이, HIKSEMI FUTURE 2TB와 고용량 SSD의 구매 판단을 설명한다.",
+      "tags": [
+        "PS5",
+        "M.2 SSD",
+        "게임 용량",
+        "USB 외장 저장장치",
+        "HIKSEMI",
+        "저장공간",
+        "낸드 가격",
+        "무료 게임"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·정량 추정치 미검증",
+      "related": [
+        "china-anime-game-industry",
+        "anime-urban-live-service-nte-tof"
+      ],
+      "aliases": [
+        "PS5 2TB SSD 확장",
+        "PS5 게임 외장 저장장치",
+        "이환 설치 용량",
+        "HIKSEMI FUTURE 2TB"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "ai-adoption-ceiling-floor",
+      "path": "wiki/ai-adoption-ceiling-floor.md",
+      "publish": true,
+      "order": 154,
+      "title": "AI의 상한선과 사회적 활용 하한선: 호들갑 없이 이행기를 보는 법",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "AI 능력의 미지의 천장과 낮은 사회적 채택을 분리해 기술·조직·노동·재정의 이행 속도를 분석하고 IMF의 노출도와 개인 대응의 한계를 구별한다.",
+      "tags": [
+        "AI 이행기",
+        "상한선",
+        "활용 하한선",
+        "노-호들갑",
+        "노동 노출",
+        "IMF"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-economic-transition",
+        "ai-transition-policy-gap",
+        "ai-capital-labor-distribution",
+        "ai-compute-scaling-inference",
+        "owner-aligned-automated-power"
+      ],
+      "aliases": [
+        "AI 상한선 하한선",
+        "AI 활용 하한선",
+        "AI 노호들갑"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "owner-aligned-automated-power",
+      "path": "wiki/owner-aligned-automated-power.md",
+      "publish": true,
+      "order": 155,
+      "title": "소유자 중심 자동권력: 인간 다수 없이 지속되는 기계 체제의 성립 조건",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "강제력의 탈인간화, 핵심 생존노동 자동화, 자율 정비와 교체, 전력·연산·부품 주권을 구별하고 소수 생존형 시나리오와 국가 위험 분류의 논리적 한계를 살핀다.",
+      "tags": [
+        "자율무력",
+        "피지컬 AI",
+        "기계 자기재생산",
+        "자동권력",
+        "공급망 주권",
+        "정치경제"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-adoption-ceiling-floor",
+        "ai-transition-monetary-order",
+        "gradual-disempowerment",
+        "data-center-world-capacity",
+        "ai-human-control-guide",
+        "ai-democracy-narrow-corridor"
+      ],
+      "aliases": [
+        "AI 독재의 최소조건",
+        "소유자 정렬 기계문명",
+        "AI 민병단"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "ai-transition-monetary-order",
+      "path": "wiki/ai-transition-monetary-order.md",
+      "publish": true,
+      "order": 156,
+      "title": "AI 이행기의 화폐와 소유권: BIS의 통합장부에서 두 층 경제까지",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "실업·채무·금융안정의 이행기 연쇄, BIS unified ledger와 Project Agorá의 실제 목표, 조건부 이중경제 사고실험, IMF 노동·재정정책의 분모를 구별한다.",
+      "tags": [
+        "BIS",
+        "Project Agorá",
+        "토큰화 예금",
+        "이중경제",
+        "IMF",
+        "AI 실업",
+        "자본소득"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-economic-transition",
+        "ai-capital-labor-distribution",
+        "ai-transition-policy-gap",
+        "owner-aligned-automated-power",
+        "ai-cloud-ownership-rent"
+      ],
+      "aliases": [
+        "AI 이중화폐",
+        "BIS 통합장부와 AI",
+        "AI 이행기 금융질서"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "data-center-world-capacity",
+      "path": "wiki/data-center-world-capacity.md",
+      "publish": true,
+      "order": 157,
+      "title": "세계 데이터센터의 연산 지리: GW·냉각·감가상각·투자 파이프라인",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "2025~2030년 지역별 GW·건설 파이프라인, 공실률의 모수, 공랭·액랭의 시설별 보급, 물리적 수명과 미국·중국·걸프·APAC 기업 생태계를 구분한다.",
+      "tags": [
+        "데이터센터",
+        "GW",
+        "액체냉각",
+        "전력",
+        "GPU 감가상각",
+        "하이퍼스케일",
+        "클라우드"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "ai-compute-scaling-inference",
+        "ai-cloud-ownership-rent",
+        "korea-data-center-local-economy",
+        "physical-cloud-reading-guide",
+        "owner-aligned-automated-power",
+        "space-data-center-thermal-economics"
+      ],
+      "aliases": [
+        "세계 데이터센터 GW",
+        "데이터센터 세계 비중",
+        "데이터센터 액랭 공랭",
+        "데이터센터 감가상각"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "korea-data-center-local-economy",
+      "path": "wiki/korea-data-center-local-economy.md",
+      "publish": true,
+      "order": 158,
+      "title": "한국 데이터센터 유치의 실익: GW보다 적은 일자리, 전력보다 중요한 지역 몫",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "울산 SK–AWS·해남 솔라시도 등 한국 데이터센터의 계획과 상주인력, 건설기 효과, AWS 현장 직군, 전력·물·세수의 지역 순편익을 비교한다.",
+      "tags": [
+        "한국 데이터센터",
+        "해남 솔라시도",
+        "울산 AWS",
+        "데이터센터 일자리",
+        "지역경제",
+        "전력망"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "data-center-world-capacity",
+        "ai-cloud-ownership-rent",
+        "ai-hidden-labor-feeding-machine-2026",
+        "physical-cloud-reading-guide",
+        "ai-capital-labor-distribution"
+      ],
+      "aliases": [
+        "해남 데이터센터 일자리",
+        "울산 SK AWS 지역경제",
+        "데이터센터 지역고용"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "id": "physical-cloud-reading-guide",
+      "path": "wiki/physical-cloud-reading-guide.md",
+      "publish": true,
+      "order": 159,
+      "title": "클라우드의 물질성: 데이터센터·해저케이블·현장노동을 읽는 책과 르포",
+      "category": "AI와 사회",
+      "status": "대화 기반 총합·외부 신규 조사 없음·수치와 사고실험의 경계 검토 필요",
+      "updated": "2026-10-30",
+      "summary": "Tubes, Where Cloud Is Ground, The Undersea Network, The Cloud Is Material 등과 AWS 오리건 영상·지역 르포·한국어 보고서를 비교한 독서·시청 길잡이.",
+      "tags": [
+        "물리적 인터넷",
+        "클라우드 르포",
+        "AWS",
+        "해저케이블",
+        "데이터센터 노동",
+        "한국어 자료"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "data-center-world-capacity",
+        "korea-data-center-local-economy",
+        "ai-hidden-labor-feeding-machine-2026"
+      ],
+      "aliases": [
+        "클라우드 물리 인프라 책",
+        "데이터센터 르포 읽기",
+        "클라우드 다큐 추천"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/space-data-center-thermal-economics.md",
+      "publish": true,
+      "order": 160,
+      "id": "space-data-center-thermal-economics",
+      "title": "우주는 냉장고가 아니다: 태양광 데이터센터의 열역학과 경제성",
+      "category": "과학과 기술",
+      "status": "검토 필요",
+      "updated": "2026-10-30",
+      "summary": "태양광 입사량, 복사 냉각, ISS 열제어, Suncatcher, 5GW 방열 면적과 우주 연산 경제성의 조건을 분석한다.",
+      "tags": [
+        "우주 데이터센터",
+        "열역학",
+        "복사냉각",
+        "Suncatcher"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "space-assets-law-debris-kessler",
+        "data-center-world-capacity"
+      ],
+      "aliases": [
+        "우주 데이터센터 냉각",
+        "Project Suncatcher 열관리"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/space-assets-law-debris-kessler.md",
+      "publish": true,
+      "order": 161,
+      "id": "space-assets-law-debris-kessler",
+      "title": "궤도의 공유지와 기업의 소유권: 우주 분쟁, 책임, 케슬러 위험",
+      "category": "과학과 기술",
+      "status": "검토 필요",
+      "updated": "2026-10-30",
+      "summary": "우주조약과 기업 소유, 충돌·회피·전파간섭·재진입 사례, ASAT, 케슬러 증후군과 위성 대량 발사 규제를 다룬다.",
+      "tags": [
+        "우주법",
+        "우주파편",
+        "케슬러 증후군",
+        "스타링크"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "space-data-center-thermal-economics"
+      ],
+      "aliases": [
+        "케슬러 증후군과 우주법",
+        "우주자산 국제분쟁"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/physical-ai-world-model-quantum-optimization.md",
+      "publish": true,
+      "order": 162,
+      "id": "physical-ai-world-model-quantum-optimization",
+      "title": "피지컬 AI의 월드 모델과 양자 최적화: 상상한 미래에서 실행할 행동까지",
+      "category": "과학과 기술",
+      "status": "내부 논의 기반·기술 실증 검토 필요",
+      "updated": "2026-11-02",
+      "summary": "한국형 피지컬 AI 컨소시엄의 기술 분업, 가상 제조 셀의 갈등, WFM과 QUBO·QAOA·양자 어닐링의 접점 및 신경망 압축 한계.",
+      "tags": [
+        "피지컬 AI",
+        "월드 파운데이션 모델",
+        "양자 최적화",
+        "QUBO"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "manufacturing-optimization-solo-business",
+        "japan-physical-ai-skill-transfer",
+        "edge-vision-event-monitor-portfolio"
+      ],
+      "aliases": [
+        "WFM 양자컴퓨팅",
+        "월드모델 양자 최적화"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/manufacturing-optimization-solo-business.md",
+      "publish": true,
+      "order": 163,
+      "id": "manufacturing-optimization-solo-business",
+      "title": "개인 개발자의 제조 최적화 엔진: 선계산 자산, 실험, 첫 고객",
+      "category": "과학과 기술",
+      "status": "사업 구상·검증 필요",
+      "updated": "2026-10-30",
+      "summary": "개인 개발자용 제조 의사결정 솔버, 야간 에이전트 자산 생성, IBM·D-Wave 등 실험 플랫폼과 고객 검증 전략.",
+      "tags": [
+        "제조 최적화",
+        "개인 개발",
+        "Qiskit",
+        "에이전트"
+      ],
+      "source": "내부 총합·외부 미검증",
+      "related": [
+        "physical-ai-world-model-quantum-optimization",
+        "japan-physical-ai-skill-transfer"
+      ],
+      "aliases": [
+        "제조 최적화 1인 사업",
+        "양자 최적화 MVP"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-10-30"
+    },
+    {
+      "path": "wiki/mountain-powerline-undergrounding-economics.md",
+      "publish": true,
+      "order": 164,
+      "id": "mountain-powerline-undergrounding-economics",
+      "title": "산을 넘는 송전선과 산을 뚫는 전력구: 산불 위험을 포함한 지중화의 경제학",
+      "category": "과학과 기술",
+      "summary": "345kV 가공·지중 단가의 조건, 산악 전력구, 산불 기대손실과 보험을 분리한 30~50년 생애주기 경제성 비교 설계.",
+      "tags": [
+        "송전선",
+        "지중화",
+        "전력구",
+        "산불",
+        "비용편익"
+      ],
+      "related": [
+        "powerline-wildfire-mitigation-world-korea",
+        "sancheong-wildfire-2025-prevention",
+        "wildfire-liability-insurance-risk-society"
+      ],
+      "aliases": [
+        "산악 송전선 지중화 경제성",
+        "송전선 산불 비용편익 분석"
+      ],
+      "status": "대화 기반 종합·외부 재검증 필요",
+      "updated": "2026-11-02",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/powerline-wildfire-mitigation-world-korea.md",
+      "publish": true,
+      "order": 165,
+      "id": "powerline-wildfire-mitigation-world-korea",
+      "title": "전력선발 산불은 얼마나 줄었나: 미국·호주·유럽과 한국의 대응",
+      "category": "사회와 제도",
+      "summary": "캘리포니아·빅토리아·남유럽의 예방 수단과 성과 수치, 한국의 산지선로 개선 및 효과평가에서 필요한 지표.",
+      "tags": [
+        "산불",
+        "전력선",
+        "커버드 컨덕터",
+        "REFCL",
+        "한전",
+        "예방정전"
+      ],
+      "related": [
+        "mountain-powerline-undergrounding-economics",
+        "sancheong-wildfire-2025-prevention",
+        "wildfire-liability-insurance-risk-society"
+      ],
+      "aliases": [
+        "세계 전력선 산불 대응",
+        "한국 송전선 산불 예방 효과"
+      ],
+      "status": "대화 기반 종합·외부 재검증 필요",
+      "updated": "2026-11-02",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/sancheong-wildfire-2025-prevention.md",
+      "publish": true,
+      "order": 166,
+      "id": "sancheong-wildfire-2025-prevention",
+      "title": "2025 산청·하동 산불의 예방 가능성: 발화와 확산은 다른 문제다",
+      "category": "사회와 제도",
+      "summary": "산청·하동 산불의 2025년 경과와 발화 예방·초동진화·대형화 방지를 구분한 반사실 평가와 원인 확인의 한계.",
+      "tags": [
+        "산청 산불",
+        "하동 산불",
+        "2025년 산불",
+        "초동진화",
+        "산림관리"
+      ],
+      "related": [
+        "powerline-wildfire-mitigation-world-korea",
+        "mountain-powerline-undergrounding-economics",
+        "wildfire-liability-insurance-risk-society"
+      ],
+      "aliases": [
+        "2025 산청 산불 예방",
+        "산청 하동 산불 분석"
+      ],
+      "status": "대화 기반 종합·외부 재검증 필요",
+      "updated": "2026-11-02",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/wildfire-liability-insurance-risk-society.md",
+      "publish": true,
+      "order": 167,
+      "id": "wildfire-liability-insurance-risk-society",
+      "title": "산불의 청구서는 누구에게 가는가: 개인 배상, 전력회사의 보험, 통제의 미래",
+      "category": "사회와 제도",
+      "summary": "실화자에 대한 청구·판결·실제 회수액의 구별, 한전의 보험 미확인 범위, 보험 절벽과 위험기반 출입규제에 관한 미래 가설.",
+      "tags": [
+        "산불 배상",
+        "구상권",
+        "한전 보험",
+        "산불 보험",
+        "입산 통제",
+        "위험사회"
+      ],
+      "related": [
+        "mountain-powerline-undergrounding-economics",
+        "powerline-wildfire-mitigation-world-korea",
+        "sancheong-wildfire-2025-prevention"
+      ],
+      "aliases": [
+        "산불 구상권과 개인 책임",
+        "산불 보험 절벽과 규제 미래"
+      ],
+      "status": "대화 기반 종합·외부 재검증 필요",
+      "updated": "2026-11-02",
+      "source": "내부 총합·외부 미검증",
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/local-llm-novel-agent-m1.md",
+      "publish": true,
+      "order": 168,
+      "id": "local-llm-novel-agent-m1",
+      "title": "출근 전에 켜두는 로컬 소설 제작기: M1 16GB의 Ollama·MLX와 이어쓰기의 조건",
+      "category": "기술·지식 아카이브",
+      "status": "실행 로그로 확인된 기본 2화 완주·후속 키워드별 이어쓰기 기능은 완주 검증 필요",
+      "summary": "M1 16GB의 Ollama와 MLX를 오가며 기획·초안·비평·수정·요약을 파일로 분리한 소설 자동화 실험, 실제 오류와 가상환경 문제, 작품별 외부 기억과 재개 설계의 한계를 다룬다.",
+      "tags": [
+        "Ollama",
+        "MLX",
+        "Qwen3",
+        "Devstral",
+        "M1 16GB",
+        "소설 자동화",
+        "Python",
+        "백엔드 전환",
+        "체크포인트",
+        "이어쓰기"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·대화에 표시된 실행 로그와 설계 상태만 구별",
+      "related": [
+        "book-translation-pipeline-local-llm",
+        "gpt-wiki-zero-prototype",
+        "stump-and-dream-fragment",
+        "edge-vision-event-monitor-portfolio"
+      ],
+      "aliases": [
+        "로컬 소설 에이전트",
+        "소설 자동생성 파이프라인",
+        "M1 로컬 LLM 에이전시",
+        "Ollama MLX 소설 자동화"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02",
+      "updated": "2026-11-02"
+    },
+    {
+      "path": "wiki/edge-vision-event-monitor-portfolio.md",
+      "publish": true,
+      "order": 169,
+      "id": "edge-vision-event-monitor-portfolio",
+      "title": "엣지 영상 이벤트 감지 포트폴리오: 카메라 한 대에서 실증 보고서까지",
+      "category": "과학과 기술",
+      "status": "채용 공고 요구사항에서 도출된 구현 제안·실제 모델 학습 및 성능 실측 미확인",
+      "summary": "영상 객체 탐지와 ROI 침입·체류 판정을 연결하고, 이벤트 로깅·장치 최적화 비교·MQTT 센서 연계·평가와 기술 문서화까지 제안한 현장형 컴퓨터비전 데모 설계.",
+      "tags": [
+        "엣지 AI",
+        "컴퓨터비전",
+        "YOLO",
+        "ONNX",
+        "ROI",
+        "이벤트 감지",
+        "MQTT",
+        "성능평가",
+        "AI 포트폴리오"
+      ],
+      "source": "내부 총합·외부 신규 조사 없음·기능과 성능은 설계 단계",
+      "related": [
+        "local-llm-novel-agent-m1",
+        "physical-ai-world-model-quantum-optimization",
+        "book-translation-pipeline-local-llm"
+      ],
+      "aliases": [
+        "엣지 AI 포트폴리오",
+        "실시간 위험구역 침입 감지",
+        "영상 센서 융합 모니터링",
+        "Edge Vision Event Monitor"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02",
+      "updated": "2026-11-02"
+    },
+    {
+      "path": "wiki/stump-and-dream-fragment.md",
+      "publish": true,
+      "order": 170,
+      "id": "stump-and-dream-fragment",
+      "title": "그루터기: 꿈과 무력화의 단편",
+      "category": "소설",
+      "kind": "fiction",
+      "fiction_part": "work",
+      "revised": false,
+      "status": "두 문단의 미완 초고·후속 장면 미확인",
+      "summary": "마음속 고집의 그루터기가 뿌리째 뽑힌 뒤 의지를 잃는 인물, 꿈속에서 타인의 본모습이 눌려 변하는 감각을 담은 짧은 창작 단편.",
+      "tags": [
+        "소설",
+        "단편",
+        "그루터기",
+        "꿈",
+        "고집",
+        "무력화",
+        "미완"
+      ],
+      "source": "작품 원문 보존·외부 자료 없음",
+      "related": [
+        "local-llm-novel-agent-m1"
+      ],
+      "aliases": [
+        "고집 그에게는 고집이 있었다",
+        "그루터기 소설 단편"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02",
+      "updated": "2026-11-02"
+    }
+  ]
+}

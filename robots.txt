@@ -1,0 +1,20 @@
+# 모든 방문자와 도구(LLM 열람 포함)는 전체에 접근할 수 있다.
+User-agent: *
+Allow: /
+
+# 검색엔진은 문서 페이지(/notes/)를 색인하고, 편집용 파일과 원본 데이터는
+# 검색 결과에 싣지 않는다. 접근을 막는 것이 아니라 검색 결과를 정리하는 규칙이다.
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Yeti
+User-agent: Daumoa
+Disallow: /editorial/
+Disallow: /wiki/
+Disallow: /ai/
+Disallow: /scripts/
+Disallow: /sources/
+Disallow: /notes.json
+Disallow: /AI_INDEX.md
+
+# 개인화: pododala 저장소와 프로젝트 사이트 주소 반영. 남은 선택 설정은 PERSONALIZATION.md 참고.
+Sitemap: https://pododala.github.io/pododala/sitemap.xml

@@ -1,0 +1,84 @@
+name: Validate generated website notes
+on:
+  push:
+    branches-ignore: [main]
+    paths:
+      - "wiki/**"
+      - "notes.json"
+      - "editorial/**"
+      - "scripts/build-notes.mjs"
+      - ".github/workflows/deploy-pages.yml"
+      - "scripts/build-ai-index.mjs"
+      - "scripts/build-wiki-map.mjs"
+      - "scripts/build-maintenance-queue.mjs"
+      - "scripts/build-static.mjs"
+      - "robots.txt"
+      - "ai/**"
+      - "AI_INDEX.md"
+      - "llms.txt"
+      - "scripts/validate-editorial.mjs"
+      - "scripts/test-editorial.mjs"
+      - "scripts/search-wiki.mjs"
+      - "scripts/validate-crosslinks.mjs"
+      - "scripts/test-crosslinks.mjs"
+      - "scripts/test-viewer.mjs"
+      - "index.html"
+      - "style.css"
+      - "app.js"
+      - "calendar.js"
+      - "scripts/validate-calendar.mjs"
+      - "scripts/test-calendar.mjs"
+      - ".github/workflows/validate-notes.yml"
+  pull_request:
+    paths:
+      - "wiki/**"
+      - "notes.json"
+      - "editorial/**"
+      - "scripts/build-notes.mjs"
+      - ".github/workflows/deploy-pages.yml"
+      - "scripts/build-ai-index.mjs"
+      - "scripts/build-wiki-map.mjs"
+      - "scripts/build-maintenance-queue.mjs"
+      - "scripts/build-static.mjs"
+      - "robots.txt"
+      - "ai/**"
+      - "AI_INDEX.md"
+      - "llms.txt"
+      - "scripts/validate-editorial.mjs"
+      - "scripts/test-editorial.mjs"
+      - "scripts/search-wiki.mjs"
+      - "scripts/validate-crosslinks.mjs"
+      - "scripts/test-crosslinks.mjs"
+      - "scripts/test-viewer.mjs"
+      - "index.html"
+      - "style.css"
+      - "app.js"
+      - "calendar.js"
+      - "scripts/validate-calendar.mjs"
+      - "scripts/test-calendar.mjs"
+      - ".github/workflows/validate-notes.yml"
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      # 생성물은 커밋하지 않아도 된다: CI에서 생성한 뒤 검증한다 (main 배포는 deploy-pages.yml).
+      - run: node scripts/build-notes.mjs
+      - run: node scripts/build-ai-index.mjs
+      - run: node scripts/build-wiki-map.mjs
+      - run: node scripts/build-maintenance-queue.mjs
+      - run: node scripts/validate-editorial.mjs
+      - run: node scripts/test-editorial.mjs
+      - run: node scripts/validate-crosslinks.mjs
+      - run: node scripts/test-crosslinks.mjs
+      - run: node scripts/validate-calendar.mjs
+      - run: node scripts/test-calendar.mjs
+      - run: node --check app.js
+      - run: node --check calendar.js
+      - run: node scripts/test-viewer.mjs
+      - run: node scripts/build-static.mjs "$RUNNER_TEMP/site"

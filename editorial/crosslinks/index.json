@@ -1,0 +1,132 @@
+{
+  "version": 1,
+  "description": "확인된 관계가 아니라 교차 편집을 위해 검토할 해석적 가설. 본문이나 wiki/relations.json에 자동 반영하지 않는다. 대화 원문을 기록하지 않는다.",
+  "proposals": [
+    {
+      "id": "link-20261023-sound-labor-ai-skills",
+      "created_on": "2026-10-23",
+      "from": {
+        "doc_id": "silent-film-musician-labor",
+        "section": "녹음은 음악을 없앤 것이 아니라 재생의 단위를 바꾸었다"
+      },
+      "to": {
+        "doc_id": "ai-mediated-human-change",
+        "section": "능력"
+      },
+      "type": "methodological_parallel",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "기술 전환이 수행 능력의 가치와 노동의 배치를 바꾸는 방식에 대한 시대 간 비교 가능성",
+      "reason": "극장 음악의 녹음·재생 전환과 AI 보조에 따른 개인 능력 기준 변화는 생산과 수행의 위치가 이동한다는 비교 질문을 제공한다.",
+      "limitation": "두 기술의 고용 효과가 동일하다는 역사적 주장도, AI의 미래 영향을 확정한 예측도 아니다."
+    },
+    {
+      "id": "link-20261023-jazz-deleuze-repetition",
+      "created_on": "2026-10-23",
+      "from": {
+        "doc_id": "jazz-dialogue",
+        "section": "반복되는 코러스"
+      },
+      "to": {
+        "doc_id": "deleuze-becoming-new",
+        "section": "방향을 읽는 개념"
+      },
+      "type": "analogy",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "정해진 재즈 형식의 반복 속 새로운 연주와 생성의 철학을 유비적으로 비교할 가능성",
+      "reason": "재즈에서 같은 코러스를 되풀이해도 선택과 상호작용이 달라진다는 설명을 생성과 변화의 개념적 틀로 검토할 수 있다.",
+      "limitation": "둘의 개념이 동일하다는 주장이 아니며, 들뢰즈가 해당 재즈 기법을 설명했다고 추정할 근거도 아니다."
+    },
+    {
+      "id": "link-20261023-recording-automated-trading",
+      "created_on": "2026-10-23",
+      "from": {
+        "doc_id": "silent-film-musician-labor",
+        "section": "녹음은 음악을 없앤 것이 아니라 재생의 단위를 바꾸었다"
+      },
+      "to": {
+        "doc_id": "disempowerment-measurement",
+        "section": "종착점·정렬·비가역성 (RAND)"
+      },
+      "type": "methodological_parallel",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "현장의 인간 수행이 재사용 가능한 기술로 대체된 뒤 이전 방식으로 되돌리기 어려워지는 과정을 극장 음악과 주식 자동매매에서 비교할 가능성",
+      "reason": "두 문서 모두 기술 전환 이후 인간 참여의 위치가 이동하고 투자된 설비와 제도 때문에 복귀가 어려워지는 구조를 다룬다.",
+      "limitation": "두 전환의 고용 효과나 비가역성의 정도가 같다는 주장이 아니며, 형식 모형의 임계점 개념을 역사적 사례에 그대로 적용할 근거도 아니다."
+    },
+    {
+      "id": "link-20261023-union-leverage-rentier-state",
+      "created_on": "2026-10-23",
+      "from": {
+        "doc_id": "silent-film-musician-labor",
+        "section": "녹음 금지와 재생 수익을 둘러싼 교섭"
+      },
+      "to": {
+        "doc_id": "gradual-disempowerment",
+        "section": "핵심 논리: 인간의 참여가 협상력을 만든다"
+      },
+      "type": "analogy",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "재생 기술 이후 음악가 노조의 교섭과 재생 수익 분배 문제를, 인간 참여에서 나오는 협상력과 재분배 반론에 비추어 읽을 가능성",
+      "reason": "극장 음악가의 교섭은 현장 노동이 필요하다는 사실에 기댔고, 점진적 무력화 논의는 시스템이 인간을 필요로 하는 정도가 협상력을 만든다고 본다.",
+      "limitation": "노동조합의 역사적 경험이 AI 시대의 결과를 예측한다는 주장이 아니며, 국가 재정과 노동 시장의 구조 차이를 무시할 수 없다."
+    },
+    {
+      "id": "link-20261023-participation-community-organization",
+      "created_on": "2026-10-23",
+      "from": {
+        "doc_id": "burning-man-community",
+        "section": "태우는 물체보다 공동체를 조직하는 방식"
+      },
+      "to": {
+        "doc_id": "world-reading-groups",
+        "section": "모임을 관찰하는 일곱 질문"
+      },
+      "type": "methodological_parallel",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "문화 행사와 독서모임을 결과물보다 참여·운영·시간 단위·모임의 목적을 통해 비교하는 방법의 검토 가능성",
+      "reason": "불행사의 공동체 구성·해산과 독서모임의 선정 권한·읽기 리듬·참가 문턱은 사람들이 함께 문화를 조직하는 조건을 비교할 단서를 제공한다.",
+      "limitation": "일시적 사막 행사와 지속적인 독서모임의 운영이 같다는 주장이 아니며, 같은 공동체 효과나 역사적 계보를 확인한 것도 아니다."
+    },
+    {
+      "id": "link-20261024-chiikawa-plato-deleuze",
+      "created_on": "2026-10-24",
+      "from": {
+        "doc_id": "chiikawa-philosophy",
+        "section": "이 독해가 강한 곳과 약한 곳"
+      },
+      "to": {
+        "doc_id": "deleuze-negation-history",
+        "section": "플라톤식 도덕주의와 다른 평가"
+      },
+      "type": "possible_contrast",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "치이카와의 욕망을 플라톤적 규범과 습관의 통치로 읽는 관점과, 배치가 무엇을 가능하게 하고 막는지를 묻는 들뢰즈적 평가를 대비할 가능성",
+      "reason": "치이카와 문서는 순응과 규칙을 중심으로 한 플라톤 독해의 강점과 한계를 다루고, 들뢰즈 문서는 초월적 모델보다 배치의 내재적 효과를 평가하는 관점을 설명한다.",
+      "limitation": "현재 대화에는 완성된 들뢰즈식 치이카와 분석이 없고 들뢰즈가 치이카와를 논한 근거도 없으므로, 두 문서를 직접 연결한 해석은 후속 검토가 필요하다."
+    },
+    {
+      "id": "link-20261024-affect-hate-escalation",
+      "created_on": "2026-10-24",
+      "from": {
+        "doc_id": "hate-escalation-brakes-history",
+        "section": "공통 구조: 관용의 승리보다 증폭장치의 고장"
+      },
+      "to": {
+        "doc_id": "post-deleuze-novelty-thinkers",
+        "section": "브라이언 마수미: 정동과 미디어 정치"
+      },
+      "type": "conceptual_extension",
+      "status": "proposed",
+      "basis": "editorial_hypothesis",
+      "hypothesis": "역사적 집단공황의 증폭과 중단 사례를 정동이 미디어와 정치에서 순환·증폭되는 문제와 비교해 볼 가능성",
+      "reason": "새 문서는 공포와 혐오의 사실 내용보다 고발·수사·정치 보상이 증폭을 만드는 과정을 비교하고, 마수미 절은 불안과 공포 같은 정동의 순환과 증폭을 분석 대상으로 제시한다.",
+      "limitation": "역사 사례가 마수미 이론으로 설명된다는 뜻이 아니며, 각 사건의 인과를 정동 이론 하나로 환원할 근거도 없다."
+    }
+  ]
+}

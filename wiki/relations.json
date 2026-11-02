@@ -1,0 +1,293 @@
+{
+  "version": 1,
+  "description": "의미를 확인한 관계만 수동 등록. manifest.related는 비유형 연관으로 파생된다.",
+  "relations": [
+    {
+      "from": "jazz-to-ai",
+      "to": "jazz-dialogue",
+      "type": "introduces",
+      "evidence_section": "연주를 이해하는 세 층위",
+      "reason": "기본 개념의 길잡이에서 즉흥연주와 인터플레이의 상세 설명으로 연결한다."
+    },
+    {
+      "from": "jazz-chronological-listening",
+      "to": "jazz-history-plural",
+      "type": "curates",
+      "evidence_section": "이 목록을 읽는 방법",
+      "reason": "재즈의 역사적 변화를 청취 지점별로 배열한다."
+    },
+    {
+      "from": "jazz-live-quartet-case",
+      "to": "jazz-dialogue",
+      "type": "illustrates",
+      "evidence_section": "작은 앙상블이 들려주는 여러 층위",
+      "reason": "소규모 공연 사례를 통해 즉흥과 상호 반응을 살핀다."
+    },
+    {
+      "from": "circus-music-concepts",
+      "to": "circus-music-questions",
+      "type": "elaborates",
+      "evidence_section": "개념의 목적과 한계",
+      "reason": "서커스 음악사의 질문을 분석 개념으로 심화한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-takeover-human-recourse",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-goals-hostage-and-bait",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "gradual-disempowerment",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "disempowerment-measurement",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "llm-disempowerment-patterns",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "conversational-ai-persuasion",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-conversation-data-access",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI와 인간의 통제력에 관한 질문의 이동 경로에 따라 하위 문서를 안내한다."
+    },
+    {
+      "from": "disempowerment-measurement",
+      "to": "gradual-disempowerment",
+      "type": "elaborates",
+      "evidence_section": "출발점: 원 논문이 스케치한 지표",
+      "reason": "점진적 무력화 논문이 제안한 인간 영향력 지표를 이후의 측정 연구로 구체화한다."
+    },
+    {
+      "from": "llm-disempowerment-patterns",
+      "to": "gradual-disempowerment",
+      "type": "illustrates",
+      "evidence_section": "개인 단위에서 사회 단위로",
+      "reason": "개인 대화 단위에서 관찰된 무력화 패턴을 사회 단위의 무력화 논리와 연결한다."
+    },
+    {
+      "from": "gradual-disempowerment",
+      "to": "ai-goals-hostage-and-bait",
+      "type": "contrasts",
+      "evidence_section": "극적 장악과의 대비: 적이 없는 위험",
+      "reason": "위협이 보이는 인질극 시나리오와 적이 없는 점진적 무력화를 대비한다."
+    },
+    {
+      "from": "ai-conversation-data-access",
+      "to": "conversational-ai-persuasion",
+      "type": "elaborates",
+      "evidence_section": "사각지대의 교차",
+      "reason": "깊은 개인화와 의도적 설득의 증거 공백이 접근권의 비대칭 때문에 메워지기 어려운 이유를 설명한다."
+    },
+    {
+      "from": "world-reading-groups",
+      "to": "global-reading-club-2026-books",
+      "type": "introduces",
+      "evidence_section": "모임을 관찰하는 일곱 질문",
+      "reason": "문화적 관찰 기준을 홍콩·바르셀로나·델리·일본의 실제 선정도서 배열에 연결한다."
+    },
+    {
+      "from": "global-reading-club-2026-books",
+      "to": "world-book-club-korean-editions",
+      "type": "curates",
+      "evidence_section": "네 지역을 비교하는 독서 리듬",
+      "reason": "해외 선정작을 한국어로 따라 읽기 위한 대응·판본 검토 문서를 안내한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-economic-transition",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "경제의 이행 조건과 계층별 분배를 구별하는 직접 관련 상세 원고를 읽기 순서에 연결한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-capital-labor-distribution",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "경제의 이행 조건과 계층별 분배를 구별하는 직접 관련 상세 원고를 읽기 순서에 연결한다."
+    },
+    {
+      "from": "burning-man-community",
+      "to": "romp-etymology",
+      "type": "introduces",
+      "evidence_section": "초기의 놀이를 가리키는 romp",
+      "reason": "초기 해변 소각의 놀이 성격을 설명하는 단어에서 뜻·어원·의미 변화의 상세 문서로 연결한다."
+    },
+    {
+      "from": "global-festival-streaming",
+      "to": "burning-man-community",
+      "type": "introduces",
+      "evidence_section": "두 주 집중 시청의 2026년 사례",
+      "reason": "세계 연례행사 시청 일정에서 버닝맨을 접한 뒤 기원과 임시 공동체의 상세 설명으로 연결한다."
+    },
+    {
+      "from": "public-land-and-blm",
+      "to": "burning-man-community",
+      "type": "supports",
+      "evidence_section": "블랙록 사막은 누구의 땅인가",
+      "reason": "블랙록 사막의 공공토지와 임시 사용 허가 구조가 버닝맨의 임시도시 배경을 제도적으로 보충한다."
+    },
+    {
+      "from": "burning-man-institutions",
+      "to": "burning-man-community",
+      "type": "elaborates",
+      "evidence_section": "10원칙은 출발점이 아니라 뒤늦은 성문화",
+      "reason": "해변의 놀이와 임시 공동체에서 발전한 문화가 10원칙과 운영조직으로 제도화되는 과정을 심화한다."
+    },
+    {
+      "from": "burning-man-regional-network",
+      "to": "burning-man-community",
+      "type": "elaborates",
+      "evidence_section": "사막의 외형이 아니라 문화 프로토콜",
+      "reason": "블랙록 사막에서 형성된 참여 문화를 여러 나라가 현지화하는 구조로 확장한다."
+    },
+    {
+      "from": "long-running-music-broadcasts",
+      "to": "japanese-classical-tv-conductor-image",
+      "type": "introduces",
+      "evidence_section": "일본: 노래 경연, 교육용 노래, 대중음악의 장기 포맷",
+      "reason": "장수 음악방송의 일본 사례에서 클래식 해설 방송의 별도 상세 문서로 연결한다."
+    },
+    {
+      "from": "japanese-classical-tv-conductor-image",
+      "to": "daisuke-soga-conductor-career",
+      "type": "illustrates",
+      "evidence_section": "그 방송을 보고 자란 다음 세대",
+      "reason": "지휘자가 이미 대중매체에 가시화된 환경에서 성장한 다음 세대의 구체적 경력 사례로 소가 다이스케를 연결한다."
+    },
+    {
+      "from": "ai-human-control-guide",
+      "to": "ai-domination-gradient",
+      "type": "introduces",
+      "evidence_section": "이 주제를 읽는 순서",
+      "reason": "AI 통제력 논의의 읽기 순서에서 미래의 장악과 별도로 지배를 현재의 농도로 보는 철학적 원고를 안내한다."
+    },
+    {
+      "from": "ai-domination-gradient",
+      "to": "gradual-disempowerment",
+      "type": "contrasts",
+      "evidence_section": "이미 시작되었다는 주장의 정확한 범위",
+      "reason": "현재의 저농도 의미적·제도적 개입과 인간 참여가 사라지는 미래의 점진적 무력화를 구별하면서 두 문제의 연속성을 설명한다."
+    },
+    {
+      "from": "instrument-consumables-organic-materials",
+      "to": "woodwind-reeds-material-history",
+      "type": "illustrates",
+      "evidence_section": "목관 리드: 가장 극단적인 소모품",
+      "reason": "악기의 생물성 소모품 가운데 리드가 최초 진동원과 공급망을 동시에 좌우하는 극단적 사례임을 상세 문서로 연결한다."
+    },
+    {
+      "from": "orchestra-instrument-stereotypes",
+      "to": "woodwind-reeds-material-history",
+      "type": "supports",
+      "evidence_section": "오보에: 예민한 완벽주의자라는 이미지",
+      "reason": "오보이스트의 예민함이라는 직업적 이미지가 리드 제작·선별·습도 관리라는 실제 연주 노동과 연결되는 배경을 보충한다."
+    },
+    {
+      "from": "hank-asher-data-fusion-ai",
+      "to": "ai-democracy-narrow-corridor",
+      "type": "illustrates",
+      "evidence_section": "인간 검토는 필요한 조건이지 충분조건은 아니다",
+      "reason": "데이터 융합과 조직 권한에 AI가 결합될 때 동일한 모델도 데이터·강제력 보유 주체에게 더 큰 통제력을 줄 수 있다는 구조를 역사적·기술적 사례로 구체화한다."
+    },
+    {
+      "from": "korea-personal-data-lifecycle",
+      "to": "hank-asher-data-fusion-ai",
+      "type": "contrasts",
+      "evidence_section": "행크 애셔의 세계와 한국의 차이",
+      "reason": "한 사업가와 강력한 검색 데이터베이스 중심의 미국 사례와, 본인확인·광고·위탁·결합·유출이 분산된 한국의 데이터 생태계를 대비한다."
+    },
+    {
+      "from": "ai-compute-scaling-inference",
+      "to": "japan-physical-ai-skill-transfer",
+      "type": "illustrates",
+      "evidence_section": "피지컬 AI: 현실세계가 다음 스케일링 대상이 될 때",
+      "reason": "대규모 추론·시뮬레이션 계산이 로봇의 모방학습과 실제 작업 데이터 학습으로 확장되는 구체적 분야를 일본 피지컬 AI 사례가 보여 준다."
+    },
+    {
+      "from": "hate-escalation-brakes-history",
+      "to": "dreyfus-affair-intellectuals",
+      "type": "introduces",
+      "evidence_section": "1898년 프랑스 반유대주의 급등: 강한 동원이 반드시 계속 가속되지는 않는다",
+      "reason": "혐오 동원의 급등과 약화라는 역사적 배경에서 당시 문학가·학자·예술가의 진영 분열을 다룬 상세 글로 안내한다."
+    },
+    {
+      "from": "world-crisis-historical-analogies",
+      "to": "war-escalation-local-to-world",
+      "type": "elaborates",
+      "evidence_section": "벨 에포크의 이중성: 연결된 세계와 충돌하는 제국",
+      "reason": "현대와 1914년의 역사 유비를 실제 확전 연결모형의 설명과 결합한다."
+    },
+    {
+      "from": "state-hollowing-country-pilot",
+      "to": "state-hollowing-index",
+      "type": "illustrates",
+      "evidence_section": "이 점수는 무엇을 계산했고 무엇을 계산하지 않았나",
+      "reason": "아홉 영역의 개념 설계와 네 변수 코어 적용을 구별하여 실증 시범의 한계를 보여준다."
+    },
+    {
+      "from": "critical-optimism-fragile-order",
+      "to": "state-hollowing-index",
+      "type": "elaborates",
+      "evidence_section": "완충장치가 먼저 사망한 곳에서의 낙관",
+      "reason": "비판적 낙관론의 제도적 완충을 국가별·계층별 기능 공동화 문제로 확장한다."
+    },
+    {
+      "from": "mood-led-music-listening",
+      "to": "music-books-supply-attention",
+      "type": "illustrates",
+      "evidence_section": "취향의 다음 분기와 판단 유보",
+      "reason": "선곡의 우선순위와 취향 검증의 한계를 구체적인 음악 목록으로 보여준다."
+    },
+    {
+      "from": "drone-asymmetric-warfare",
+      "to": "black-sea-ukraine-sea-denial",
+      "type": "elaborates",
+      "evidence_section": "우크라이나에서 비대칭이 바다와 육지에 적용된 방식",
+      "reason": "가격·생산시간 비대칭의 해상거부 적용과 상업항로의 기능적 효과를 상세 설명한다."
+    },
+    {
+      "from": "drone-asymmetric-warfare",
+      "to": "ukraine-ground-drone-defense",
+      "type": "elaborates",
+      "evidence_section": "우크라이나에서 비대칭이 바다와 육지에 적용된 방식",
+      "reason": "드론 비대칭전의 일반 개념에서 지상 전선의 정찰·FPV·전자전·보급 구조를 구체화한다."
+    },
+    {
+      "from": "war-escalation-local-to-world",
+      "to": "global-flashpoints-likelihood-2026",
+      "type": "contrasts",
+      "evidence_section": "어느 분쟁이 먼저 터질까: 확전 위험과 발발 가능성의 분리",
+      "reason": "분쟁들의 전략적 연쇄와 국경의 최초 소규모 충돌 가능성은 서로 다른 평가 문제임을 구별한다."
+    }
+  ]
+}
