@@ -119,6 +119,8 @@ function checkOriginalBlocks(id, text) {
 // so ties keep manifest order instead of failing the build.
 const published = entries.filter(e => e.publish === true).sort((a,b)=>(a.order ?? 1e9)-(b.order ?? 1e9));
 const publishedIds = new Set(published.map(e=>e.id));
+// Navigation routes are valid internal links even though they are not articles.
+const navigationIds = new Set(['all', 'about', 'calendar']);
 const required = ["id","title","category","status","updated","summary","source"];
 const notes = published.map(entry => {
   for (const field of required) requireString(entry, field, entry.id);
@@ -143,7 +145,7 @@ for (const note of notes) {
   }
   if (note.work && !publishedIds.has(note.work)) fail(note.id + ": published chapter of an unpublished work " + note.work);
   for (const match of note.body.matchAll(/\]\(#([a-z0-9-]+)\)/g)) {
-    if (!publishedIds.has(match[1])) fail(note.id + ": broken site link #" + match[1]);
+    if (!publishedIds.has(match[1]) && !navigationIds.has(match[1])) fail(note.id + ": broken site link #" + match[1]);
   }
 }
 const current = fs.existsSync(outputPath) ? JSON.parse(fs.readFileSync(outputPath,"utf8")) : null;

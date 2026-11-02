@@ -11,6 +11,7 @@
     {"id":"k04","kind":"concept","title":"사이트 캐시·AI 색인·편집 지도의 생성 경로","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"원본에서 만들어지는 생성물"}]},
     {"id":"k05","kind":"fact","title":"프로젝트 경로 아래의 탐색 주소와 정적 문서 주소","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"웹 화면과 두 종류의 문서 주소"}]},
     {"id":"k06","kind":"fact","title":"원고 작성에서 검증·자동 커밋·Pages 게시까지의 흐름","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"작성에서 배포까지의 흐름"}]},
-    {"id":"k07","kind":"fact","title":"개인 저장소 분리와 댓글·검색엔진·공개 범위의 현재 설정","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"개인 프로젝트로 운영할 때의 변경 지점"}]}
+    {"id":"k07","kind":"fact","title":"개인 저장소 분리와 댓글·검색엔진·공개 범위의 현재 설정","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"개인 프로젝트로 운영할 때의 변경 지점"}]},
+    {"id":"k08","kind":"example","title":"1986년 작성자 탄생 가상 항목으로 달력의 연대·문서 연결 확인","status":"integrated","targets":[{"doc_id":"pododala-project-structure","section":"달력 동작 예시"}]}
   ]
 }

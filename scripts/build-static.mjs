@@ -63,6 +63,7 @@ function staticArticle(note) {
       `<a href="https://raw.githubusercontent.com/pododala/pododala/main/wiki/${note.id}.md">원문 Markdown</a><a href="${basePath}#${note.id}">탐색 화면에서 보기</a>`)
     .replace(/href="#all"/g, `href="${basePath}notes/"`)
     .replace(/href="#about"/g, `href="${basePath}#about"`)
+    .replace(/href="#calendar"/g, `href="${basePath}#calendar"`)
     .replace(/href="#([a-z0-9-]+)"/g, (match, id) => ids.has(id) ? `href="${basePath}notes/${id}/"` : match);
 }
 

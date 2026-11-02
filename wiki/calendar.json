@@ -1,5 +1,13 @@
 {
   "version": 1,
   "description": "달력 보기(/#calendar)의 정본. 시기가 특정되는 글·절만 정비 때 골라 누적한다(MAINTENANCE.md). from/to는 연대형, every는 해마다 돌아오는 절기형이다.",
-  "entries": []
+  "entries": [
+    {
+      "id": "c001",
+      "label": "작성자 탄생 (예시)",
+      "from": "1986",
+      "doc": "pododala-project-structure",
+      "section": "달력 동작 예시"
+    }
+  ]
 }
