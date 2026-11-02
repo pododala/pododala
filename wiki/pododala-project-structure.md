@@ -1,6 +1,10 @@
 # pododala 개인 위키: 프로젝트 구조와 운영 흐름
 
-pododala 개인 위키는 Markdown으로 글을 작성하고, 같은 원고를 웹사이트와 AI 탐색 자료로 배포하는 개인 프로젝트다. 저장소는 [pododala/pododala](https://github.com/pododala/pododala), 웹사이트는 [pododala 열린 노트](https://pododala.github.io/pododala/)다. 기존 개인 위키의 코드와 원고를 출발점으로 삼되, 운영 저장소와 사이트 주소를 분리하여 개인 프로젝트로 운영한다.
+pododala 개인 위키는 Markdown으로 글을 작성하고, 같은 원고를 웹사이트와 AI 탐색 자료로 배포하는 개인 프로젝트다.
+저장소는 [pododala/pododala](https://github.com/pododala/pododala), 웹사이트는 [pododala 열린 노트](https://pododala.github.io/pododala/)다.
+기존 개인 위키의 코드와 원고를 출발점으로 삼되, 운영 저장소와 사이트 주소를 분리하여 개인 프로젝트로 운영한다.
+
+(https://belorin.github.io/#)에 뿌리를 둔다
 
 프로젝트를 이해하는 핵심은 원고, 생성 데이터, 화면, 배포의 역할을 나누어 보는 데 있다. 글을 고치는 곳과 화면을 고치는 곳이 다르며, 자동으로 만들어지는 파일은 원본에서 다시 생성한다. 이 문서는 2026년 11월 2일의 실제 코드와 확인된 배포 상태를 기준으로 현재 구조를 설명한다.
 
