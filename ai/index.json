@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 2,
+  "document_count": 3,
   "documents": [
     {
       "id": "pododala-project-structure",
@@ -76,6 +76,36 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/postal-parcel-process.md",
       "page_url": "https://pododala.github.io/pododala/notes/postal-parcel-process/",
       "app_url": "https://pododala.github.io/pododala/#postal-parcel-process"
+    },
+    {
+      "id": "red-velvet-debut",
+      "title": "레드벨벳 데뷔",
+      "aliases": [
+        "Red Velvet debut",
+        "레드벨벳 데뷔일",
+        "레드벨벳 데뷔 기념일"
+      ],
+      "category": "음악",
+      "tags": [
+        "레드벨벳",
+        "Red Velvet",
+        "데뷔",
+        "K-pop",
+        "2014년",
+        "행복"
+      ],
+      "summary": "레드벨벳의 2014년 8월 1일 데뷔 무대, 데뷔곡 행복, 8월 4일 음원 발매를 구별해 설명한다.",
+      "published": true,
+      "review_state": "reviewed",
+      "review_label": "공식 데뷔일과 첫 무대·음원 발매일의 차이를 확인",
+      "last_updated_on": "2026-11-02",
+      "last_enriched_on": "2026-11-02",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/red-velvet-debut.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/red-velvet-debut.md",
+      "page_url": "https://pododala.github.io/pododala/notes/red-velvet-debut/",
+      "app_url": "https://pododala.github.io/pododala/#red-velvet-debut"
     }
   ]
 }

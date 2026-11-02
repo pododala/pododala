@@ -19,3 +19,9 @@
 - **[우체국 소포 프로세스](wiki/postal-parcel-process.md)** · 별칭: 우체국 소포 처리 절차, 우체국 택배 업무 흐름, 등기소포 프로세스 · 수정: 2026-11-02 · 검토: 국내 등기소포 일반 업무 흐름 정리·내부 전산 상세 검토 필요
   - 등기소포의 접수, 발착·수집, 집중국 구분, 간선 운송, 배달국 집배원 배정, 배달 및 미배달·반송의 전체 흐름과 데이터 관리 단위를 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/postal-parcel-process/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/postal-parcel-process.md)
+
+## 음악
+
+- **[레드벨벳 데뷔](wiki/red-velvet-debut.md)** · 별칭: Red Velvet debut, 레드벨벳 데뷔일, 레드벨벳 데뷔 기념일 · 수정: 2026-11-02 · 검토: 공식 데뷔일과 첫 무대·음원 발매일의 차이를 확인
+  - 레드벨벳의 2014년 8월 1일 데뷔 무대, 데뷔곡 행복, 8월 4일 음원 발매를 구별해 설명한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/red-velvet-debut/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/red-velvet-debut.md)
