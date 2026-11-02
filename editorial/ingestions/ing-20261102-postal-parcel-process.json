@@ -1,0 +1,93 @@
+{
+  "id": "ing-20261102-postal-parcel-process",
+  "processed_on": "2026-11-02",
+  "coverage": "visible-complete",
+  "limit_note": "이 대화에서 접근 가능한 국내 등기소포 업무 설명을 기반으로 재구성. 실제 우정사업본부 내부 전산 상세는 미검증.",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "fact",
+      "title": "등기소포의 접수에서 집배원 배달까지 시설별 처리 순서",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "전체 업무 흐름"
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "kind": "concept",
+      "title": "등기번호·운송용기·운송편·집배구의 서로 다른 관리 단위",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "2. 접수국의 발착·수집"
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "kind": "fact",
+      "title": "발송집중국의 기계구분과 수구분 및 간선 운송",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "3. 발송 우편집중국에서의 구분"
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "kind": "fact",
+      "title": "배달국 집배원 배정과 미배달·반송 예외 흐름",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "8. 미배달·재배달·보관·반송"
+        }
+      ]
+    },
+    {
+      "id": "k05",
+      "kind": "concept",
+      "title": "고객 배송조회와 내부 이벤트 이력의 구분",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "9. 고객 배송조회와 내부 업무 이벤트의 구분"
+        }
+      ]
+    },
+    {
+      "id": "k06",
+      "kind": "example",
+      "title": "서울에서 부산으로 이동하는 등기소포의 가상 처리 이력",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "10. 가상 사례: 서울에서 부산으로 보내는 소포"
+        }
+      ]
+    },
+    {
+      "id": "k07",
+      "kind": "argument",
+      "title": "소포 최신 상태와 시계열 이벤트 이력을 분리하는 시스템 설계",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "postal-parcel-process",
+          "section": "11. 물류 시스템 설계에서 구분할 데이터"
+        }
+      ]
+    }
+  ]
+}
