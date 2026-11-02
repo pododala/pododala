@@ -3,7 +3,7 @@
 > 자동 생성(`scripts/build-wiki-map.mjs`). 직접 수정하지 않는다. 편집 장부(`editorial/ingestions/`)의 기록을 뒤집은 것이며 새 요약을 담지 않는다.
 > **통째로 읽지 말고 낱말로 검색한다.** 검색에 걸리지 않았다고 미반영이라고 단정하지 않는다. 장부 도입 이전 원고는 여기 없으므로 문서 카드의 절 목차로도 찾는다. 반영 여부의 최종 판정은 해당 절 본문을 읽고 한다.
 
-장부 지식 항목 17개 · 형식: 표제 → `문서` § 절 · `처리 배치`
+장부 지식 항목 24개 · 형식: 표제 → `문서` § 절 · `처리 배치`
 
 ## 보류 항목 (0)
 
@@ -29,3 +29,15 @@
 - 선택적 원본 커밋·본인 원격 확인·자동 생성 커밋과 실제 게시 완료의 구분 → `pododala-project-structure` § main 커밋과 GitHub Pages 게시 확인 · `ing-20261102-local-development-enrichment`
 - 현재 운영 도메인만 내부 링크로 변환하고 이전 소유자 연결 제거 → `pododala-project-structure` § 개인 프로젝트로 운영할 때의 변경 지점 · `ing-20261102-pododala-connections`
 - 로컬 Git 인증·원격 주소와 외부 GitHub 앱 계정 연결의 구분 → `pododala-project-structure` § 개인 프로젝트로 운영할 때의 변경 지점 · `ing-20261102-pododala-connections`
+
+## 물류 (7)
+
+분류는 첫 반영 문서 기준이다. 여러 분야에 걸친 항목은 한 분류에만 실리므로 분류로 범위를 좁히지 말고 검색한다.
+
+- 등기소포의 접수에서 집배원 배달까지 시설별 처리 순서 → `postal-parcel-process` § 전체 업무 흐름 · `ing-20261102-postal-parcel-process`
+- 등기번호·운송용기·운송편·집배구의 서로 다른 관리 단위 → `postal-parcel-process` § 2. 접수국의 발착·수집 · `ing-20261102-postal-parcel-process`
+- 발송집중국의 기계구분과 수구분 및 간선 운송 → `postal-parcel-process` § 3. 발송 우편집중국에서의 구분 · `ing-20261102-postal-parcel-process`
+- 배달국 집배원 배정과 미배달·반송 예외 흐름 → `postal-parcel-process` § 8. 미배달·재배달·보관·반송 · `ing-20261102-postal-parcel-process`
+- 고객 배송조회와 내부 이벤트 이력의 구분 → `postal-parcel-process` § 9. 고객 배송조회와 내부 업무 이벤트의 구분 · `ing-20261102-postal-parcel-process`
+- 서울에서 부산으로 이동하는 등기소포의 가상 처리 이력 → `postal-parcel-process` § 10. 가상 사례: 서울에서 부산으로 보내는 소포 · `ing-20261102-postal-parcel-process`
+- 소포 최신 상태와 시계열 이벤트 이력을 분리하는 시스템 설계 → `postal-parcel-process` § 11. 물류 시스템 설계에서 구분할 데이터 · `ing-20261102-postal-parcel-process`

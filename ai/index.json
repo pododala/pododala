@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 1,
+  "document_count": 2,
   "documents": [
     {
       "id": "pododala-project-structure",
@@ -43,6 +43,39 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/pododala-project-structure.md",
       "page_url": "https://pododala.github.io/pododala/notes/pododala-project-structure/",
       "app_url": "https://pododala.github.io/pododala/#pododala-project-structure"
+    },
+    {
+      "id": "postal-parcel-process",
+      "title": "우체국 소포 프로세스",
+      "aliases": [
+        "우체국 소포 처리 절차",
+        "우체국 택배 업무 흐름",
+        "등기소포 프로세스"
+      ],
+      "category": "물류",
+      "tags": [
+        "우체국",
+        "소포",
+        "등기소포",
+        "우편집중국",
+        "발착",
+        "간선 운송",
+        "집배",
+        "배달",
+        "물류 프로세스"
+      ],
+      "summary": "등기소포의 접수, 발착·수집, 집중국 구분, 간선 운송, 배달국 집배원 배정, 배달 및 미배달·반송의 전체 흐름과 데이터 관리 단위를 설명한다.",
+      "published": true,
+      "review_state": "needs_review",
+      "review_label": "국내 등기소포 일반 업무 흐름 정리·내부 전산 상세 검토 필요",
+      "last_updated_on": "2026-11-02",
+      "last_enriched_on": "2026-11-02",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/postal-parcel-process.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/postal-parcel-process.md",
+      "page_url": "https://pododala.github.io/pododala/notes/postal-parcel-process/",
+      "app_url": "https://pododala.github.io/pododala/#postal-parcel-process"
     }
   ]
 }

@@ -24,3 +24,7 @@
 ### 프로젝트
 
 - [pododala 개인 위키: 프로젝트 구조와 운영 흐름](https://pododala.github.io/pododala/notes/pododala-project-structure/): 개인 위키의 구조와 생성물 관계, VSCode·Codex를 이용한 로컬 개발과 지식 증보, 메타데이터·장부 갱신, 실제 검증 명령과 GitHub Pages 게시 절차를 설명한다.
+
+### 물류
+
+- [우체국 소포 프로세스](https://pododala.github.io/pododala/notes/postal-parcel-process/): 등기소포의 접수, 발착·수집, 집중국 구분, 간선 운송, 배달국 집배원 배정, 배달 및 미배달·반송의 전체 흐름과 데이터 관리 단위를 설명한다.
