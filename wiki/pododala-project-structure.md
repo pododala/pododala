@@ -85,6 +85,92 @@ AI와 함께 글을 편집하고 AI가 읽을 수 있는 색인을 제공하지�
 
 로컬 기본 확인 명령은 `node scripts/build-notes.mjs`, `node scripts/build-ai-index.mjs`, `node scripts/build-wiki-map.mjs`, `node scripts/build-maintenance-queue.mjs`다. 생성 뒤 각 스크립트의 `--check`와 편집 기록·연결·달력 검증, 뷰어 테스트로 형식과 동작을 확인한다. 코드가 저장소에 올라간 상태와 웹사이트에 게시된 상태는 별도이므로 마지막으로 Actions 실행 결과와 실제 페이지 응답을 확인한다.
 
+## VSCode에서 로컬 개발을 시작하는 순서
+
+VSCode는 프로젝트 폴더와 원고를 열고 터미널 명령을 실행하는 편집 환경, Codex는 저장소를 읽고 수정·검증을 돕는 도구, GitHub Pages는 생성한 사이트를 게시하는 배포 환경으로 구분한다. 원고를 저장하는 일, Git 커밋을 만드는 일, 웹사이트를 게시하는 일은 서로 다른 단계다. Codex가 파일을 수정했다는 사실만으로 원격 저장소나 사이트에 반영된 것은 아니다.
+
+현재 로컬 작업 폴더는 `D:\AiProject`다. VSCode에서 이 폴더를 열고 통합 터미널의 위치도 같은 루트로 맞춘다. `code` 명령이 등록된 환경에서는 해당 폴더에서 `code .`로 여는 방법도 있다. 이 프로젝트의 생성기는 `process.cwd()`를 기준으로 `wiki/manifest.json`, `notes.json` 등을 찾으므로 `wiki`나 `scripts` 하위 폴더에서 실행하면 경로가 맞지 않을 수 있다.
+
+1. 터미널에서 `Get-Location`으로 작업 위치를 확인하고 필요하면 `Set-Location D:\AiProject`로 이동한다.
+2. `node --version`과 `git --version`으로 도구를 확인한다. 현재 로컬 Node.js는 22.12.0이며 배포 워크플로도 Node.js 22를 지정한다.
+3. `git branch --show-current`, `git remote -v`, `git status --short`로 브랜치·대상 저장소·기존 수정을 확인한다. 현재 편집 대상은 `main`, 업로드 대상은 `https://github.com/pododala/pododala.git`다.
+4. `AGENTS.md`와 `WIKI_PROTOCOL.md`를 먼저 읽고, `README.md`의 정본·생성물 구분과 실제 스크립트를 대조한다. `AGENTS.md` 첫 소개의 이전 사이트 주소와 실제 운영 주소는 다르므로, 업로드 대상은 현재 Git 원격 설정과 배포 정의로 확인한다.
+5. 내용 수정은 `wiki/*.md`와 `wiki/manifest.json`에서 시작하고, UI 변경이 필요한 경우에만 `index.html`, `style.css`, `app.js`를 함께 검토한다.
+
+현재 저장소에는 `package.json` 기반의 개발 서버나 `npm run dev` 실행 정의가 없다. README와 생성 스크립트도 별도 npm 패키지 설치를 전제로 하지 않는다. 따라서 다른 프레임워크의 시작 명령을 적용하기보다 실제 `scripts/*.mjs`를 직접 실행하는 흐름을 따른다.
+
+## Codex로 지식을 증보하는 작업 단위
+
+Codex에 맡기는 작업은 대상 원고, 보존할 내용, 확인할 근거, 갱신할 메타데이터와 검증 범위를 명확히 나누는 방식으로 구성한다. 이 저장소에서는 기존 설명을 짧게 다시 쓰는 것보다, 확인 가능한 새 지식을 기존 절에 통합하거나 필요한 절을 신설하는 것이 증보다. 외부 조사 없이 현재 원고와 코드에서 확인되는 내용으로 범위를 한정하고, 확인되지 않은 설치 방법·기능·실행 결과를 사실처럼 추가하지 않는다.
+
+### 기존 내용과 대조하기
+
+먼저 `editorial/ingestions/index.json`에서 처리한 배치를 확인하고, `editorial/map/index.md`에서 관련 문서를 찾는다. 이어서 문서 카드 `editorial/map/docs/pododala-project-structure.md`의 절 목차와 기록을 읽고, 최종적으로 실제 원고의 해당 절과 대조한다. `editorial/map/knowledge.md`는 필요한 낱말로 검색한다. 지도나 검색 결과만 보고 이미 반영된 지식이라고 판단하지 않는다.
+
+로컬 후보 탐색에는 `node scripts/search-wiki.mjs --query "로컬 개발 지식 증보" --json`을 사용할 수 있다. 이 도구는 문자 n-gram과 기존 관계를 이용하므로 결과가 없다는 사실이 내용의 부재를 보증하지 않는다. 문서 전문을 확인해야 하는 구조 변경과 충돌은 원고를 읽어 해결한다. 현재 원고가 한 편인 상태에서는 기존 프로젝트 문서의 해당 절에 직접 증보하고, 필요 없이 같은 주제의 새 문서를 만들지 않는다.
+
+### 원고와 메타데이터를 함께 갱신하기
+
+본문의 사실과 절 제목을 확정한 뒤 manifest의 해당 문서 항목을 갱신한다. `updated`는 수정일, `last_enriched_on`은 실제 지식 증보일이며, 같은 날짜에 다시 증보하면 날짜 문자열이 그대로일 수 있다. 변경 사실은 상세 장부와 커밋으로 구분한다. `review_state`는 실제 대조와 검토를 마친 범위에 맞게 정하고, 기존 `status`와 `source`를 새 작업으로 일괄 덮어쓰지 않는다. 요약·태그·별칭은 추가된 내용이 검색되도록 필요한 부분만 보강한다.
+
+새 문서를 등록하는 경우에는 고유한 ID와 `wiki/<문서-id>.md` 경로, 공개 여부와 분류를 함께 확인한다. 내부 원고 링크는 `./<문서-id>.md`로 작성하며, `related`는 존재하는 공개 문서의 ID를 사용한다. 간접적 해석과 유비는 확정된 관계로 자동 등록하지 않고 교차 편집 제안으로 구분한다.
+
+### 반영 위치를 장부에 남기기
+
+신규 증보는 `editorial/ingestions/ing-YYYYMMDD-주제.json`에 기록하고 `index.json`의 `batches` 끝에 배치 ID를 추가한다. 배치는 내부 작업 식별자이며 원본 대화의 ID가 아니다. 한 항목에는 짧은 지식 표제와 `kind`, `status`, `targets`를 기록한다. `integrated` 항목의 대상은 실제 `doc_id`와 정확히 일치하는 절 제목 `section`이어야 한다. 보류 항목은 `pending`, 빈 `targets`, 사유 `reason`으로 구분한다.
+
+장부는 두 번째 본문이나 대화 사본이 아니다. 대화 원문·발췌·공유 URL·개인 사정을 넣지 않고, 원고의 어느 절에 어떤 공개 가능한 지식을 반영했는지만 남긴다. 장부 검증기는 등록되지 않은 배치 파일, 존재하지 않는 문서, 일치하지 않거나 중복되는 절 제목 등을 검사한다.
+
+## 로컬 생성과 검증을 실행하는 순서
+
+원고·manifest·장부를 저장한 뒤 프로젝트 루트에서 다음 생성 명령을 순서대로 실행한다. 이 단계는 원본에서 산출물을 만드는 과정이며, 생성 파일을 손으로 편집하는 과정과 다르다.
+
+| 순서 | 실행 명령 | 생성 또는 검사하는 대상 |
+| --- | --- | --- |
+| 1 | `node scripts/build-notes.mjs` | 원고·공개 메타데이터를 읽어 사이트 데이터 생성, 본문 연결과 필수 필드 검증 |
+| 2 | `node scripts/build-ai-index.mjs` | 공개 AI 색인·관계 데이터·AI_INDEX.md·llms.txt 생성 |
+| 3 | `node scripts/build-wiki-map.mjs` | 편집 지도·문서 카드·지식 표제 역색인 갱신 |
+| 4 | `node scripts/build-maintenance-queue.mjs` | 정비 로그 검사와 정비 대기열 갱신 |
+
+생성이 끝나면 같은 네 명령에 각각 `--check`를 붙여 원본과 생성물이 일치하는지 확인한다. 예를 들어 `node scripts/build-notes.mjs --check`는 파일을 새로 쓰는 대신 현재 데이터의 일치를 검사한다. 오래된 생성물이 발견되면 원본과 생성 과정을 확인하고 다시 생성한다. `--check` 자체가 일반적인 테스트 전체를 대신하지는 않는다.
+
+배포 워크플로의 나머지 검증 명령도 직접 실행할 수 있다.
+
+| 범위 | 실행 명령 | 확인하는 내용 |
+| --- | --- | --- |
+| 편집 기록 | `node scripts/validate-editorial.mjs` | 배치 색인과 지식 항목·대상 문서·절의 무결성 |
+| 장부 검증기의 시험 | `node scripts/test-editorial.mjs` | 잘못된 절·원문 필드·URL·미등록 배치 등을 거부하는지 확인 |
+| 교차 제안 | `node scripts/validate-crosslinks.mjs` | 제안의 참조 절·유형·상태 검사 |
+| 검색과 교차 탐색 | `node scripts/test-crosslinks.mjs` | 검색 후보와 공개 범위·간접 연결 처리 시험 |
+| 달력 | `node scripts/validate-calendar.mjs` | 날짜 형식과 게시 문서·절 연결 검사 |
+| 달력 동작 | `node scripts/test-calendar.mjs` | 연대 축척·빈 구간·해를 넘기는 절기 등의 시험 |
+| 화면 코드 문법 | `node --check app.js`, `node --check calendar.js` | JavaScript 문법 검사 |
+| 문서 뷰어 | `node scripts/test-viewer.mjs` | 화면 전환·탐색·표·이스케이프 등 시험 |
+
+각 명령의 종료 코드와 오류 메시지를 확인하고, 실패하면 다음 게시 단계로 넘어가지 않는다. 단순히 여러 명령을 연속 입력했다고 모두 성공한 것은 아니다. 생성물 일치와 형식 검증이 통과하더라도 지식의 정확성이나 내용 보존을 전부 입증한 것은 아니므로 원고 전후 비교도 수행한다.
+
+## 로컬 화면과 원고 보존을 확인하는 방법
+
+VSCode에서 Markdown을 읽는 것과 사이트의 자체 렌더러로 읽는 것은 다르다. 원고는 이 사이트가 지원하는 소제목·목록·강조·인라인 코드·링크·표 범위 안에서 작성한다. 긴 셸 예제를 코드 울타리로 추가하기보다 실행 순서와 명령을 표·인라인 코드로 표현하면 현재 렌더러와 맞는다.
+
+정적 문서의 로컬 생성 확인은 `node scripts/build-static.mjs .preview-site`로 수행할 수 있다. 결과는 `.preview-site/notes/pododala-project-structure/index.html`, 문서 목록과 사이트맵이다. 이 생성기는 HTML과 사이트맵을 쓸 뿐 `style.css`, `app.js`, `calendar.js`, 원본 데이터 등을 출력 폴더로 복사하지 않는다. 실제 배포에서는 워크플로의 Assemble site 단계가 저장소 파일을 `_site`에 먼저 복사한 뒤 정적 페이지를 생성한다. 로컬 생성 명령 한 번을 완성된 사이트 복사본이나 개발 서버 실행으로 이해하면 안 된다.
+
+브라우저에서 탐색 화면을 로컬로 확인하려면 별도로 준비한 HTTP 서버가 저장소 루트를 제공해야 한다. `app.js`와 `calendar.js`가 각각 `notes.json`, `wiki/calendar.json`을 `fetch`하므로, `index.html`을 파일로 직접 여는 방식만으로 동작을 판단하지 않는다. 이 저장소에는 해당 HTTP 서버를 시작하는 전용 스크립트가 없다. 서버가 루트에서 제공하는 로컬 탐색 주소와 운영 사이트의 `/pododala/` 경로도 구분한다. 정적 문서의 CSS와 메뉴 링크는 운영 경로를 사용하므로 동일한 하위 경로를 제공하는 환경에서 확인하거나 배포된 페이지로 최종 확인한다.
+
+기존 내용을 보존한 증보인지는 `git diff -- wiki/pododala-project-structure.md`로 확인한다. 추가한 절 외에 기존 문단이나 표·예시·관련 설명이 사라지지 않았는지 읽고, 검증기의 문서·절 연결 검사와 별도로 판단한다. 달력에서 연결하는 ‘달력 동작 예시’처럼 참조되는 절 제목을 바꿀 경우에는 달력과 장부의 대상 절도 함께 점검한다.
+
+## main 커밋과 GitHub Pages 게시 확인
+
+게시할 변경을 확인할 때는 `git diff --stat`과 `git status --short`로 파일 범위를 먼저 본다. 다른 작업의 수정이 있으면 이번 원고와 섞이지 않도록 구분한다. 원고·manifest·편집 장부를 명시적인 경로로 선택하여 스테이징하고 `git diff --cached`로 커밋 대상을 읽는다. 현재 편집 규칙은 별도 브랜치·PR 대신 `main`에 직접 커밋하는 방식이다.
+
+로컬 검증으로 바뀐 `notes.json`, `AI_INDEX.md`, `ai/*`, `llms.txt`, `editorial/map/*`, 정비 대기열은 수동 편집·수동 커밋 대상에 포함하지 않는다. 배포 워크플로가 같은 원본에서 생성·검증한 결과를 자동 커밋한다. `.preview-site/`와 `_site/`는 `.gitignore`에 등록된 로컬·배포 산출물 경로다. 기존 로컬 수정이나 생성물이 있다는 이유로 원고 전체를 되돌리거나 `git reset --hard`를 사용하지 않는다.
+
+업로드 직전 `git remote get-url --push origin`으로 본인 저장소 주소를 다시 확인하고, 범위를 확인한 커밋을 `git push origin main`으로 올린다. 원격에 새 커밋이 생겨 거부되면 변경 내용을 보존한 상태에서 원격 이력을 확인하며, 강제 푸시로 덮어쓰지 않는다. 자동 생성 커밋이 추가될 수 있으므로 다음 편집 전에 저장소 상태를 다시 확인한다.
+
+업로드 후 GitHub의 Actions에서 Build and deploy site 실행을 확인한다. Generate, Validate, 정적 페이지 생성, Pages 배포까지 성공했는지 확인하고, 마지막으로 운영 사이트의 탐색 주소와 `notes/pododala-project-structure/` 문서 주소를 연다. `main`에 커밋이 존재하는 것, 워크플로가 성공한 것, 실제 문서 내용이 바뀐 것을 각각 확인해야 게시 완료로 판단할 수 있다.
+
+이 절차의 근거는 저장소의 `README.md`, `AGENTS.md`, `WIKI_PROTOCOL.md` 2.02와 실제 생성·검증 스크립트, `.github/workflows/deploy-pages.yml`, `.github/workflows/validate-notes.yml`이다. VSCode와 Codex의 설치·계정 연결·제품별 설정 방법은 저장소에 정의되어 있지 않아 여기에서 검증된 절차로 확장하지 않는다. 이 프로젝트에서 두 도구를 사용하는 편집·검증 작업과 실제 배포 흐름을 설명하는 범위다.
+
 ## 개인 프로젝트로 운영할 때의 변경 지점
 
 현재 운영 저장소는 `pododala/pododala`이며 기존 원본 저장소와 별개다. 헤더·푸터의 이름, 원문·편집·이력 링크, 정적 페이지 작성자, AI 색인의 주소는 현재 저장소와 사이트를 사용한다. 현재 사이트에는 프로젝트 구조 문서만 남기고 이전 원고와 관련 편집 기록을 삭제했다. 삭제 전 자료는 Git 커밋 이력에서 확인할 수 있다.

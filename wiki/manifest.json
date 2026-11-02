@@ -12,7 +12,7 @@
       "category": "프로젝트",
       "status": "현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내",
       "updated": "2026-11-02",
-      "summary": "개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.",
+      "summary": "개인 위키의 구조와 생성물 관계, VSCode·Codex를 이용한 로컬 개발과 지식 증보, 메타데이터·장부 갱신, 실제 검증 명령과 GitHub Pages 게시 절차를 설명한다.",
       "tags": [
         "개인 프로젝트",
         "프로젝트 구조",
@@ -20,14 +20,19 @@
         "JavaScript",
         "Node.js",
         "GitHub Pages",
-        "자동 배포"
+        "자동 배포",
+        "VSCode",
+        "Codex",
+        "로컬 개발",
+        "지식 증보"
       ],
       "source": "현재 저장소 코드·README·워크플로·기존 위키와 확인된 배포 결과 기반·외부 신규 조사 없음",
       "related": [],
       "aliases": [
         "pododala 프로젝트 구조",
         "개인 위키 코드 구조",
-        "pododala 개발 안내"
+        "pododala 개발 안내",
+        "VSCode Codex 지식 증보 절차"
       ],
       "review_state": "reviewed",
       "last_enriched_on": "2026-11-02"
