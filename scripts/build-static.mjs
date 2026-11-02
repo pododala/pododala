@@ -161,7 +161,7 @@ ${list.map(n => `<div class="list-item"><h2><a href="${basePath}notes/${n.id}/">
 </section>`).join("\n")}`;
 write("notes/index.html", page({
   title: `전체 문서 · ${siteName}`,
-  description: "음악, 철학, AI와 사회, 역사, 문학과 소설까지 대화에서 시작해 계속 고쳐 쓰는 공개 위키의 전체 문서 목록.",
+  description: "pododala 개인 프로젝트의 구조와 운영 기록을 모은 문서 목록.",
   canonical: `${site}notes/`, body: indexBody, type: "website",
   jsonLd: { "@context": "https://schema.org", "@type": "CollectionPage", name: `전체 문서 · ${siteName}`, url: `${site}notes/`, inLanguage: "ko" },
 }));

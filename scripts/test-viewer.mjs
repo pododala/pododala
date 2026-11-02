@@ -5,8 +5,16 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 
 const notes = JSON.parse(fs.readFileSync('notes.json', 'utf8'));
+assert.ok(notes.length > 0, 'Expected at least one published document');
+// Renderer regression data stays in memory, independent of published articles.
+const fixture = (id, body) => ({id, title: id, category: '시험', status: '시험', updated: '1900-01-01',
+  summary: '시험용 문서', tags: [], source: '시험', related: [], body});
+const tableRows = Array.from({length: 20}, () => '| 항목 | **18.6** |').join('\n');
+notes.push(fixture('viewer-test-article', '## 표\n\n| 항목 | GPI |\n| --- | ---: |\n' + tableRows +
+  '\n\n## 두 번째 표\n\n| 항목 | GPI |\n| --- | ---: |\n' + tableRows));
+notes.push(fixture('viewer-test-basis', '## 근거\n\n시험용 본문'));
 // An in-memory synthesis note so the synthesis display is always exercised.
-const [basisA, basisB] = notes.filter(n => n.kind !== 'synthesis');
+const [basisA, basisB] = notes.filter(n => n.id.startsWith('viewer-test-'));
 notes.push({id: 'viewer-test-synthesis', title: '시험 종합', category: '종합', status: '시험',
   updated: '1900-01-01', summary: '시험용 종합 노트', tags: [], source: '시험',
   related: [basisA.id, basisB.id], kind: 'synthesis', synthesis_type: 'cross',
@@ -74,15 +82,15 @@ visit('');
 assert.match(html(), /최근 갱신/);
 assert.ok(nodes.get('#filters').children.length > 1, 'Missing category filters');
 
-visit('#ai-human-control-guide');
+visit('#viewer-test-article');
 assert.match(html(), /이 글의 목차/);
 assert.match(html(), /Markdown 원고/);
 assert.match(html(), /개정 이력/);
 // 개인화: pododala 저장소와 프로젝트 사이트 주소 반영. 남은 선택 설정은 PERSONALIZATION.md 참고.
-assert.match(html(), /data-copy="https:\/\/pododala\.github\.io\/pododala\/notes\/ai-human-control-guide\/">LLM용 링크 복사/);
+assert.match(html(), /data-copy="https:\/\/pododala\.github\.io\/pododala\/notes\/viewer-test-article\/">LLM용 링크 복사/);
 assert.ok(!html().includes('class="giscus"'), 'Comments stay disabled until this repository has its own giscus IDs');
 // 개인화: pododala 저장소와 프로젝트 사이트 주소 반영. 남은 선택 설정은 PERSONALIZATION.md 참고.
-assert.match(html(), /href="https:\/\/github\.com\/pododala\/pododala\/edit\/main\/wiki\/ai-human-control-guide\.md"[^>]*>고치기/);
+assert.match(html(), /href="https:\/\/github\.com\/pododala\/pododala\/edit\/main\/wiki\/viewer-test-article\.md"[^>]*>고치기/);
 assert.match(html(), /연결된 글/);
 assert.equal(nodes.get('#explore-toggle').attributes['aria-expanded'], 'false');
 assert.match(html(), /<details class="toc"><summary>/);
@@ -129,11 +137,11 @@ assert.match(html(), /문서를 찾을 수 없습니다/);
 visit('');
 assert.match(html(), /오늘의 무작위 문서/);
 fakeWindow.matchMedia = () => ({matches: false});
-visit('#ai-human-control-guide');
+visit('#viewer-test-article');
 assert.match(html(), /<details class="toc" open><summary>/);
 
 // Regression: public manuscripts must render tables rather than pipe-delimited paragraphs.
-visit('#state-hollowing-country-pilot');
+visit('#viewer-test-article');
 assert.equal((html().match(/<table>/g) || []).length, 2);
 assert.equal((html().match(/<tbody>/g) || []).length, 2);
 assert.equal((html().match(/<tr>/g) || []).length, 42);

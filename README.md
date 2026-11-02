@@ -5,7 +5,7 @@ https://pododala.github.io/pododala/
 
 저장소: https://github.com/pododala/pododala
 
-프로젝트 사이트 경로 `/pododala/`에 맞춰 배포한다. GitHub 저장소의 Settings → Pages → Source를 **GitHub Actions**로 설정하고 `main`에 코드를 올리면 배포 워크플로가 실행된다. 기존 원고는 유지했다. 댓글은 본인 giscus ID를 설정할 때까지 꺼져 있으며, 검색엔진 인증 값은 본인 값으로 새로 등록해야 한다. 원본 프로젝트: https://github.com/belorin/belorin.github.io
+프로젝트 사이트 경로 `/pododala/`에 맞춰 배포한다. GitHub 저장소의 Settings → Pages → Source를 **GitHub Actions**로 설정하고 `main`에 코드를 올리면 배포 워크플로가 실행된다. 현재는 프로젝트 분류의 구조 문서 1편만 남기고 이전 원고를 삭제했다. 댓글은 본인 giscus ID를 설정할 때까지 꺼져 있으며, 검색엔진 인증 값은 본인 값으로 새로 등록해야 한다. 원본 프로젝트: https://github.com/belorin/belorin.github.io
 
 대화에서 시작해 계속 고쳐 쓰는 공개 개인 위키. 기존 GitHub Pages 정적 UI를 유지합니다.
 
@@ -114,7 +114,7 @@ Pages는 브랜치 배포가 아니라 GitHub Actions 배포를 사용한다(Set
 
 ## 교차 검색과 편집 제안 (04단계)
 
-`node scripts/search-wiki.mjs --query "재즈 즉흥성" --json`으로 제목·절·단문의 어휘 기반 후보를 검색하고, `node scripts/search-wiki.mjs --related jazz-dialogue --all --novel --json`으로 기존 직접 링크가 없는 개념적 연결 후보를 탐색할 수 있다. `--all`은 미게시 Markdown도 포함하되 저장소 자체는 공개되어 있다는 점에 주의한다.
+`node scripts/search-wiki.mjs --query "프로젝트 구조" --json`으로 제목·절·단문의 어휘 기반 후보를 검색하고, `node scripts/search-wiki.mjs --related pododala-project-structure --all --novel --json`으로 기존 직접 링크가 없는 개념적 연결 후보를 탐색할 수 있다. `--all`은 미게시 Markdown도 포함하되 저장소 자체는 공개되어 있다는 점에 주의한다.
 
 이 로컬 검색은 **임베딩 기반 의미 검색이 아니며**, 문자 n-gram과 기존 관계를 이용한 *후보 검색*이다. 일반 ChatGPT 채팅에서는 `AI_INDEX.md`, `wiki/manifest.json`, `editorial/crosslinks/index.json`을 읽고 모델이 전체 Markdown을 비교해 의미적 가설을 제안한다. 사람 또는 명시적인 편집 승인 전까지 `editorial/crosslinks/index.json`의 `proposed` 항목을 원고에 자동 반영하지 않는다. 자세한 사용법은 [교차 편집 지침](editorial/crosslinks/README.md) 참고.
 

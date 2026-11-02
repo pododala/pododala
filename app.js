@@ -324,8 +324,7 @@ function article(note) {
 }
 function about() {
   const items = [
-    ['living-notes','운영 방향'], ['editing-principles','편집 원칙'],
-    ['open-questions','열린 질문'], ['wiki-building-history','구축 이력']
+    ['pododala-project-structure','프로젝트 구조']
   ].filter(([id]) => byId(id));
   view.innerHTML = '<div class="page-heading"><h1>이 공간에 관하여</h1>' +
     '<p>대화를 그대로 보관하기보다 지식을 독립적인 원고로 집필하고 계속 확장하는 공개 위키입니다.</p></div>' +
