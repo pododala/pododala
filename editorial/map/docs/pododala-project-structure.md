@@ -2,7 +2,7 @@
 
 > 자동 생성 문서 카드. 직접 수정하지 않는다. 판단은 반드시 아래 원고의 해당 절 본문을 읽고 한다.
 
-- id: `pododala-project-structure` · 분류: 프로젝트 · 공개 · 원고: [wiki/pododala-project-structure.md](../../../wiki/pododala-project-structure.md) · 6,263자 · 절 8개
+- id: `pododala-project-structure` · 분류: 프로젝트 · 공개 · 원고: [wiki/pododala-project-structure.md](../../../wiki/pododala-project-structure.md) · 6,795자 · 절 9개
 - 별칭: pododala 프로젝트 구조, 개인 위키 코드 구조, pododala 개발 안내
 - 요약: 개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.
 - 태그: 개인 프로젝트, 프로젝트 구조, Markdown, JavaScript, Node.js, GitHub Pages, 자동 배포
@@ -20,7 +20,8 @@
 - 웹 화면과 두 종류의 문서 주소 · L65–71 · 699자 · `af45df72` — 웹사이트의 기본 경로는 /pododala/다.
 - 작성에서 배포까지의 흐름 · L73–86 · 914자 · `fa147dab` — wiki/<문서-id>.md에 새 글을 작성하거나 기존 원고를 수정한다.
 - 개인 프로젝트로 운영할 때의 변경 지점 · L88–96 · 778자 · `1a7f0b4b` — 현재 운영 저장소는 pododala/pododala이며 기존 원본 저장소와 별개다.
-- 확인 범위와 현재 콘텐츠 · L98–102 · 277자 · `2318bdf8` — 설명 범위는 현재 저장소의 코드, 생성·검증 스크립트, 워크플로와 2026년 11월 2일에 확인한 실제 배포 결과다.
+- 달력 동작 예시 · L98–104 · 501자 · `48adae52` — 달력의 연대 표시를 확인하기 위해 1986년 작성자 탄생을 예시로 등록했다.
+- 확인 범위와 현재 콘텐츠 · L106–110 · 293자 · `04504c62` — 설명 범위는 현재 저장소의 코드, 생성·검증 스크립트, 워크플로와 2026년 11월 2일에 확인한 실제 배포 결과다.
 
 ## 장부에 기록된 반영 지식
 
@@ -38,3 +39,5 @@
   - 원고 작성에서 검증·자동 커밋·Pages 게시까지의 흐름 · `ing-20261102-pododala-project-structure`
 - **개인 프로젝트로 운영할 때의 변경 지점**
   - 개인 저장소 분리와 댓글·검색엔진·공개 범위의 현재 설정 · `ing-20261102-pododala-project-structure`
+- **달력 동작 예시**
+  - 1986년 작성자 탄생 가상 항목으로 달력의 연대·문서 연결 확인 · `ing-20261102-pododala-project-structure`
