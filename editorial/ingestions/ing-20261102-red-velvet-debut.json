@@ -1,0 +1,21 @@
+{
+  "id": "ing-20261102-red-velvet-debut",
+  "processed_on": "2026-11-02",
+  "coverage": "visible-complete",
+  "limit_note": "데뷔일·무대·발매일을 구별한 단일 음악사 항목. 공식 소개·보도자료 대조.",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "fact",
+      "title": "레드벨벳의 2014년 8월 1일 데뷔 무대와 8월 4일 음원 발매 구별",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "red-velvet-debut",
+          "section": "2014년 8월 1일 데뷔"
+        }
+      ]
+    }
+  ]
+}
