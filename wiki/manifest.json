@@ -36,6 +36,37 @@
       ],
       "review_state": "reviewed",
       "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/postal-parcel-process.md",
+      "publish": true,
+      "order": 172,
+      "id": "postal-parcel-process",
+      "title": "우체국 소포 프로세스",
+      "category": "물류",
+      "status": "국내 등기소포 일반 업무 흐름 정리·내부 전산 상세 검토 필요",
+      "updated": "2026-11-02",
+      "summary": "등기소포의 접수, 발착·수집, 집중국 구분, 간선 운송, 배달국 집배원 배정, 배달 및 미배달·반송의 전체 흐름과 데이터 관리 단위를 설명한다.",
+      "tags": [
+        "우체국",
+        "소포",
+        "등기소포",
+        "우편집중국",
+        "발착",
+        "간선 운송",
+        "집배",
+        "배달",
+        "물류 프로세스"
+      ],
+      "source": "현재 대화에서 정리된 국내 소포 업무 흐름·외부 신규 조사 없음·내부 전산 상세 미검증",
+      "related": [],
+      "aliases": [
+        "우체국 소포 처리 절차",
+        "우체국 택배 업무 흐름",
+        "등기소포 프로세스"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-02"
     }
   ]
 }
