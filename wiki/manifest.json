@@ -67,6 +67,34 @@
       ],
       "review_state": "needs_review",
       "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/red-velvet-debut.md",
+      "publish": true,
+      "order": 173,
+      "id": "red-velvet-debut",
+      "title": "레드벨벳 데뷔",
+      "category": "음악",
+      "status": "공식 데뷔일과 첫 무대·음원 발매일의 차이를 확인",
+      "updated": "2026-11-02",
+      "summary": "레드벨벳의 2014년 8월 1일 데뷔 무대, 데뷔곡 행복, 8월 4일 음원 발매를 구별해 설명한다.",
+      "tags": [
+        "레드벨벳",
+        "Red Velvet",
+        "데뷔",
+        "K-pop",
+        "2014년",
+        "행복"
+      ],
+      "source": "SM엔터테인먼트 2024 지속가능경영보고서·2014년 SBS 보도·멜론 아티스트 정보",
+      "related": [],
+      "aliases": [
+        "Red Velvet debut",
+        "레드벨벳 데뷔일",
+        "레드벨벳 데뷔 기념일"
+      ],
+      "review_state": "reviewed",
+      "last_enriched_on": "2026-11-02"
     }
   ]
 }
