@@ -10,6 +10,6 @@
 
 ## 프로젝트
 
-- **[pododala 개인 위키: 프로젝트 구조와 운영 흐름](wiki/pododala-project-structure.md)** · 별칭: pododala 프로젝트 구조, 개인 위키 코드 구조, pododala 개발 안내 · 수정: 2026-11-02 · 검토: 현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내
-  - 개인 위키의 폴더와 파일 역할, Markdown·메타데이터·생성물의 관계, 웹 화면과 정적 문서 주소, GitHub Pages 배포 및 개인화 설정을 설명한다.
+- **[pododala 개인 위키: 프로젝트 구조와 운영 흐름](wiki/pododala-project-structure.md)** · 별칭: pododala 프로젝트 구조, 개인 위키 코드 구조, pododala 개발 안내, VSCode Codex 지식 증보 절차 · 수정: 2026-11-02 · 검토: 현재 코드와 배포 상태 확인·개인 프로젝트 구조 안내
+  - 개인 위키의 구조와 생성물 관계, VSCode·Codex를 이용한 로컬 개발과 지식 증보, 메타데이터·장부 갱신, 실제 검증 명령과 GitHub Pages 게시 절차를 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/pododala-project-structure/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/pododala-project-structure.md)
