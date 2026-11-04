@@ -4,42 +4,48 @@
 
 마지막 정비: **M001** (2026-11-02) · [보고서](reports/M001.md) · 다음 정비 버전: **M002**
 
-원고 3개 · 변경 문서 3 · 고립 3 · 한쪽 연결 0 · 보류 0 · 열린 교차 제안 0
+원고 4개 · 변경 문서 4 · 고립 4 · 한쪽 연결 0 · 보류 0 · 열린 교차 제안 0
 
-## 1. 지난 정비 이후 변경된 문서 (3)
+## 1. 지난 정비 이후 변경된 문서 (4)
 
 manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 없는 문서. 분류별로 묶었으며, 양이 많으면 분류 단위로 나누어 처리한다.
 
 - **물류** (1): `postal-parcel-process`
 - **음악** (1): `red-velvet-debut`
+- **정치** (1): `us-senate-election-2026`
 - **프로젝트** (1): `pododala-project-structure`
 
-## 2. 들어오는 연결이 없는 문서 (3)
+## 2. 들어오는 연결이 없는 문서 (4)
 
 다른 문서의 관련 문서·본문 링크·확인된 관계 어디에도 등장하지 않는다. 직접 관련 문서가 있는지 본문을 읽고 확인한다.
 
 - `pododala-project-structure` pododala 개인 위키: 프로젝트 구조와 운영 흐름
 - `postal-parcel-process` 우체국 소포 프로세스
 - `red-velvet-debut` 레드벨벳 데뷔
+- `us-senate-election-2026` 2026년 미국 상원선거: 개표 현황과 관전 지점
 
 ## 3. 한쪽에서만 건 관련 문서 (0)
 
 `A → B`는 A의 관련 문서에 B가 있으나 B에는 A가 없다는 뜻이다. 반대 방향도 직접 관련일 때만 맞춘다.
 
 
-## 4. 관련 문서가 없는 문서 (3)
+## 4. 관련 문서가 없는 문서 (4)
 
 - `pododala-project-structure` pododala 개인 위키: 프로젝트 구조와 운영 흐름
 - `postal-parcel-process` 우체국 소포 프로세스
 - `red-velvet-debut` 레드벨벳 데뷔
+- `us-senate-election-2026` 2026년 미국 상원선거: 개표 현황과 관전 지점
 
 ## 5. 제목·소제목이 비슷한 문서 쌍 (상위 15)
 
 제목·별칭·소제목의 글자 2-gram 유사도(0~1)다. 중복이 아니라 **대조해 볼 후보**이며, 이미 연결된 쌍도 표시한다.
 
+- `red-velvet-debut` ↔ `us-senate-election-2026` · 0.05
 - `pododala-project-structure` ↔ `postal-parcel-process` · 0.05
+- `pododala-project-structure` ↔ `us-senate-election-2026` · 0.04
 - `pododala-project-structure` ↔ `red-velvet-debut` · 0.01
 - `postal-parcel-process` ↔ `red-velvet-debut` · 0.00
+- `postal-parcel-process` ↔ `us-senate-election-2026` · 0.00
 
 ## 6. 보류 항목 (0)
 
@@ -58,5 +64,5 @@ manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 
 
 ## 9. 분류 참고
 
-분류 3개: 프로젝트 1, 물류 1, 음악 1
-문서가 하나뿐인 분류 3개: 프로젝트, 물류, 음악. 분류 체계 변경은 제안만 한다.
+분류 4개: 프로젝트 1, 물류 1, 음악 1, 정치 1
+문서가 하나뿐인 분류 4개: 프로젝트, 물류, 음악, 정치. 분류 체계 변경은 제안만 한다.

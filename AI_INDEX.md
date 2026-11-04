@@ -25,3 +25,9 @@
 - **[레드벨벳 데뷔](wiki/red-velvet-debut.md)** · 별칭: Red Velvet debut, 레드벨벳 데뷔일, 레드벨벳 데뷔 기념일 · 수정: 2026-11-02 · 검토: 공식 데뷔일과 첫 무대·음원 발매일의 차이를 확인
   - 레드벨벳의 2014년 8월 1일 데뷔 무대, 데뷔곡 행복, 8월 4일 음원 발매를 구별해 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/red-velvet-debut/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/red-velvet-debut.md)
+
+## 정치
+
+- **[2026년 미국 상원선거: 개표 현황과 관전 지점](wiki/us-senate-election-2026.md)** · 별칭: 2026 미국 상원선거, 2026 US Senate election · 수정: 2026-11-04 · 검토: 2026년 11월 4일 조회 시점의 실시간 개표 자료 스냅샷·최종 결과 아님
+  - 2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/us-senate-election-2026/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/us-senate-election-2026.md)

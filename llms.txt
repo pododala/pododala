@@ -32,3 +32,7 @@
 ### 음악
 
 - [레드벨벳 데뷔](https://pododala.github.io/pododala/notes/red-velvet-debut/): 레드벨벳의 2014년 8월 1일 데뷔 무대, 데뷔곡 행복, 8월 4일 음원 발매를 구별해 설명한다.
+
+### 정치
+
+- [2026년 미국 상원선거: 개표 현황과 관전 지점](https://pododala.github.io/pododala/notes/us-senate-election-2026/): 2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.

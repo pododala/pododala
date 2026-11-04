@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 3,
+  "document_count": 4,
   "documents": [
     {
       "id": "pododala-project-structure",
@@ -106,6 +106,36 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/red-velvet-debut.md",
       "page_url": "https://pododala.github.io/pododala/notes/red-velvet-debut/",
       "app_url": "https://pododala.github.io/pododala/#red-velvet-debut"
+    },
+    {
+      "id": "us-senate-election-2026",
+      "title": "2026년 미국 상원선거: 개표 현황과 관전 지점",
+      "aliases": [
+        "2026 미국 상원선거",
+        "2026 US Senate election"
+      ],
+      "category": "정치",
+      "tags": [
+        "미국",
+        "상원",
+        "중간선거",
+        "2026 미국 선거",
+        "개표",
+        "민주당",
+        "공화당"
+      ],
+      "summary": "2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.",
+      "published": true,
+      "review_state": "needs_review",
+      "review_label": "2026년 11월 4일 조회 시점의 실시간 개표 자료 스냅샷·최종 결과 아님",
+      "last_updated_on": "2026-11-04",
+      "last_enriched_on": "2026-11-04",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/us-senate-election-2026.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/us-senate-election-2026.md",
+      "page_url": "https://pododala.github.io/pododala/notes/us-senate-election-2026/",
+      "app_url": "https://pododala.github.io/pododala/#us-senate-election-2026"
     }
   ]
 }
