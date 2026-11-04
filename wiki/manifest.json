@@ -95,6 +95,34 @@
       ],
       "review_state": "reviewed",
       "last_enriched_on": "2026-11-02"
+    },
+    {
+      "path": "wiki/us-senate-election-2026.md",
+      "publish": true,
+      "order": 174,
+      "id": "us-senate-election-2026",
+      "title": "2026년 미국 상원선거: 개표 현황과 관전 지점",
+      "category": "정치",
+      "status": "2026년 11월 4일 조회 시점의 실시간 개표 자료 스냅샷·최종 결과 아님",
+      "updated": "2026-11-04",
+      "summary": "2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.",
+      "tags": [
+        "미국",
+        "상원",
+        "중간선거",
+        "2026 미국 선거",
+        "개표",
+        "민주당",
+        "공화당"
+      ],
+      "source": "ABC News·The Guardian·Washington Post·Texas Tribune의 2026-11-03 개표 자료(2026-11-04 KST 조회)",
+      "related": [],
+      "aliases": [
+        "2026 미국 상원선거",
+        "2026 US Senate election"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-04"
     }
   ]
 }
