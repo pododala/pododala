@@ -40,12 +40,12 @@ manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 
 
 제목·별칭·소제목의 글자 2-gram 유사도(0~1)다. 중복이 아니라 **대조해 볼 후보**이며, 이미 연결된 쌍도 표시한다.
 
-- `red-velvet-debut` ↔ `us-senate-election-2026` · 0.05
 - `pododala-project-structure` ↔ `postal-parcel-process` · 0.05
+- `red-velvet-debut` ↔ `us-senate-election-2026` · 0.04
 - `pododala-project-structure` ↔ `us-senate-election-2026` · 0.04
 - `pododala-project-structure` ↔ `red-velvet-debut` · 0.01
+- `postal-parcel-process` ↔ `us-senate-election-2026` · 0.01
 - `postal-parcel-process` ↔ `red-velvet-debut` · 0.00
-- `postal-parcel-process` ↔ `us-senate-election-2026` · 0.00
 
 ## 6. 보류 항목 (0)
 
