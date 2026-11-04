@@ -1,0 +1,21 @@
+{
+  "id": "ing-20261104-us-senate-election-2026",
+  "processed_on": "2026-11-04",
+  "coverage": "visible-complete",
+  "limit_note": "외부 실시간 선거 자료를 사용하라는 명시적 요청에 따라 웹 검색. 조회 시점 스냅샷이며 최종 결과 미확정.",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "fact",
+      "title": "2026 미국 상원선거 의석 구조와 주요 경합지 및 시점별 개표",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "us-senate-election-2026",
+          "section": "개표 현황: 확인 시점과 한계"
+        }
+      ]
+    }
+  ]
+}
