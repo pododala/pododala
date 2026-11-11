@@ -123,6 +123,39 @@
       ],
       "review_state": "needs_review",
       "last_enriched_on": "2026-11-04"
+    },
+    {
+      "path": "wiki/cloud-ddd-msa-architecture.md",
+      "publish": true,
+      "order": 175,
+      "id": "cloud-ddd-msa-architecture",
+      "title": "클라우드 아키텍처와 DDD 기반 MSA 설계 개념",
+      "category": "IT",
+      "status": "개념 정리·실제 시스템과 무관한 일반 설명",
+      "updated": "2026-11-11",
+      "summary": "IaaS·PaaS·SaaS, Gateway, BFF, MSA, DDD·Aggregate, Saga, 설계 시각화의 의미와 도입 판단 기준을 설명한다.",
+      "tags": [
+        "클라우드",
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "API Gateway",
+        "BFF",
+        "MSA",
+        "DDD",
+        "Aggregate",
+        "Saga",
+        "아키텍처"
+      ],
+      "source": "개념 총합·외부 신규 조사 없음",
+      "related": [],
+      "aliases": [
+        "DDD MSA 설계",
+        "BFF와 API Gateway",
+        "클라우드 아키텍처 계층"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-11"
     }
   ]
 }
