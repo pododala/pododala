@@ -1,0 +1,81 @@
+{
+  "id": "ing-20261111-cloud-architecture-enrichment",
+  "processed_on": "2026-11-11",
+  "coverage": "visible-complete",
+  "limit_note": "기존 개념과 대화에 근거한 비교·검토 논점을 확장; 외부 문헌 신규 조사 없음",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "argument",
+      "title": "논리 계층과 물리 배치의 구별",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "논리 계층과 물리 배치의 구별"
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "kind": "argument",
+      "title": "Gateway와 BFF의 책임 경계",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "Gateway와 BFF의 책임 경계"
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "kind": "argument",
+      "title": "모놀리스에서 MSA로: 분리의 이익과 비용",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "모놀리스에서 MSA로: 분리의 이익과 비용"
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "kind": "argument",
+      "title": "장애 지점과 장애 전파는 다르다",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "장애 지점과 장애 전파는 다르다"
+        }
+      ]
+    },
+    {
+      "id": "k05",
+      "kind": "argument",
+      "title": "데이터 소유권과 분산 트랜잭션의 경계",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "데이터 소유권과 분산 트랜잭션의 경계"
+        }
+      ]
+    },
+    {
+      "id": "k06",
+      "kind": "argument",
+      "title": "설계 시각화 산출물의 검증",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "설계 시각화 산출물의 검증"
+        }
+      ]
+    }
+  ]
+}
