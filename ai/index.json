@@ -159,7 +159,7 @@
         "Saga",
         "아키텍처"
       ],
-      "summary": "IaaS·PaaS·SaaS, Gateway, BFF, MSA, DDD·Aggregate, Saga, 설계 시각화의 의미와 도입 판단 기준을 설명한다.",
+      "summary": "클라우드 계층, Gateway·BFF·MSA·DDD·Saga의 개념과 논리·배포 구조 구별, 장애 전파, 데이터 소유권, 설계 시각화 검증 기준을 설명한다.",
       "published": true,
       "review_state": "needs_review",
       "review_label": "개념 정리·실제 시스템과 무관한 일반 설명",

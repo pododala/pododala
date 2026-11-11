@@ -35,5 +35,5 @@
 ## IT
 
 - **[클라우드 아키텍처와 DDD 기반 MSA 설계 개념](wiki/cloud-ddd-msa-architecture.md)** · 별칭: DDD MSA 설계, BFF와 API Gateway, 클라우드 아키텍처 계층 · 수정: 2026-11-11 · 검토: 개념 정리·실제 시스템과 무관한 일반 설명
-  - IaaS·PaaS·SaaS, Gateway, BFF, MSA, DDD·Aggregate, Saga, 설계 시각화의 의미와 도입 판단 기준을 설명한다.
+  - 클라우드 계층, Gateway·BFF·MSA·DDD·Saga의 개념과 논리·배포 구조 구별, 장애 전파, 데이터 소유권, 설계 시각화 검증 기준을 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/cloud-ddd-msa-architecture.md)
