@@ -1,0 +1,105 @@
+{
+  "id": "ing-20261111-cloud-ddd-msa-architecture",
+  "processed_on": "2026-11-11",
+  "coverage": "visible-complete",
+  "limit_note": "확인 가능한 대화의 기술 개념만 비식별화하여 반영",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "concept",
+      "title": "클라우드 서비스 모델",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "클라우드 서비스 모델: IaaS·PaaS·SaaS"
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "kind": "concept",
+      "title": "웹 서버와 게이트웨이 역할",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "WEB·WAS·DB와 Gateway Layer"
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "kind": "concept",
+      "title": "BFF 역할과 한계",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "BFF(Backend for Frontend)"
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "kind": "concept",
+      "title": "MSA 분리와 장애 격리",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "MSA와 서비스 분리"
+        }
+      ]
+    },
+    {
+      "id": "k05",
+      "kind": "concept",
+      "title": "DDD와 애그리거트 할당",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "DDD와 Aggregate 할당"
+        }
+      ]
+    },
+    {
+      "id": "k06",
+      "kind": "concept",
+      "title": "Saga 분산 트랜잭션",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "Saga 패턴"
+        }
+      ]
+    },
+    {
+      "id": "k07",
+      "kind": "concept",
+      "title": "DDD 설계 시각화 산출물",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "DDD 기반 MSA 설계의 시각화"
+        }
+      ]
+    },
+    {
+      "id": "k08",
+      "kind": "concept",
+      "title": "아키텍처 도입 평가 기준",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "cloud-ddd-msa-architecture",
+          "section": "아키텍처 검토 기준"
+        }
+      ]
+    }
+  ]
+}
