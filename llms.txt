@@ -36,3 +36,7 @@
 ### 정치
 
 - [2026년 미국 상원선거: 개표 현황과 관전 지점](https://pododala.github.io/pododala/notes/us-senate-election-2026/): 2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.
+
+### IT
+
+- [클라우드 아키텍처와 DDD 기반 MSA 설계 개념](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/): IaaS·PaaS·SaaS, Gateway, BFF, MSA, DDD·Aggregate, Saga, 설계 시각화의 의미와 도입 판단 기준을 설명한다.

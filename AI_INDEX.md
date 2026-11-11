@@ -31,3 +31,9 @@
 - **[2026년 미국 상원선거: 개표 현황과 관전 지점](wiki/us-senate-election-2026.md)** · 별칭: 2026 미국 상원선거, 2026 US Senate election · 수정: 2026-11-04 · 검토: 2026년 11월 4일 조회 시점의 실시간 개표 자료 스냅샷·최종 결과 아님
   - 2026년 미국 상원 중간선거의 의석 구조, 접전지, 개표 시점별 확인 결과, 다수당 확보 조건과 실시간 출처를 정리한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/us-senate-election-2026/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/us-senate-election-2026.md)
+
+## IT
+
+- **[클라우드 아키텍처와 DDD 기반 MSA 설계 개념](wiki/cloud-ddd-msa-architecture.md)** · 별칭: DDD MSA 설계, BFF와 API Gateway, 클라우드 아키텍처 계층 · 수정: 2026-11-11 · 검토: 개념 정리·실제 시스템과 무관한 일반 설명
+  - IaaS·PaaS·SaaS, Gateway, BFF, MSA, DDD·Aggregate, Saga, 설계 시각화의 의미와 도입 판단 기준을 설명한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/cloud-ddd-msa-architecture.md)
