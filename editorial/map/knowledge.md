@@ -3,7 +3,7 @@
 > 자동 생성(`scripts/build-wiki-map.mjs`). 직접 수정하지 않는다. 편집 장부(`editorial/ingestions/`)의 기록을 뒤집은 것이며 새 요약을 담지 않는다.
 > **통째로 읽지 말고 낱말로 검색한다.** 검색에 걸리지 않았다고 미반영이라고 단정하지 않는다. 장부 도입 이전 원고는 여기 없으므로 문서 카드의 절 목차로도 찾는다. 반영 여부의 최종 판정은 해당 절 본문을 읽고 한다.
 
-장부 지식 항목 40개 · 형식: 표제 → `문서` § 절 · `처리 배치`
+장부 지식 항목 45개 · 형식: 표제 → `문서` § 절 · `처리 배치`
 
 ## 보류 항목 (0)
 
@@ -60,6 +60,16 @@
 - 고객 배송조회와 내부 이벤트 이력의 구분 → `postal-parcel-process` § 9. 고객 배송조회와 내부 업무 이벤트의 구분 · `ing-20261102-postal-parcel-process`
 - 서울에서 부산으로 이동하는 등기소포의 가상 처리 이력 → `postal-parcel-process` § 10. 가상 사례: 서울에서 부산으로 보내는 소포 · `ing-20261102-postal-parcel-process`
 - 소포 최신 상태와 시계열 이벤트 이력을 분리하는 시스템 설계 → `postal-parcel-process` § 11. 물류 시스템 설계에서 구분할 데이터 · `ing-20261102-postal-parcel-process`
+
+## 게임 (5)
+
+분류는 첫 반영 문서 기준이다. 여러 분야에 걸친 항목은 한 분류에만 실리므로 분류로 범위를 좁히지 말고 검색한다.
+
+- 현재 보유 원석·인연과 누적 스택 → `genshin-tsaritsa-danika-pull-plan-2026` § 목표와 보유 재화 · `ing-20261115-genshin-wish-plan`
+- 구매 원석과 미래 보상 시나리오 → `genshin-tsaritsa-danika-pull-plan-2026` § 앞으로 획득할 재화의 범위 · `ing-20261115-genshin-wish-plan`
+- 명함·전무 확보 확률의 불확실성 → `genshin-tsaritsa-danika-pull-plan-2026` § 세 가지 목표를 모두 얻을 가능성 · `ing-20261115-genshin-wish-plan`
+- 뽑기 우선순위와 자원 관리 → `genshin-tsaritsa-danika-pull-plan-2026` § 뽑기 순서와 실패 시 대응 · `ing-20261115-genshin-wish-plan`
+- 재화·스택·픽뚫 구별 → `genshin-tsaritsa-danika-pull-plan-2026` § 이 계산에서 구별해야 할 것 · `ing-20261115-genshin-wish-plan`
 
 ## 음악 (1)
 

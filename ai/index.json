@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 5,
+  "document_count": 6,
   "documents": [
     {
       "id": "pododala-project-structure",
@@ -171,6 +171,38 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/cloud-ddd-msa-architecture.md",
       "page_url": "https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/",
       "app_url": "https://pododala.github.io/pododala/#cloud-ddd-msa-architecture"
+    },
+    {
+      "id": "genshin-tsaritsa-danika-pull-plan-2026",
+      "title": "원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오",
+      "aliases": [
+        "얼음여왕 명전 뽑기",
+        "다니카 얼음여왕 원석 계산",
+        "원신 2026 뽑기 계획"
+      ],
+      "category": "게임",
+      "tags": [
+        "원신",
+        "얼음여왕",
+        "다니카",
+        "기원",
+        "뽑기 계획",
+        "원석",
+        "전용 무기",
+        "별빛 포착"
+      ],
+      "summary": "8,000원석·5인연·캐릭터/무기 40스택에서 8,800원석 2회 구매 및 예상 보상을 합산하고 다니카 명함, 얼음여왕 명함·전무 확보 전략과 미검증 확률의 한계를 정리한다.",
+      "published": true,
+      "review_state": "needs_review",
+      "review_label": "2026-11-15 기준 재화 계획·미래 보상과 확률 추정 검토 필요",
+      "last_updated_on": "2026-11-15",
+      "last_enriched_on": "2026-11-15",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/genshin-tsaritsa-danika-pull-plan-2026.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/genshin-tsaritsa-danika-pull-plan-2026.md",
+      "page_url": "https://pododala.github.io/pododala/notes/genshin-tsaritsa-danika-pull-plan-2026/",
+      "app_url": "https://pododala.github.io/pododala/#genshin-tsaritsa-danika-pull-plan-2026"
     }
   ]
 }

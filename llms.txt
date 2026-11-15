@@ -40,3 +40,7 @@
 ### IT
 
 - [클라우드 아키텍처와 DDD 기반 MSA 설계 개념](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/): 클라우드 계층, Gateway·BFF·MSA·DDD·Saga의 개념과 논리·배포 구조 구별, 장애 전파, 데이터 소유권, 설계 시각화 검증 기준을 설명한다.
+
+### 게임
+
+- [원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오](https://pododala.github.io/pododala/notes/genshin-tsaritsa-danika-pull-plan-2026/): 8,000원석·5인연·캐릭터/무기 40스택에서 8,800원석 2회 구매 및 예상 보상을 합산하고 다니카 명함, 얼음여왕 명함·전무 확보 전략과 미검증 확률의 한계를 정리한다.

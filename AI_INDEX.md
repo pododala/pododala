@@ -37,3 +37,9 @@
 - **[클라우드 아키텍처와 DDD 기반 MSA 설계 개념](wiki/cloud-ddd-msa-architecture.md)** · 별칭: DDD MSA 설계, BFF와 API Gateway, 클라우드 아키텍처 계층 · 수정: 2026-11-11 · 검토: 개념 정리·실제 시스템과 무관한 일반 설명
   - 클라우드 계층, Gateway·BFF·MSA·DDD·Saga의 개념과 논리·배포 구조 구별, 장애 전파, 데이터 소유권, 설계 시각화 검증 기준을 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/cloud-ddd-msa-architecture.md)
+
+## 게임
+
+- **[원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오](wiki/genshin-tsaritsa-danika-pull-plan-2026.md)** · 별칭: 얼음여왕 명전 뽑기, 다니카 얼음여왕 원석 계산, 원신 2026 뽑기 계획 · 수정: 2026-11-15 · 검토: 2026-11-15 기준 재화 계획·미래 보상과 확률 추정 검토 필요
+  - 8,000원석·5인연·캐릭터/무기 40스택에서 8,800원석 2회 구매 및 예상 보상을 합산하고 다니카 명함, 얼음여왕 명함·전무 확보 전략과 미검증 확률의 한계를 정리한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/genshin-tsaritsa-danika-pull-plan-2026/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/genshin-tsaritsa-danika-pull-plan-2026.md)
