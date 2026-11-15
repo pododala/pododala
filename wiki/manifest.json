@@ -156,6 +156,36 @@
       ],
       "review_state": "needs_review",
       "last_enriched_on": "2026-11-11"
+    },
+    {
+      "path": "wiki/genshin-tsaritsa-danika-pull-plan-2026.md",
+      "publish": true,
+      "order": 176,
+      "id": "genshin-tsaritsa-danika-pull-plan-2026",
+      "title": "원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오",
+      "category": "게임",
+      "status": "2026-11-15 기준 재화 계획·미래 보상과 확률 추정 검토 필요",
+      "updated": "2026-11-15",
+      "summary": "8,000원석·5인연·캐릭터/무기 40스택에서 8,800원석 2회 구매 및 예상 보상을 합산하고 다니카 명함, 얼음여왕 명함·전무 확보 전략과 미검증 확률의 한계를 정리한다.",
+      "tags": [
+        "원신",
+        "얼음여왕",
+        "다니카",
+        "기원",
+        "뽑기 계획",
+        "원석",
+        "전용 무기",
+        "별빛 포착"
+      ],
+      "source": "2026-11-15 기준 계획 수치·미래 보상 및 비공식 확률 외부 미검증",
+      "related": [],
+      "aliases": [
+        "얼음여왕 명전 뽑기",
+        "다니카 얼음여왕 원석 계산",
+        "원신 2026 뽑기 계획"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-15"
     }
   ]
 }
