@@ -1,0 +1,69 @@
+{
+  "id": "ing-20261115-genshin-wish-plan",
+  "processed_on": "2026-11-15",
+  "coverage": "visible-complete",
+  "limit_note": "이 대화에서 확인 가능한 계획 및 기존 계산만 반영, 확률 재현 검증 없음",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "fact",
+      "title": "현재 보유 원석·인연과 누적 스택",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "genshin-tsaritsa-danika-pull-plan-2026",
+          "section": "목표와 보유 재화"
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "kind": "example",
+      "title": "구매 원석과 미래 보상 시나리오",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "genshin-tsaritsa-danika-pull-plan-2026",
+          "section": "앞으로 획득할 재화의 범위"
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "kind": "argument",
+      "title": "명함·전무 확보 확률의 불확실성",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "genshin-tsaritsa-danika-pull-plan-2026",
+          "section": "세 가지 목표를 모두 얻을 가능성"
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "kind": "curation",
+      "title": "뽑기 우선순위와 자원 관리",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "genshin-tsaritsa-danika-pull-plan-2026",
+          "section": "뽑기 순서와 실패 시 대응"
+        }
+      ]
+    },
+    {
+      "id": "k05",
+      "kind": "concept",
+      "title": "재화·스택·픽뚫 구별",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "genshin-tsaritsa-danika-pull-plan-2026",
+          "section": "이 계산에서 구별해야 할 것"
+        }
+      ]
+    }
+  ]
+}
