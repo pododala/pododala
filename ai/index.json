@@ -6,7 +6,7 @@
     "wiki/manifest.json",
     "wiki/relations.json"
   ],
-  "document_count": 6,
+  "document_count": 7,
   "documents": [
     {
       "id": "pododala-project-structure",
@@ -203,6 +203,39 @@
       "github_url": "https://github.com/pododala/pododala/blob/main/wiki/genshin-tsaritsa-danika-pull-plan-2026.md",
       "page_url": "https://pododala.github.io/pododala/notes/genshin-tsaritsa-danika-pull-plan-2026/",
       "app_url": "https://pododala.github.io/pododala/#genshin-tsaritsa-danika-pull-plan-2026"
+    },
+    {
+      "id": "camm2-vs-mrdimm",
+      "title": "CAMM2 vs MRDIMM: 사용자 관점부터 서버 아키텍처까지",
+      "aliases": [
+        "CAMM2 MRDIMM 비교",
+        "차세대 메모리 모듈",
+        "LPCAMM2와 MRDIMM"
+      ],
+      "category": "IT",
+      "tags": [
+        "RAM",
+        "CAMM2",
+        "LPCAMM2",
+        "MRDIMM",
+        "DDR5",
+        "LPDDR5X",
+        "RDIMM",
+        "메모리 대역폭",
+        "서버"
+      ],
+      "summary": "RAM 기본 용어에서 CAMM2·LPCAMM2의 모듈 구조, MRDIMM의 랭크 다중화, PC·노트북·서버 적용 차이와 선택 기준까지 설명한다.",
+      "published": true,
+      "review_state": "needs_review",
+      "review_label": "기술 개념·호환성 안내",
+      "last_updated_on": "2026-11-17",
+      "last_enriched_on": "2026-11-17",
+      "last_enriched_note": "explicitly_recorded",
+      "related_ids": [],
+      "markdown_url": "https://raw.githubusercontent.com/pododala/pododala/main/wiki/camm2-vs-mrdimm.md",
+      "github_url": "https://github.com/pododala/pododala/blob/main/wiki/camm2-vs-mrdimm.md",
+      "page_url": "https://pododala.github.io/pododala/notes/camm2-vs-mrdimm/",
+      "app_url": "https://pododala.github.io/pododala/#camm2-vs-mrdimm"
     }
   ]
 }

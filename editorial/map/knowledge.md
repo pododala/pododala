@@ -3,10 +3,33 @@
 > 자동 생성(`scripts/build-wiki-map.mjs`). 직접 수정하지 않는다. 편집 장부(`editorial/ingestions/`)의 기록을 뒤집은 것이며 새 요약을 담지 않는다.
 > **통째로 읽지 말고 낱말로 검색한다.** 검색에 걸리지 않았다고 미반영이라고 단정하지 않는다. 장부 도입 이전 원고는 여기 없으므로 문서 카드의 절 목차로도 찾는다. 반영 여부의 최종 판정은 해당 절 본문을 읽고 한다.
 
-장부 지식 항목 45개 · 형식: 표제 → `문서` § 절 · `처리 배치`
+장부 지식 항목 49개 · 형식: 표제 → `문서` § 절 · `처리 배치`
 
 ## 보류 항목 (0)
 
+
+## IT (18)
+
+분류는 첫 반영 문서 기준이다. 여러 분야에 걸친 항목은 한 분류에만 실리므로 분류로 범위를 좁히지 말고 검색한다.
+
+- 클라우드 서비스 모델 → `cloud-ddd-msa-architecture` § 클라우드 서비스 모델: IaaS·PaaS·SaaS · `ing-20261111-cloud-ddd-msa-architecture`
+- 웹 서버와 게이트웨이 역할 → `cloud-ddd-msa-architecture` § WEB·WAS·DB와 Gateway Layer · `ing-20261111-cloud-ddd-msa-architecture`
+- BFF 역할과 한계 → `cloud-ddd-msa-architecture` § BFF(Backend for Frontend) · `ing-20261111-cloud-ddd-msa-architecture`
+- MSA 분리와 장애 격리 → `cloud-ddd-msa-architecture` § MSA와 서비스 분리 · `ing-20261111-cloud-ddd-msa-architecture`
+- DDD와 애그리거트 할당 → `cloud-ddd-msa-architecture` § DDD와 Aggregate 할당 · `ing-20261111-cloud-ddd-msa-architecture`
+- Saga 분산 트랜잭션 → `cloud-ddd-msa-architecture` § Saga 패턴 · `ing-20261111-cloud-ddd-msa-architecture`
+- DDD 설계 시각화 산출물 → `cloud-ddd-msa-architecture` § DDD 기반 MSA 설계의 시각화 · `ing-20261111-cloud-ddd-msa-architecture`
+- 아키텍처 도입 평가 기준 → `cloud-ddd-msa-architecture` § 아키텍처 검토 기준 · `ing-20261111-cloud-ddd-msa-architecture`
+- 논리 계층과 물리 배치의 구별 → `cloud-ddd-msa-architecture` § 논리 계층과 물리 배치의 구별 · `ing-20261111-cloud-architecture-enrichment`
+- Gateway와 BFF의 책임 경계 → `cloud-ddd-msa-architecture` § Gateway와 BFF의 책임 경계 · `ing-20261111-cloud-architecture-enrichment`
+- 모놀리스에서 MSA로: 분리의 이익과 비용 → `cloud-ddd-msa-architecture` § 모놀리스에서 MSA로: 분리의 이익과 비용 · `ing-20261111-cloud-architecture-enrichment`
+- 장애 지점과 장애 전파는 다르다 → `cloud-ddd-msa-architecture` § 장애 지점과 장애 전파는 다르다 · `ing-20261111-cloud-architecture-enrichment`
+- 데이터 소유권과 분산 트랜잭션의 경계 → `cloud-ddd-msa-architecture` § 데이터 소유권과 분산 트랜잭션의 경계 · `ing-20261111-cloud-architecture-enrichment`
+- 설계 시각화 산출물의 검증 → `cloud-ddd-msa-architecture` § 설계 시각화 산출물의 검증 · `ing-20261111-cloud-architecture-enrichment`
+- RAM 기본 용어와 메모리 성능 지표 → `camm2-vs-mrdimm` § 1. 사용자가 알아야 할 기본 용어 · `ing-20261117-camm2-mrdimm`
+- CAMM2와 LPCAMM2의 연결 구조와 제약 → `camm2-vs-mrdimm` § 2. CAMM2: 메모리를 꽂는 방식을 바꾸다 · `ing-20261117-camm2-mrdimm`
+- MRDIMM의 랭크 다중화 원리 → `camm2-vs-mrdimm` § 3. MRDIMM: 서버가 데이터를 더 빨리 공급하는 방식 · `ing-20261117-camm2-mrdimm`
+- CAMM2와 MRDIMM의 비교 및 적용 판단 → `camm2-vs-mrdimm` § 4. 핵심 비교 · `ing-20261117-camm2-mrdimm`
 
 ## 프로젝트 (17)
 
@@ -29,25 +52,6 @@
 - 선택적 원본 커밋·본인 원격 확인·자동 생성 커밋과 실제 게시 완료의 구분 → `pododala-project-structure` § main 커밋과 GitHub Pages 게시 확인 · `ing-20261102-local-development-enrichment`
 - 현재 운영 도메인만 내부 링크로 변환하고 이전 소유자 연결 제거 → `pododala-project-structure` § 개인 프로젝트로 운영할 때의 변경 지점 · `ing-20261102-pododala-connections`
 - 로컬 Git 인증·원격 주소와 외부 GitHub 앱 계정 연결의 구분 → `pododala-project-structure` § 개인 프로젝트로 운영할 때의 변경 지점 · `ing-20261102-pododala-connections`
-
-## IT (14)
-
-분류는 첫 반영 문서 기준이다. 여러 분야에 걸친 항목은 한 분류에만 실리므로 분류로 범위를 좁히지 말고 검색한다.
-
-- 클라우드 서비스 모델 → `cloud-ddd-msa-architecture` § 클라우드 서비스 모델: IaaS·PaaS·SaaS · `ing-20261111-cloud-ddd-msa-architecture`
-- 웹 서버와 게이트웨이 역할 → `cloud-ddd-msa-architecture` § WEB·WAS·DB와 Gateway Layer · `ing-20261111-cloud-ddd-msa-architecture`
-- BFF 역할과 한계 → `cloud-ddd-msa-architecture` § BFF(Backend for Frontend) · `ing-20261111-cloud-ddd-msa-architecture`
-- MSA 분리와 장애 격리 → `cloud-ddd-msa-architecture` § MSA와 서비스 분리 · `ing-20261111-cloud-ddd-msa-architecture`
-- DDD와 애그리거트 할당 → `cloud-ddd-msa-architecture` § DDD와 Aggregate 할당 · `ing-20261111-cloud-ddd-msa-architecture`
-- Saga 분산 트랜잭션 → `cloud-ddd-msa-architecture` § Saga 패턴 · `ing-20261111-cloud-ddd-msa-architecture`
-- DDD 설계 시각화 산출물 → `cloud-ddd-msa-architecture` § DDD 기반 MSA 설계의 시각화 · `ing-20261111-cloud-ddd-msa-architecture`
-- 아키텍처 도입 평가 기준 → `cloud-ddd-msa-architecture` § 아키텍처 검토 기준 · `ing-20261111-cloud-ddd-msa-architecture`
-- 논리 계층과 물리 배치의 구별 → `cloud-ddd-msa-architecture` § 논리 계층과 물리 배치의 구별 · `ing-20261111-cloud-architecture-enrichment`
-- Gateway와 BFF의 책임 경계 → `cloud-ddd-msa-architecture` § Gateway와 BFF의 책임 경계 · `ing-20261111-cloud-architecture-enrichment`
-- 모놀리스에서 MSA로: 분리의 이익과 비용 → `cloud-ddd-msa-architecture` § 모놀리스에서 MSA로: 분리의 이익과 비용 · `ing-20261111-cloud-architecture-enrichment`
-- 장애 지점과 장애 전파는 다르다 → `cloud-ddd-msa-architecture` § 장애 지점과 장애 전파는 다르다 · `ing-20261111-cloud-architecture-enrichment`
-- 데이터 소유권과 분산 트랜잭션의 경계 → `cloud-ddd-msa-architecture` § 데이터 소유권과 분산 트랜잭션의 경계 · `ing-20261111-cloud-architecture-enrichment`
-- 설계 시각화 산출물의 검증 → `cloud-ddd-msa-architecture` § 설계 시각화 산출물의 검증 · `ing-20261111-cloud-architecture-enrichment`
 
 ## 물류 (7)
 

@@ -4,20 +4,20 @@
 
 마지막 정비: **M001** (2026-11-02) · [보고서](reports/M001.md) · 다음 정비 버전: **M002**
 
-원고 6개 · 변경 문서 6 · 고립 6 · 한쪽 연결 0 · 보류 0 · 열린 교차 제안 0
+원고 7개 · 변경 문서 7 · 고립 7 · 한쪽 연결 0 · 보류 0 · 열린 교차 제안 0
 
-## 1. 지난 정비 이후 변경된 문서 (6)
+## 1. 지난 정비 이후 변경된 문서 (7)
 
 manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 없는 문서. 분류별로 묶었으며, 양이 많으면 분류 단위로 나누어 처리한다.
 
+- **IT** (2): `cloud-ddd-msa-architecture`, `camm2-vs-mrdimm`
 - **게임** (1): `genshin-tsaritsa-danika-pull-plan-2026`
 - **물류** (1): `postal-parcel-process`
 - **음악** (1): `red-velvet-debut`
 - **정치** (1): `us-senate-election-2026`
 - **프로젝트** (1): `pododala-project-structure`
-- **IT** (1): `cloud-ddd-msa-architecture`
 
-## 2. 들어오는 연결이 없는 문서 (6)
+## 2. 들어오는 연결이 없는 문서 (7)
 
 다른 문서의 관련 문서·본문 링크·확인된 관계 어디에도 등장하지 않는다. 직접 관련 문서가 있는지 본문을 읽고 확인한다.
 
@@ -27,13 +27,14 @@ manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 
 - `us-senate-election-2026` 2026년 미국 상원선거: 개표 현황과 관전 지점
 - `cloud-ddd-msa-architecture` 클라우드 아키텍처와 DDD 기반 MSA 설계 개념
 - `genshin-tsaritsa-danika-pull-plan-2026` 원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오
+- `camm2-vs-mrdimm` CAMM2 vs MRDIMM: 사용자 관점부터 서버 아키텍처까지
 
 ## 3. 한쪽에서만 건 관련 문서 (0)
 
 `A → B`는 A의 관련 문서에 B가 있으나 B에는 A가 없다는 뜻이다. 반대 방향도 직접 관련일 때만 맞춘다.
 
 
-## 4. 관련 문서가 없는 문서 (6)
+## 4. 관련 문서가 없는 문서 (7)
 
 - `pododala-project-structure` pododala 개인 위키: 프로젝트 구조와 운영 흐름
 - `postal-parcel-process` 우체국 소포 프로세스
@@ -41,26 +42,27 @@ manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 
 - `us-senate-election-2026` 2026년 미국 상원선거: 개표 현황과 관전 지점
 - `cloud-ddd-msa-architecture` 클라우드 아키텍처와 DDD 기반 MSA 설계 개념
 - `genshin-tsaritsa-danika-pull-plan-2026` 원신 얼음여왕·다니카 뽑기 계획: 명함·전무 확보 시나리오
+- `camm2-vs-mrdimm` CAMM2 vs MRDIMM: 사용자 관점부터 서버 아키텍처까지
 
 ## 5. 제목·소제목이 비슷한 문서 쌍 (상위 15)
 
 제목·별칭·소제목의 글자 2-gram 유사도(0~1)다. 중복이 아니라 **대조해 볼 후보**이며, 이미 연결된 쌍도 표시한다.
 
 - `us-senate-election-2026` ↔ `cloud-ddd-msa-architecture` · 0.05
+- `postal-parcel-process` ↔ `camm2-vs-mrdimm` · 0.05
+- `pododala-project-structure` ↔ `camm2-vs-mrdimm` · 0.05
 - `pododala-project-structure` ↔ `postal-parcel-process` · 0.05
 - `red-velvet-debut` ↔ `us-senate-election-2026` · 0.04
 - `pododala-project-structure` ↔ `us-senate-election-2026` · 0.04
 - `pododala-project-structure` ↔ `cloud-ddd-msa-architecture` · 0.04
+- `us-senate-election-2026` ↔ `camm2-vs-mrdimm` · 0.03
+- `genshin-tsaritsa-danika-pull-plan-2026` ↔ `camm2-vs-mrdimm` · 0.03
 - `us-senate-election-2026` ↔ `genshin-tsaritsa-danika-pull-plan-2026` · 0.03
+- `cloud-ddd-msa-architecture` ↔ `camm2-vs-mrdimm` · 0.03
 - `postal-parcel-process` ↔ `cloud-ddd-msa-architecture` · 0.02
 - `red-velvet-debut` ↔ `cloud-ddd-msa-architecture` · 0.02
 - `postal-parcel-process` ↔ `genshin-tsaritsa-danika-pull-plan-2026` · 0.02
 - `pododala-project-structure` ↔ `genshin-tsaritsa-danika-pull-plan-2026` · 0.02
-- `red-velvet-debut` ↔ `genshin-tsaritsa-danika-pull-plan-2026` · 0.01
-- `cloud-ddd-msa-architecture` ↔ `genshin-tsaritsa-danika-pull-plan-2026` · 0.01
-- `pododala-project-structure` ↔ `red-velvet-debut` · 0.01
-- `postal-parcel-process` ↔ `us-senate-election-2026` · 0.01
-- `postal-parcel-process` ↔ `red-velvet-debut` · 0.00
 
 ## 6. 보류 항목 (0)
 
@@ -79,5 +81,5 @@ manifest의 수정일이 2026-11-02 이후(당일 포함)이거나 수정일이 
 
 ## 9. 분류 참고
 
-분류 6개: 프로젝트 1, 물류 1, 음악 1, 정치 1, IT 1, 게임 1
-문서가 하나뿐인 분류 6개: 프로젝트, 물류, 음악, 정치, IT, 게임. 분류 체계 변경은 제안만 한다.
+분류 6개: IT 2, 프로젝트 1, 물류 1, 음악 1, 정치 1, 게임 1
+문서가 하나뿐인 분류 5개: 프로젝트, 물류, 음악, 정치, 게임. 분류 체계 변경은 제안만 한다.

@@ -37,6 +37,9 @@
 - **[클라우드 아키텍처와 DDD 기반 MSA 설계 개념](wiki/cloud-ddd-msa-architecture.md)** · 별칭: DDD MSA 설계, BFF와 API Gateway, 클라우드 아키텍처 계층 · 수정: 2026-11-11 · 검토: 개념 정리·실제 시스템과 무관한 일반 설명
   - 클라우드 계층, Gateway·BFF·MSA·DDD·Saga의 개념과 논리·배포 구조 구별, 장애 전파, 데이터 소유권, 설계 시각화 검증 기준을 설명한다.
   - [문서 페이지](https://pododala.github.io/pododala/notes/cloud-ddd-msa-architecture/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/cloud-ddd-msa-architecture.md)
+- **[CAMM2 vs MRDIMM: 사용자 관점부터 서버 아키텍처까지](wiki/camm2-vs-mrdimm.md)** · 별칭: CAMM2 MRDIMM 비교, 차세대 메모리 모듈, LPCAMM2와 MRDIMM · 수정: 2026-11-17 · 검토: 기술 개념·호환성 안내
+  - RAM 기본 용어에서 CAMM2·LPCAMM2의 모듈 구조, MRDIMM의 랭크 다중화, PC·노트북·서버 적용 차이와 선택 기준까지 설명한다.
+  - [문서 페이지](https://pododala.github.io/pododala/notes/camm2-vs-mrdimm/) · [직접 Markdown](https://raw.githubusercontent.com/pododala/pododala/main/wiki/camm2-vs-mrdimm.md)
 
 ## 게임
 
