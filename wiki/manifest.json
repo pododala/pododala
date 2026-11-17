@@ -186,6 +186,37 @@
       ],
       "review_state": "needs_review",
       "last_enriched_on": "2026-11-15"
+    },
+    {
+      "path": "wiki/camm2-vs-mrdimm.md",
+      "publish": true,
+      "order": 177,
+      "id": "camm2-vs-mrdimm",
+      "title": "CAMM2 vs MRDIMM: 사용자 관점부터 서버 아키텍처까지",
+      "category": "IT",
+      "status": "기술 개념·호환성 안내",
+      "updated": "2026-11-17",
+      "summary": "RAM 기본 용어에서 CAMM2·LPCAMM2의 모듈 구조, MRDIMM의 랭크 다중화, PC·노트북·서버 적용 차이와 선택 기준까지 설명한다.",
+      "tags": [
+        "RAM",
+        "CAMM2",
+        "LPCAMM2",
+        "MRDIMM",
+        "DDR5",
+        "LPDDR5X",
+        "RDIMM",
+        "메모리 대역폭",
+        "서버"
+      ],
+      "source": "기술 개념 정리·제품별 사양과 호환성은 제조사 확인 필요",
+      "related": [],
+      "aliases": [
+        "CAMM2 MRDIMM 비교",
+        "차세대 메모리 모듈",
+        "LPCAMM2와 MRDIMM"
+      ],
+      "review_state": "needs_review",
+      "last_enriched_on": "2026-11-17"
     }
   ]
 }
