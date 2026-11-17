@@ -1,0 +1,57 @@
+{
+  "id": "ing-20261117-camm2-mrdimm",
+  "processed_on": "2026-11-17",
+  "coverage": "visible-complete",
+  "limit_note": "제품별 호환성과 실측 성능은 개별 플랫폼 검증 필요",
+  "withheld_count": 0,
+  "items": [
+    {
+      "id": "k01",
+      "kind": "concept",
+      "title": "RAM 기본 용어와 메모리 성능 지표",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "camm2-vs-mrdimm",
+          "section": "1. 사용자가 알아야 할 기본 용어"
+        }
+      ]
+    },
+    {
+      "id": "k02",
+      "kind": "concept",
+      "title": "CAMM2와 LPCAMM2의 연결 구조와 제약",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "camm2-vs-mrdimm",
+          "section": "2. CAMM2: 메모리를 꽂는 방식을 바꾸다"
+        }
+      ]
+    },
+    {
+      "id": "k03",
+      "kind": "concept",
+      "title": "MRDIMM의 랭크 다중화 원리",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "camm2-vs-mrdimm",
+          "section": "3. MRDIMM: 서버가 데이터를 더 빨리 공급하는 방식"
+        }
+      ]
+    },
+    {
+      "id": "k04",
+      "kind": "argument",
+      "title": "CAMM2와 MRDIMM의 비교 및 적용 판단",
+      "status": "integrated",
+      "targets": [
+        {
+          "doc_id": "camm2-vs-mrdimm",
+          "section": "4. 핵심 비교"
+        }
+      ]
+    }
+  ]
+}
